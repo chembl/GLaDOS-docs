@@ -1,16 +1,16 @@
 # Schema Questions and SQL Examples
 
-### Can you show the relationship between all the tables in the ChEMBL database?
+## Can you show the relationship between all the tables in the ChEMBL database?
 
 A PNG of the schema relationships can be found on the FTP site in the latest release directory: [ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/latest](ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/latest)
 
-### Where can I get more information about the new classifications of target types in ChEMBL_15?
+## Where can I get more information about the new classifications of target types in ChEMBL\_15?
 
-This can be found in the following slides (Current for ChEMBL_15): [Target Types](https://www.dropbox.com/s/4v8wmffpum1b7jg/target_types.pptx?m)
+This can be found in the following slides \(Current for ChEMBL\_15\): [Target Types](https://www.dropbox.com/s/4v8wmffpum1b7jg/target_types.pptx?m)
 
-### Retrieve all the bioactivity data for bacterial targets:
+## Retrieve all the bioactivity data for bacterial targets:
 
-```
+```sql
 SELECT md.chembl_id AS compound_chembl_id,
 cs.canonical_smiles,
 act.standard_type,
