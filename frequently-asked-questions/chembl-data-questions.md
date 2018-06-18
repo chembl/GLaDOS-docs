@@ -149,3 +149,24 @@ The Data Validity column has been added to the interface and to the database (as
   - Outside typical range
   - Non standard unit for type
   - Author confirmed error
+
+### Can you provide more details on the removal of Metal-Containing compounds?
+
+The molfiles and images of a proportion of metal-containing compounds we removed from the ChEMBL interface and downloads set in ChEMBL_17. This was partially due to some of these compounds having coordinated metal bonds. As InChI limitations are such that these coordinate bonds could not generate a Standard InChI, our main compound indicator of uniqueness in ChEMBL, it was decided to exclude the structures altogether.
+
+The compound image on the interface was replaced with an icon that shows it is a metal-containing compound and the molfiles were removed from the download set on the FTP site. We will retain the molecular formula in both the download files and on the ChEMBL interface, so that the elemental make up of the compound is visible. This change does not affect the storage or display of the associated bioactivity data for these compounds.
+
+### Can you provide more details on bioactivity data standardisation?
+
+In addition to the conversion of published activity types/values/units to standard activity types/values/units, described in previous releases, a number of further enhancements have been made to the data in the activities table: 
+
+1. Conversion of log/-log values to nM concentrations. For example pIC50 and log Ki have been converted to IC50 and Ki values.
+2. Rounding of standard values to three significant figures (or 2 decimal places for values > 10)
+3. Flagging of data with possible errors (using the data_validity_comment field), such as unusual units for the activity type, or very large/small numbers.
+4. Identification of potential duplicate values - where an activity measurement is likely to be a repeat citation of an earlier measurement, rather than an independent measurement (flagged using the potential_duplicate column).
+
+An additional table (ACTIVITY_STDS_LOOKUP) has been included in this release, which contains details of the standard_types that have been standardised, their permitted standard_units, and acceptable value ranges.
+
+### Can you provide more details on how to detect potentially duplicated data?
+
+We detected and flagged duplicated activity entries and potential transcription errors in activity records that come from publications. The former are records with identical compound, target, activity, type and unit values that were most likely reported as citations of measurements from previous papers, even when these measurements were subsequently rounded. The latter cases consist of otherwise identical entries whose activity values differ by exactly 3 or 6 orders of magnitude indicating a likely error in the units (e.g. uM instead of nM).
