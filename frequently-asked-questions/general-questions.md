@@ -1,10 +1,10 @@
 # General Questions
 
-## What is the ChEMBLID?
+### What is the ChEMBLID?
 
 The ChEMBLID is a unique ID that has been assigned to compounds, targets, assays, documents, tissues and cell types in ChEMBL. It can be used to retrieve a Report Card page for these entities, or to search for them using the keyword search.
 
-## What is the Assay Type?
+### What is the Assay Type?
 
 * Binding \(B\) - Data measuring binding of compound to a molecular target, e.g. Ki, IC50, Kd.
 * Functional \(F\) - Data measuring the biological effect of a compound, e.g. %cell death in a cell line, rat weight.
@@ -15,7 +15,7 @@ The ChEMBLID is a unique ID that has been assigned to compounds, targets, assays
 
 How can I cite ChEMBL in a publication?
 
-## The publications used to cite ChEMBL are:
+### The publications used to cite ChEMBL are:
 
 **ChEMBL Database:**
 
@@ -42,15 +42,47 @@ N. Redaschi, S.M Wimalaratne, M. Martin, N. Le Novère, H. Parkinson, E. Birney 
 
 DOI: [10.1093/bioinformatics/btt765](http://dx.doi.org/10.1093/bioinformatics/btt765) PMID: [24413672](http://europepmc.org/abstract/MED/24413672)
 
-## How do I report errors or make suggestions for the interface?
+### How do I report errors or make suggestions for the interface?
 
 1. You [create an issue](https://github.com/chembl/GLaDOS/issues/new) in our [GitHub Repository](https://github.com/chembl/GLaDOS).
 2. You can leave a comment on any page using our Hotjar feedback widget, which should is present in all the pages.  
 ![Hotjar Feedback Widget](../.gitbook/assets/screen-shot-2018-06-18-at-12.01.29.png)
 3. We have dedicated email address for data queries, error reporting or help requests. This is: chembl-help@ebi.ac.uk
 
+### What is the difference between Molregno and ChEMBLID?
 
+Molregno is our ChEMBL internal identification given to each compound. The ChEMBLID is the externally viewed identification for each compound.
 
-  
+### What is the best way to access large amounts of data in ChEMBL?
+
+The best way to access large amounts of data is to install a database instance on your own computer using Oracle or MySQL.
+
+### Is there a ChEMBL RDF?
+
+Yes, there is a ChEMBL RDF. It is stored on the FTP site.
+
+### Why do Assays and Documents both have ChEMBLIDs?
+
+ChEMBLIDs are assigned to targets, assays, documents, tissues, cell types and compounds in ChEMBL and they are used as the unique identifiers for each.
+
+### What is the difference between the different releases of ChEMBLdb, e.g. ChEMBL_14 and ChEMBL_15?
+
+ChEMBL_14 is an earlier release of the data, with ChEMBL_15 being an updated version. Subsequent updates will have consecutive numbers, so the one with the highest number will be the most recent full version of the data.
+
+### How do you use the Web Services?
+
+Web Service documentation and example queries can be found at: https://www.ebi.ac.uk/chembl/ws
+
+### Useful Links
+
+Links to webinar slides and PDFs: 
+
+  - ChEMBL Interface and Searching Walkthrough 
+
+  - SureChEMBL Walkthrough 
+
+  - UniChem Walkthrough 
+
+  - Web Services Overview
 
 
