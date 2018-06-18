@@ -6,11 +6,11 @@
 
 | Name | Current Release | Last Update | Description |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [ChEMBLdb](ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/latest/) | 24 | May 2018 | ChEMBL Database downloads, which includes Oracle, MySQL and PostgreSQL versions of the ChEMBL database, as well as SDF, FASTA and release note files. Main website link [here](https://www.ebi.ac.uk/chembl). |
+| [ChEMBLdb](ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/latest/) | 24.1 | June 2018 | ChEMBL Database downloads, which includes Oracle, MySQL and PostgreSQL versions of the ChEMBL database, as well as SDF, FASTA and release note files. Main website link [here](https://www.ebi.ac.uk/chembl). |
 | [SureChEMBL](ftp://ftp.ebi.ac.uk/pub/databases/chembl/SureChEMBL/data//) | Q1 2017 | Q1 2017 | SureChEMBL quarterly compound exports and map files \(see also [here](http://chembl.blogspot.co.uk/2015/08/accessing-surechembl-data-in-bulk.html)\). Main website link [here](https://www.surechembl.org/). |
 | [UniChem](ftp://ftp.ebi.ac.uk/pub/databases/chembl/UniChem//) | UDRI186 | 17-JUN-2018 | Data dumps from UniChem. Includes source maps, Oracle exports and KNIME protocols. Main website link here. Number of structures: 156144557 |
 | [myChEMBL](ftp://ftp.ebi.ac.uk/pub/databases/chembl/VM/myChEMBL/current/) | 20.0 | July 2015 | myChEMBL is a version of ChEMBL built using Open Source software \(Ubuntu, PostgreSQL, RDKit\) and is distributed as a Virtual Machine, more details [here](http://chembl.blogspot.co.uk/2014/06/mychembl-launchpadlaunched.html). |
-| [ChEMBL-RDF](ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/latest/) | 24.0 | May 2018 | RDF Version of ChEMBL database. The file download format is turtle and the minor version number corresponds to changes in RDF format and not the underlying ChEMBL data. |
+| [ChEMBL-RDF](ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/latest/) | 24.1 | June 2018 | RDF Version of ChEMBL database. The file download format is turtle and the minor version number corresponds to changes in RDF format and not the underlying ChEMBL data. |
 | [ChEMBLNTD](ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLNTD/) | NA | February 2016 | Datasets made available via the ChEMBL-NTD website. Current dataset contribuotors include GSK, Novartis, St. Jude Children's Research Hospital, DNDi, Harvard Medical School and TropIQ Health Sciences. Main website link [here](https://www.ebi.ac.uk/chemblntd). |
 | [MalariaData](ftp://ftp.ebi.ac.uk/pub/databases/chembl/MalariaData/) | 2.0 | January 2013 | Release notes for Malaria Data website, a searchable database which contains compounds, targets and assays related to malaria. Main website link [here](https://www.ebi.ac.uk/chembl/malaria/). |
 | [DrugEBIlity](ftp://ftp.ebi.ac.uk/pub/databases/chembl/DrugEBIlity/) | 3.0 | September 2012 | Flatfile downloads for DrugEBIlity system. Main website link [here](https://www.ebi.ac.uk/chembl/drugebility/structure/). |
@@ -24,6 +24,7 @@ To reference a specific release of the ChEMBL Database, please use DOI in table 
 
 | Release | Date | Release DOI |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| CHEMBL24.1 | June 2018 | [10.6019/CHEMBL.database.24.1](http://doi.org/10.6019/CHEMBL.database.24.1) |
 | CHEMBL24 | May 2018 | [10.6019/CHEMBL.database.24](http://doi.org/10.6019/CHEMBL.database.24) |
 | CHEMBL23 | May 2017 | [10.6019/CHEMBL.database.23](http://doi.org/10.6019/CHEMBL.database.23) |
 | CHEMBL22.1 | November 2016 | [10.6019/CHEMBL.database.22.1](http://doi.org/10.6019/CHEMBL.database.22.1) |
@@ -57,6 +58,7 @@ To reference a specific release of the ChEMBL-RDF, please use DOI in table below
 
 | Release | Date | Release DOI |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| CHEMBL-RDF 24.1 | June 2018 | [10.6019/CHEMBL.RDF.24.1](http://doi.org/10.6019/CHEMBL.RDF.24.1) |
 | CHEMBL-RDF 24 | May 2018 | [10.6019/CHEMBL.RDF.24.0](http://doi.org/10.6019/CHEMBL.RDF.24.0) |
 | CHEMBL-RDF 23 | May 2017 | [10.6019/CHEMBL.RDF.23.0](http://doi.org/10.6019/CHEMBL.RDF.23.0) |
 | CHEMBL-RDF 22.1 | November 2016 | [10.6019/CHEMBL.RDF.22.1](http://doi.org/10.6019/CHEMBL.RDF.22.1) |
