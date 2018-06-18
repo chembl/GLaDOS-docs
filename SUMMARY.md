@@ -8,4 +8,6 @@
   * [Schema Questions and SQL Examples](frequently-asked-questions/schema-questions-and-sql-examples.md)
 * [Downloads](downloads.md)
 * [Webinars](webinars.md)
+* [Searching Guide](searching-guide.md)
+* [Filters Guide](filters-guide.md)
 

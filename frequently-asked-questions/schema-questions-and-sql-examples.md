@@ -26,6 +26,7 @@ FROM target_dictionary td
   JOIN organism_class oc ON td.tax_id = oc.tax_id
     AND oc.L1 = 'Bacteria';
 ```
+
 ## Retrieve activity details for compound and all its salts which have an IC50 bioactivity value in nM against a target of interest:
 
 ```sql
@@ -95,7 +96,7 @@ AND act.standard_value        > 200
 AND td.chembl_id              = 'CHEMBL4036';
 ```
 
-## Retrieve target ChEMBL_ID, target_name, target_type, protein accessions and sequences for all protein targets:
+## Retrieve target ChEMBL\_ID, target\_name, target\_type, protein accessions and sequences for all protein targets:
 
 ```sql
 SELECT t.chembl_id AS target_chembl_id,
@@ -186,11 +187,11 @@ FROM compound_structures s
   JOIN target_components tc ON t.tid = tc.tid
   JOIN component_sequences cs ON tc.component_id = cs.component_id
     AND cs.accession = 'P08172';
- ```
- 
- ## Retrieve compound activity details for a target:
- 
- ```sql
+```
+
+## Retrieve compound activity details for a target:
+
+```sql
  -- Target is Human PDE5 (CHEMBL1827) 
 SELECT m.chembl_id AS compound_chembl_id,   
 s.canonical_smiles,   
@@ -236,3 +237,4 @@ FROM activities act
   JOIN source src ON src.src_id = cr.src_id
     AND src.src_id = '7';
 ```
+
