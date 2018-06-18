@@ -8,4 +8,5 @@
   * [General Questions](frequently-asked-questions/general-questions.md)
   * [Schema Questions and SQL Examples](frequently-asked-questions/schema-questions-and-sql-examples.md)
 * [Downloads](downloads.md)
+* [Acknowledgments](untitled.md)
 
