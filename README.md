@@ -13,7 +13,7 @@ We have developed a new [web interface](https://www.ebi.ac.uk/chembl/beta/) that
 
 ### Structure Search
 
- - You can search by using the [Marvin JS sketcher](https://chemaxon.com/products/marvin-js). You can open it just by clicking on the "structure" icon on the search bar:
- 
- 
- 
+* You can search by using the [Marvin JS sketcher](https://chemaxon.com/products/marvin-js). You can open it just by clicking on the "structure" icon on the search bar:
+
+![](.gitbook/assets/screen-shot-2018-06-20-at-17.06.11.png)
+
