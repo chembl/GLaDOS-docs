@@ -1,10 +1,8 @@
 # Acknowledgments
 
-
-
 The ChEMBL resources are made available due to funding from the following:
 
-#### Current Awards
+## Current Awards
 
 * **2014-2019:** Wellcome Trust \(Strategic Award WT086151/Z/08/Z\). The member states of EMBL  
 * **2016-2022:** European Commission Horizon 2020. Toxicity Testing and Risk Assessment in the 21st Century EU-ToxRisk \(681002\)  
@@ -15,7 +13,7 @@ The ChEMBL resources are made available due to funding from the following:
 * **2017-2022:** European Commission/IMI2 eTRANSAFE - Enhacing TRANslational SAFEty Assessment through Integrative Knowledge Management \(777365\)  
 * **2017-2021:** European Commission/IMI2/TransQST - Translational quantitative systems toxicology to improve the understanding of the safety of medicines \(116030\)
 
-#### Past Awards
+## Past Awards
 
 * **2009-2016:** European Commission/IMI IMI eTox \(115002\)  
 * **2014-2016:** Illuminating the Druggable Genome NIH grant 1U54CA189205-01  
@@ -30,3 +28,4 @@ The ChEMBL resources are made available due to funding from the following:
 * **2011-2013:** GSK - ADMET SARfari  
 * **2009-2013:** European Commission ESFRI EU-OpenScreen \(261861\)  
 * **2010-2011:** Pfizer - Druggability Analysis
+

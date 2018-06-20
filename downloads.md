@@ -2,8 +2,6 @@
 
 ## ChEMBL Downloads
 
-
-
 | Name | Current Release | Last Update | Description |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [ChEMBLdb](ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/latest/) | 24.1 | June 2018 | ChEMBL Database downloads, which includes Oracle, MySQL and PostgreSQL versions of the ChEMBL database, as well as SDF, FASTA and release note files. Main website link [here](https://www.ebi.ac.uk/chembl). |
@@ -53,8 +51,7 @@ To reference a specific release of the ChEMBL Database, please use DOI in table 
 
 ## ChEMBL-RDF Release DOIs
 
-To reference a specific release of the ChEMBL-RDF, please use DOI in table below.  
-
+To reference a specific release of the ChEMBL-RDF, please use DOI in table below.
 
 | Release | Date | Release DOI |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -72,8 +69,7 @@ To reference a specific release of the ChEMBL-RDF, please use DOI in table below
 
 ## myChEMBL Release DOIs
 
-To reference a specific release of myChEMBL, please use DOI in table below.  
-
+To reference a specific release of myChEMBL, please use DOI in table below.
 
 | Release | Date | Release DOI |
 | --- | --- | --- | --- | --- |
