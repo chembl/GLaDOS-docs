@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [New Web Interface](README.md)
 * [Searching Guide](searching-guide.md)
 * [Frequently Asked Questions](frequently-asked-questions/README.md)
   * [ChEMBL Data Questions](frequently-asked-questions/chembl-data-questions.md)
