@@ -9,5 +9,5 @@ We have developed a new [web interface](https://www.ebi.ac.uk/chembl/beta/) that
 * The bar will provide some suggestions as you write on the bar. 
 * You don't need to click on a different button to search for different entity types anymore \(Compounds, Targets, Assays, Documents, Cells or Tissues\), the interface will search among all entities for you. 
 * The search bar now appears in all the pages, including report cards, so you don't have to go back to the main page to search for another term. 
-* Our new interface uses elasticsearch indexes, you can use a DSL to build complex queries, see our guide. 
+* Our new interface uses elasticsearch indexes, you can use a DSL to build complex queries, see our [guide](searching-guide.md). 
 
