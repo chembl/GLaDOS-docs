@@ -23,9 +23,9 @@ We have developed a new [web interface](https://www.ebi.ac.uk/chembl/beta/) that
 
 For the search results and other results that you can produce in the interface there are filters available at the left side of the page:
 
-![Filters in https://www.ebi.ac.uk/chembl/beta/g/\#browse/compounds](.gitbook/assets/screen-shot-2018-06-21-at-12.35.34.png)
+![One of the filters in https://www.ebi.ac.uk/chembl/beta/g/\#browse/compounds](.gitbook/assets/screen-shot-2018-06-21-at-12.39.37.png)
 
-  
+With these filters you can easily see the distribution of the data. The sizes of the rectangles behind every value represent the proportion of items with that value for that property in the data.   
 
 
 
