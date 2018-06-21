@@ -43,3 +43,9 @@ You can see the related activities of compound, target, document, assay, cell li
 
 If you click on the section that represents "Potency" you will be directed to the [activities](https://www.ebi.ac.uk/chembl/beta/g/#browse/activities/filter/molecule_chembl_id%3A%28%22CHEMBL59%22%20OR%20%22CHEMBL3247442%22%20OR%20%22CHEMBL1557%22%29%20AND%20standard_type%3A%28%22Potency%22%29) of type "Potency" for compound CHEMBL59. 
 
+In the results pages, you can also select several items and then click on "Browse Activities":
+
+![](.gitbook/assets/screen-shot-2018-06-21-at-14.13.02.png)
+
+
+
