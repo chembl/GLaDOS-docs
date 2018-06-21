@@ -23,26 +23,23 @@ We have developed a new [web interface](https://www.ebi.ac.uk/chembl/beta/) that
 
 For the search results and other results that you can produce in the interface there are filters available at the left side of the page:
 
-<img src="https://github.com/chembl/GLaDOS-docs/raw/master/.gitbook/assets/screen-shot-2018-06-21-at-12.39.37.png" width="350" height="400">
-[https://www.ebi.ac.uk/chembl/beta/g/\#browse/compounds](https://www.ebi.ac.uk/chembl/beta/g/\#browse/compounds)
+![](https://github.com/chembl/GLaDOS-docs/raw/master/.gitbook/assets/screen-shot-2018-06-21-at-12.39.37.png) [https://www.ebi.ac.uk/chembl/beta/g/\#browse/compounds](https://www.ebi.ac.uk/chembl/beta/g/#browse/compounds)
 
-With these filters you can easily see the distribution of the data. The sizes of the rectangles behind each value represent the proportion of items with that value for that property in the data. You can also click on the filter the data. 
+With these filters you can easily see the distribution of the data. The sizes of the rectangles behind each value represent the proportion of items with that value for that property in the data. You can also click on the filter the data.
 
 By clicking on the "settings" button
 
-<img src="https://github.com/chembl/GLaDOS-docs/raw/master/.gitbook/assets/screen-shot-2018-06-21-at-13.35.17.png" width="50" height="50">
+![](https://github.com/chembl/GLaDOS-docs/raw/master/.gitbook/assets/screen-shot-2018-06-21-at-13.35.17.png)
 
 You can open a menu to configure the filters panel
 
 ![](.gitbook/assets/screen-shot-2018-06-21-at-13.36.42.png)
 
+### Browsing activities
 
+You can see the related activities of compound, target, document, assay, cell line, or tissue by clicking on the visualisations. For example for the compound [CHEMBL59](https://www.ebi.ac.uk/chembl/beta/compound_report_card/CHEMBL59/) you will see this pie chart in Activity Charts:
 
+ 
 
-
-
-
-
-
-
+![](.gitbook/assets/screen-shot-2018-06-21-at-13.55.55.png)
 
