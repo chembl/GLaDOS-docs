@@ -49,5 +49,5 @@ In the results pages, you can also select several items and then click on "Brows
 
 ### Data Visualisations
 
-In order to show in a better way what is inside [ChEMBL](https://www.ebi.ac.uk/chembl/beta/) we have created some data visualisations. You can see them in the main page, or you by visiting [https://www.ebi.ac.uk/chembl/beta/visualise/](https://www.ebi.ac.uk/chembl/beta/visualise/)
+In order to show in a better way what is inside [ChEMBL](https://www.ebi.ac.uk/chembl/beta/) we have created some data visualisations. You can see them in the main page, or by visiting [https://www.ebi.ac.uk/chembl/beta/visualise/](https://www.ebi.ac.uk/chembl/beta/visualise/).
 
