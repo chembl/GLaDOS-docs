@@ -19,6 +19,10 @@ We have developed a new [web interface](https://www.ebi.ac.uk/chembl/beta/) that
 
 * For the substructure and similarity results we have now included structure highlighting on the results. the highlight can be turned on or off. See for example: [https://www.ebi.ac.uk/chembl/beta/g/tiny/O/X4tGAntE5huqwzOIcrlg==](https://www.ebi.ac.uk/chembl/beta/g/tiny/O/X4tGAntE5huqwzOIcrlg==) 
 
+### Filters
+
+For the search results and other results that you can produce in the interface 
+
 
 
 
