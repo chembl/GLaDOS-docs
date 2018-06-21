@@ -30,7 +30,7 @@ With these filters you can easily see the distribution of the data. The sizes of
 
 By clicking on the "settings" button
 
-![](.gitbook/assets/screen-shot-2018-06-21-at-13.35.17.png)
+<img src="https://github.com/chembl/GLaDOS-docs/blob/master/.gitbook/assets/screen-shot-2018-06-21-at-13.35.17.png" width="50" height="50">
 
 You can open a menu to configure the filters panel
 
