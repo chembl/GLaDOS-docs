@@ -39,7 +39,4 @@ You can open a menu to configure the filters panel
 
 You can see the related activities of compound, target, document, assay, cell line, or tissue by clicking on the visualisations. For example for the compound [CHEMBL59](https://www.ebi.ac.uk/chembl/beta/compound_report_card/CHEMBL59/) you will see this pie chart in Activity Charts:
 
- 
-
-![](.gitbook/assets/screen-shot-2018-06-21-at-13.55.55.png)
-
+<img src="https://raw.githubusercontent.com/chembl/GLaDOS-docs/master/.gitbook/assets/screen-shot-2018-06-21-at-13.55.55.png" height="400" width="300">
