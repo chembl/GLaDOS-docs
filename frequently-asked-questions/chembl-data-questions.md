@@ -10,9 +10,19 @@ We provide a list of all downgraded compounds with each release. However, it wou
 
 ### Are my queries stored and if so, are they routinely deleted?
 
-We do not analyse the nature of any queries or note structures that are processed through the website. However, to implement the link shortening functionality we store the queries and relate them to a hash. This in an example of a shortened url: [https://www.ebi.ac.uk/chembl/beta/chembl/beta/g/tiny/GvKCBuljiVr/s1XL8m6Duw==](https://www.ebi.ac.uk/chembl/beta/chembl/beta/g/tiny/GvKCBuljiVr/s1XL8m6Duw==). In our elasticsearch servers, we have a mapping of GvKCBuljiVr/s1XL8m6Duw== to the original query, but nothing else is stored. There is not other data that can identify the user\(s\) who used that query.
+In general, we do not store any queries that our users run. We do not analyse the nature of any queries or note structures that are processed through the website. In fact, we use https:// wherever possible to maintain the security of the searches. Additionally, the EBI has terms of use and these can be found at: [http://www.ebi.ac.uk/Information/termsofuse.html](http://www.ebi.ac.uk/Information/termsofuse.html). This will tell you what information is retained by the EBI, if any.
 
-We use https:// wherever possible to maintain the security of the searches. Additionally, the EBI has terms of use and these can be found at: [http://www.ebi.ac.uk/Information/termsofuse.html](http://www.ebi.ac.uk/Information/termsofuse.html). This will tell you what information is retained by the EBI, if any.
+#### Javascript Routing
+
+For the pages that allow to perform [free text search](https://www.ebi.ac.uk/chembl/beta/g/#search_results/all), [structure searches](https://www.ebi.ac.uk/chembl/beta/g/#substructure_search_results/C1%3DCC%3DC%28C%3DC1%29C1C%3DCC%28%3DCC%3D1%29C1C%3DCC%3DCC%3D1), or [entity browsing](https://www.ebi.ac.uk/chembl/beta/g/#browse/targets). The filter or search term is always processed by javascript first. For example, when you search for Aspirin, this will be the generated URL: 
+
+
+
+#### Link Shortening
+
+
+
+
 
 ### Why are there so many different types of Standard Units in the database?
 
