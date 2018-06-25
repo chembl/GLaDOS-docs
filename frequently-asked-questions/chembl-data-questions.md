@@ -14,11 +14,23 @@ In general, we do not store any queries that our users run. We do not analyse th
 
 #### Javascript Routing
 
-For the pages that allow to perform [free text search](https://www.ebi.ac.uk/chembl/beta/g/#search_results/all), [structure searches](https://www.ebi.ac.uk/chembl/beta/g/#substructure_search_results/C1%3DCC%3DC%28C%3DC1%29C1C%3DCC%28%3DCC%3D1%29C1C%3DCC%3DCC%3D1), or [entity browsing](https://www.ebi.ac.uk/chembl/beta/g/#browse/targets). The filter or search term is always processed by javascript first. For example, when you search for Aspirin, this will be the generated URL: 
+For the pages that allow to perform [free text search](https://www.ebi.ac.uk/chembl/beta/g/#search_results/all), [structure searches](https://www.ebi.ac.uk/chembl/beta/g/#substructure_search_results/C1%3DCC%3DC%28C%3DC1%29C1C%3DCC%28%3DCC%3D1%29C1C%3DCC%3DCC%3D1), or [entity browsing](https://www.ebi.ac.uk/chembl/beta/g/#browse/targets). The filter or search term is always processed by javascript first. For example, when you search for Aspirin, the url will be something like:
 
+```
+https://www.ebi.ac.uk/chembl/beta/g/#search_results/all/query=Aspirin
+```
 
+Notice the part of the url that is after the # symbol:
+
+```
+#search_results/all/query=Aspirin
+```
+
+This part is stored temporarily **only in the client (your browser)**. The query is then sent to the server for a parsing process. The server responds with the adequate parameters in elasticsearch to show the results, but the search term is never stored in the server. 
 
 #### Link Shortening
+
+Given the nature of the filtering and searching of the data that can be performed in the interface, and the purpose of representing any set of data with a url, urls can become really long easily. The interface is capable of generating shorter, fixed length urls so they can be easily shared in emails, chats, etc. 
 
 
 
