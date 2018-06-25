@@ -30,11 +30,26 @@ This part is stored temporarily **only in the client (your browser)**. The query
 
 #### Link Shortening
 
-Given the nature of the filtering and searching of the data, and the purpose of representing any set of data with a url, urls can become really long easily. The interface is capable of generating shorter, fixed length urls so they can be easily shared in emails, chats, etc. 
+Given the nature of the filtering and searching of the data, and with the purpose of representing any set of data with a url, urls can become really long easily. The interface is capable of generating shorter, fixed length urls so they can be easily shared in emails, chats, etc. 
 
+For example, this url: 
+```
+https://www.ebi.ac.uk/chembl/beta/g#browse/activities/filter/molecule_chembl_id%3A(%22CHEMBL59%22%20OR%20%22CHEMBL1557%22%20OR%20%22CHEMBL457419%22%20OR%20%22CHEMBL138040%22%20OR%20%22CHEMBL456176%22%20OR%20%22CHEMBL138921%22%20OR%20%22CHEMBL250711%22%20OR%20%22CHEMBL456817%22%20OR%20%22CHEMBL141970%22%20OR%20%22CHEMBL3247442%22%20OR%20%22CHEMBL1256484%22%20OR%20%22CHEMBL531%22%20OR%20%22CHEMBL31088%22%20OR%20%22CHEMBL160074%22%20OR%20%22CHEMBL301265%22%20OR%20%22CHEMBL512943%22%20OR%20%22CHEMBL350361%22%20OR%20%22CHEMBL348924%22%20OR%20%22CHEMBL1201087%22%20OR%20%22CHEMBL347228%22%20OR%20%22CHEMBL589%22%20OR%20%22CHEMBL1303%22%20OR%20%22CHEMBL1371770%22%20OR%20%22CHEMBL1009%22%20OR%20%22CHEMBL28278%22%20OR%20%22CHEMBL2110793%22%20OR%20%22CHEMBL57241%22%20OR%20%22CHEMBL3545388%22%20OR%20%22CHEMBL2110659%22%20OR%20%22CHEMBL3545010%22%20OR%20%22CHEMBL1743952%22%20OR%20%22CHEMBL2104864%22%20OR%20%22CHEMBL588%22%20OR%20%22CHEMBL300443%22%20OR%20%22CHEMBL718%22%20OR%20%22CHEMBL1328898%22%20OR%20%22CHEMBL1823681%22%20OR%20%22CHEMBL2105069%22%20OR%20%22CHEMBL2105691%22%20OR%20%22CHEMBL1200748%22%20OR%20%22CHEMBL493%22%20OR%20%22CHEMBL1201236%22%20OR%20%22CHEMBL51910%22%20OR%20%22CHEMBL2110687%22%20OR%20%22CHEMBL596802%22%20OR%20%22CHEMBL2103827%22%20OR%20%22CHEMBL459%22%20OR%20%22CHEMBL2106075%22%20OR%20%22CHEMBL1743949%22%20OR%20%22CHEMBL1631970%22%20OR%20%22CHEMBL1631968%22%20OR%20%22CHEMBL2104081%22%20OR%20%22CHEMBL69271%22%20OR%20%22CHEMBL2104184%22%20OR%20%22CHEMBL2106980%22%20OR%20%22CHEMBL1256842%22%20OR%20%22CHEMBL287257%22%20OR%20%22CHEMBL273575%22%20OR%20%22CHEMBL2364614%22%20OR%20%22CHEMBL2106525%22%20OR%20%22CHEMBL3989690%22%20OR%20%22CHEMBL53%22%20OR%20%22CHEMBL3247441%22%20OR%20%22CHEMBL1188395%22%20OR%20%22CHEMBL536282%22%20OR%20%22CHEMBL1172928%22%20OR%20%22CHEMBL1201066%22%20OR%20%22CHEMBL115794%22%20OR%20%22CHEMBL1201728%22%20OR%20%22CHEMBL637%22%20OR%20%22CHEMBL2107365%22%20OR%20%22CHEMBL3989861%22%20OR%20%22CHEMBL1118%22%20OR%20%22CHEMBL337702%22%20OR%20%22CHEMBL1615372%22%20OR%20%22CHEMBL1375743%22%20OR%20%22CHEMBL3989833%22%20OR%20%22CHEMBL1237021%22%20OR%20%22CHEMBL708%22)
+```
+Can be shortened to:
 
+```
+https://www.ebi.ac.uk/chembl/beta/g/tiny/AbCF5DA2XHxgYJqTpptUOQ==
+```
 
+The url shortening system works by assigning the code AbCF5DA2XHxgYJqTpptUOQ==, to the parameters in the url. If you want to shorten a url for the search results of a term or structure that you entered, the search term or structure will invetitably be saved in our servers. We do not analyse this data or store anything else than the mapping of the code (AbCF5DA2XHxgYJqTpptUOQ==) with the parameters, we can't identify the users that introduced any query, and we don't have any intention of doing it. 
 
+Additionally, when you search for a term or structure, the interface will always ask you before shortening automatically the url. See for example:
+
+  - https://www.ebi.ac.uk/chembl/beta/g/tiny/+C2MrLOcfO9c9ltaDWRcMg==
+  - https://www.ebi.ac.uk/chembl/beta/g/tiny/0ogmCoopbjgp+/OlTxVo6w==
+  - https://www.ebi.ac.uk/chembl/beta/g/tiny/HWIZBnVC/i69AE2AVYpLNw==
+  - https://www.ebi.ac.uk/chembl/beta/g/tiny/O/X4tGAntE5huqwzOIcrlg==
 
 ### Why are there so many different types of Standard Units in the database?
 
