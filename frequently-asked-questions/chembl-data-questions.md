@@ -30,7 +30,7 @@ This part is stored temporarily **only in the client (your browser)**. The query
 
 #### Link Shortening
 
-Given the nature of the filtering and searching of the data that can be performed in the interface, and the purpose of representing any set of data with a url, urls can become really long easily. The interface is capable of generating shorter, fixed length urls so they can be easily shared in emails, chats, etc. 
+Given the nature of the filtering and searching of the data, and the purpose of representing any set of data with a url, urls can become really long easily. The interface is capable of generating shorter, fixed length urls so they can be easily shared in emails, chats, etc. 
 
 
 
