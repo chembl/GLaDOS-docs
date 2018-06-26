@@ -2,7 +2,7 @@
 
 We have developed a new [web interface](https://www.ebi.ac.uk/chembl/beta/) that will eventually replace the [current one](https://www.ebi.ac.uk/chembl/) completely. It is still in a beta stage, this means that it provides all the mayor features, but it is expected to have some known and unknown bugs. We will be working on fixing them as a next stage.
 
-**If you want to suggest a new feature or report a bug, please read** [**this**](https://chembl.gitbook.io/chembl-interface-documentation/frequently-asked-questions/general-questions#how-do-i-report-errors-or-make-suggestions-for-the-interface)**.**
+**If you want to suggest a new feature or report a bug, please read** [**this**](../frequently-asked-questions/general-questions#how-do-i-report-errors-or-make-suggestions-for-the-interface)**.**
 
 ## New Features
 
@@ -56,6 +56,14 @@ In order to show in a better way what is inside [ChEMBL](https://www.ebi.ac.uk/c
 ### Descriptive URLs
 
 The urls in the new interface are intended to always describe the data that is being shown. For example, when you search targets using the term 'Liver', the url is:
+
+```
+https://www.ebi.ac.uk/chembl/beta/g/#search_results/targets/query=Liver
+```
+
+You should be able to copy any url in the page and send it to another person, so the receiver can see the same data. You can also get a shortened version of the url by clicking on the "share" icon of the breadcrumbs:
+
+
 
 
 
