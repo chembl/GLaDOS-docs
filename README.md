@@ -53,3 +53,9 @@ In the results pages, you can also select several items and then click on "Brows
 
 In order to show in a better way what is inside [ChEMBL](https://www.ebi.ac.uk/chembl/beta/) we have created some data visualisations. You can see them in the main page, or by visiting [https://www.ebi.ac.uk/chembl/beta/visualise/](https://www.ebi.ac.uk/chembl/beta/visualise/).
 
+### Descriptive URLs
+
+The urls in the new interface are intended to always describe the data that is being shown. For example, when you search targets using the term 'Liver', the url is:
+
+
+
