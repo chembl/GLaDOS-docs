@@ -2,7 +2,7 @@
 
 We have developed a new [web interface](https://www.ebi.ac.uk/chembl/beta/) that will eventually replace the [current one](https://www.ebi.ac.uk/chembl/) completely. It is still in a beta stage, this means that it provides all the mayor features, but it is expected to have some known and unknown bugs. We will be working on fixing them as a next stage.
 
-**If you want to suggest a new feature or report a bug, please read** [**this**](../frequently-asked-questions/general-questions#how-do-i-report-errors-or-make-suggestions-for-the-interface)**.**
+**If you want to suggest a new feature or report a bug, please read** [**this**](https://github.com/chembl/GLaDOS-docs/tree/ea3e00bfea6d01b4a7caa30b41ba4a9ca1488dae/frequently-asked-questions/general-questions/README.md#how-do-i-report-errors-or-make-suggestions-for-the-interface)**.**
 
 ## New Features
 
@@ -43,9 +43,9 @@ You can see the related activities of compound, target, document, assay, cell li
 
 ![](https://raw.githubusercontent.com/chembl/GLaDOS-docs/master/.gitbook/assets/screen-shot-2018-06-21-at-13.55.55.png)
 
-If you click on the section that represents "Potency" you will be directed to the [activities](https://www.ebi.ac.uk/chembl/beta/g/#browse/activities/filter/molecule_chembl_id%3A%28%22CHEMBL59%22%20OR%20%22CHEMBL3247442%22%20OR%20%22CHEMBL1557%22%29%20AND%20standard_type%3A%28%22Potency%22%29) of type "Potency" for compound CHEMBL59. 
+If you click on the section that represents "Potency" you will be directed to the [activities](https://www.ebi.ac.uk/chembl/beta/g/#browse/activities/filter/molecule_chembl_id%3A%28"CHEMBL59"%20OR%20"CHEMBL3247442"%20OR%20"CHEMBL1557"%29%20AND%20standard_type%3A%28"Potency"%29) of type "Potency" for compound CHEMBL59.
 
-In the results pages, you can also select several items and then click on "Browse Activities", you will be directed to a list of the [activities](https://www.ebi.ac.uk/chembl/beta/g/#browse/activities/filter/molecule_chembl_id%3A%28%22CHEMBL59%22%20OR%20%22CHEMBL3247442%22%20OR%20%22CHEMBL1557%22%29%20AND%20standard_type%3A%28%22Potency%22%29) for the items that you selected:
+In the results pages, you can also select several items and then click on "Browse Activities", you will be directed to a list of the [activities](https://www.ebi.ac.uk/chembl/beta/g/#browse/activities/filter/molecule_chembl_id%3A%28"CHEMBL59"%20OR%20"CHEMBL3247442"%20OR%20"CHEMBL1557"%29%20AND%20standard_type%3A%28"Potency"%29) for the items that you selected:
 
 ![](.gitbook/assets/screen-shot-2018-06-21-at-14.13.02.png)
 
@@ -57,13 +57,11 @@ In order to show in a better way what is inside [ChEMBL](https://www.ebi.ac.uk/c
 
 The urls in the new interface are intended to always describe the data that is being shown. For example, when you search targets using the term 'Liver', the url is:
 
-```
+```text
 https://www.ebi.ac.uk/chembl/beta/g/#search_results/targets/query=Liver
 ```
 
 You should be able to copy any url in the page and send it to another person, so the receiver can see the same data. You can also get a shortened version of the url by clicking on the "share" icon of the breadcrumbs:
 
-
-
-
+![](.gitbook/assets/screen-shot-2018-06-26-at-16.35.15.png)
 
