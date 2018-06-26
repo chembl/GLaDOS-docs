@@ -42,7 +42,7 @@ DOI: [10.1093/bioinformatics/btt765](http://dx.doi.org/10.1093/bioinformatics/bt
 
    ![Hotjar Feedback Widget](../.gitbook/assets/screen-shot-2018-06-18-at-12.01.29.png)
 
-3. We have dedicated email address for data queries, error reporting or help requests. This is: chembl-help@ebi.ac.uk
+3. We have a dedicated email address for data queries, error reporting or help requests. This is: chembl-help@ebi.ac.uk
 
 ## What is the difference between Molregno and ChEMBLID?
 
