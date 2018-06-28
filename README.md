@@ -2,7 +2,7 @@
 
 We have developed a new [web interface](https://www.ebi.ac.uk/chembl/beta/) that will eventually replace the [current one](https://www.ebi.ac.uk/chembl/) completely. It is still in a beta stage, this means that it provides all the mayor features, but it is expected to have some known and unknown bugs. We will be working on fixing them as a next stage.
 
-**If you want to suggest a new feature or report a bug, please read** [**this**](./frequently-asked-questions/general-questions.md#how-do-i-report-errors-or-make-suggestions-for-the-interface)**.**
+**If you want to suggest a new feature or report a bug, please read** [**this**](frequently-asked-questions/general-questions.md#how-do-i-report-errors-or-make-suggestions-for-the-interface)**.**
 
 ## New Features
 
@@ -43,9 +43,9 @@ You can see the related activities of compound, target, document, assay, cell li
 
 ![](https://raw.githubusercontent.com/chembl/GLaDOS-docs/master/.gitbook/assets/screen-shot-2018-06-21-at-13.55.55.png)
 
-If you click on the section that represents "Potency" you will be directed to the [activities](https://www.ebi.ac.uk/chembl/beta/g/#browse/activities/filter/molecule_chembl_id%3A%28"CHEMBL59"%20OR%20"CHEMBL3247442"%20OR%20"CHEMBL1557"%29%20AND%20standard_type%3A%28"Potency"%29) of type "Potency" for compound CHEMBL59.
+If you click on the section that represents "Potency" you will be directed to the \[activities\]\([https://www.ebi.ac.uk/chembl/beta/g/\#browse/activities/filter/molecule\_chembl\_id%3A\("CHEMBL59" OR "CHEMBL3247442" OR "CHEMBL1557"\) AND standard\_type%3A\("Potency"\)](https://www.ebi.ac.uk/chembl/beta/g/#browse/activities/filter/molecule_chembl_id%3A%28"CHEMBL59"%20OR%20"CHEMBL3247442"%20OR%20"CHEMBL1557"%29%20AND%20standard_type%3A%28"Potency"%29)\) of type "Potency" for compound CHEMBL59.
 
-In the results pages, you can also select several items and then click on "Browse Activities", you will be directed to a list of the [activities](https://www.ebi.ac.uk/chembl/beta/g/#browse/activities/filter/molecule_chembl_id%3A%28"CHEMBL59"%20OR%20"CHEMBL3247442"%20OR%20"CHEMBL1557"%29%20AND%20standard_type%3A%28"Potency"%29) for the items that you selected:
+In the results pages, you can also select several items and then click on "Browse Activities", you will be directed to a list of the \[activities\]\([https://www.ebi.ac.uk/chembl/beta/g/\#browse/activities/filter/molecule\_chembl\_id%3A\("CHEMBL59" OR "CHEMBL3247442" OR "CHEMBL1557"\) AND standard\_type%3A\("Potency"\)](https://www.ebi.ac.uk/chembl/beta/g/#browse/activities/filter/molecule_chembl_id%3A%28"CHEMBL59"%20OR%20"CHEMBL3247442"%20OR%20"CHEMBL1557"%29%20AND%20standard_type%3A%28"Potency"%29)\) for the items that you selected:
 
 ![](.gitbook/assets/screen-shot-2018-06-21-at-14.13.02.png)
 
