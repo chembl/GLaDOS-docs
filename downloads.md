@@ -11,8 +11,8 @@
 | [ChEMBL-RDF](ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/latest/) | 24.1 | June 2018 | RDF Version of ChEMBL database. The file download format is turtle and the minor version number corresponds to changes in RDF format and not the underlying ChEMBL data. |
 | [ChEMBLNTD](ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLNTD/) | NA | February 2016 | Datasets made available via the ChEMBL-NTD website. Current dataset contribuotors include GSK, Novartis, St. Jude Children's Research Hospital, DNDi, Harvard Medical School and TropIQ Health Sciences. Main website link [here](https://chembl.gitbook.io/chembl-ntd/). |
 | [MalariaData](ftp://ftp.ebi.ac.uk/pub/databases/chembl/MalariaData/) | 2.0 | January 2013 | Release notes for Malaria Data website, a searchable database which contains compounds, targets and assays related to malaria. Main website link [here](https://www.ebi.ac.uk/chembl/malaria/). |
-| [DrugEBIlity](ftp://ftp.ebi.ac.uk/pub/databases/chembl/DrugEBIlity/) | 3.0 | September 2012 | Flatfile downloads for DrugEBIlity system. Main website link [here](https://www.ebi.ac.uk/chembl/drugebility/structure/). |
-| [GPCRSARfari](ftp://ftp.ebi.ac.uk/pub/databases/chembl/GPCRSARfari/) | 3.00 | June 2012 | Flatfile downloads for GPCR SARfari system. Main website link [here](https://www.ebi.ac.uk/chembl/sarfari/gpcrsarfari/). |
+| [DrugEBIlity](ftp://ftp.ebi.ac.uk/pub/databases/chembl/DrugEBIlity/) | 3.0 | September 2012 | Flatfile downloads for DrugEBIlity system.  |
+| [GPCRSARfari](ftp://ftp.ebi.ac.uk/pub/databases/chembl/GPCRSARfari/) | 3.00 | June 2012 | Flatfile downloads for GPCR SARfari system.  |
 | [KinaseSARfari](ftp://ftp.ebi.ac.uk/pub/databases/chembl/KinaseSARfari/) | 5.01 | December 2011 | Flatfile downloads for Kinase SARfari system. Main website link [here](https://www.ebi.ac.uk/chembl/sarfari/kinasesarfari/). |
 | [VEHICLe](ftp://ftp.ebi.ac.uk/pub/databases/chembl/VEHICLe/) | 1.0 | April 2010 | Dataset described in 'Heteroaromatic Rings of the Future', by Pitt et al., more details [here](http://pubs.acs.org/doi/abs/10.1021/jm801513z). |
 
