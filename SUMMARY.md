@@ -9,4 +9,5 @@
   * [Schema Questions and SQL Examples](frequently-asked-questions/schema-questions-and-sql-examples.md)
 * [Downloads](downloads.md)
 * [Acknowledgments](acknowledgments.md)
+* [About](about.md)
 
