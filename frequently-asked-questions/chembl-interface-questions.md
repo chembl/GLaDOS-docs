@@ -6,5 +6,9 @@ After doing a search by a term, for example [Taxol](https://www.ebi.ac.uk/chembl
 
 ![](../.gitbook/assets/screen-shot-2018-08-01-at-09.54.16%20%281%29.png)
 
-This means that we found 206 compounds for your search. If you click on the link 
+This means that we found 206 compounds for your search. If you click on the link "Browse Activities":
+
+![](../.gitbook/assets/screen-shot-2018-08-01-at-10.22.22%20%281%29.png)
+
+A new page will open with all the [activities related](https://www.ebi.ac.uk/chembl/beta/g/tiny/xB1NBZge73NTMiwKxpvQXQ==) to the 206 compounds that you obtained. 
 
