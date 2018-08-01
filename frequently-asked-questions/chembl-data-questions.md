@@ -79,7 +79,76 @@ As the data and the compounds are continually being curated, it is not possible 
 
 ### Is there a list of all the Activity Types in ChEMBL?
 
-No, we do not keep a list of activity types but we are happy to create such a list as and when a user would require it. This can also be found if the ChEMBL data is downloaded from the FTP site and installed into a database.
+No, we do not keep a list of activity types but we are happy to create such a list as and when a user would require it. This can also be found if the ChEMBL data is downloaded from the FTP site and installed into a database. 
+
+Our new interface uses [elasticsearch](https://www.elastic.co/webinars/getting-started-elasticsearch?elektra=home&storm=sub1) to index the data in ChEMBL, you can get a list of the activity types by simply sending the following query to our elasticsearch server, you can copy and paste this command to your linux or mac terminal:
+
+```bash
+curl -XGET "https://www.ebi.ac.uk/chembl/glados-es/chembl_24_1_activity/_search" -H 'Content-Type: application/json' -d'
+{
+  "size": 0,
+  "query": {
+    "query_string": {
+      "analyze_wildcard": true,
+      "query": "*"
+    }
+  },
+  "_source": {
+    "excludes": []
+  },
+  "aggs": {
+    "2": {
+      "terms": {
+        "field": "standard_type",
+        "size": 1000000,
+        "order": {
+          "_count": "desc"
+        }
+      }
+    }
+  }
+}'
+```
+
+Notice the following:
+
+* **chembl\_24\_1\_activity** refers to the activity index in ChEMBL24.1
+* **"size": 1000000** requests up to 1000000 activity types.
+
+Also, you can browse all the activities in ChEMBL by visiting this url: [https://www.ebi.ac.uk/chembl/beta/g/\#browse/activities](https://www.ebi.ac.uk/chembl/beta/g/#browse/activities)
+
+You can see the distribution of the activities by type in the filters on the left. 
+
+### Is there a list of all the Target Types in ChEMBL?
+
+Similarly to the previous question, you can get a list of the different target types by sending a query to our elasticsearch server: 
+
+```bash
+curl -XGET "https://www.ebi.ac.uk/chembl/glados-es/chembl_24_1_target/_search" -H 'Content-Type: application/json' -d'
+{
+  "size": 0,
+  "query": {
+    "query_string": {
+      "query": "*",
+      "analyze_wildcard": true
+    }
+  },
+  "_source": {
+    "excludes": []
+  },
+  "aggs": {
+    "2": {
+      "terms": {
+        "field": "target_type",
+        "size": 1000000,
+        "order": {
+          "_count": "desc"
+        }
+      }
+    }
+  }
+}'
+```
 
 ### What literature coverage is there in ChEMBL?
 
