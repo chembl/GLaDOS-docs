@@ -35,15 +35,18 @@ You will see a heatmap like the following:
 
 When you are browsing a set of compounds, targets, assays, documents, cell lines or tissues, in the filters on the left you will see a filter like this one:
 
-
+![](../.gitbook/assets/screen-shot-2018-08-01-at-11.16.56%20%282%29.png)
 
 You can see an example [here](https://www.ebi.ac.uk/chembl/beta/g#browse/compounds/filter/Taxol). This example shows 206 compounds:
 
-
+![](../.gitbook/assets/screen-shot-2018-08-01-at-11.15.21%20%281%29.png)
 
 The filter means:
 
-* 76 
+* 27 out of the 206 compounds have 1 related bioactivity. 
+* 65 out of the 206 compounds have 2 related bioactivities.
+* etc...
+* 26 out of the 206 compounds have between 12 to 4989 related bioactivities. 
 
 
 
