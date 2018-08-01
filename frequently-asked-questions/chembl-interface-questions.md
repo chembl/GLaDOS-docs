@@ -24,6 +24,13 @@ Similarly to the previous answer, lets assume that you searched for [Taxol](http
 
 You will see a heatmap like the following:
 
+![](../.gitbook/assets/screen-shot-2018-08-01-at-10.40.51.png)
+
+* **Orange rectangle:** You can see that there are [1043 targets related](https://www.ebi.ac.uk/chembl/beta/g/tiny/YYX2P/h/OrOYL9ZGFzzkiA==) to the 206 compounds that you obtained. If you click on the text a new page will open with the targets that are related to these compounds.
+* **Blue rectangle:** Hover to see a mini report card of each of the compounds, click to go to the report card page. 
+* **Red rectangle:** Hover to see a mini report card of each of the targets, click to go to the report card page. 
+* **Green rectangle:** Click on a square to open a tooltip with a link to see all the activities between the compound and target related by that square. For example, If you click on the square relating the compound CHEMBL3545252 and the target Tubulin, you will see all the [activities](https://www.ebi.ac.uk/chembl/beta/g/tiny/oW+U32lw6/IMI6N+ldRS5Q==) relating that compound with that target.
+
 
 
 
