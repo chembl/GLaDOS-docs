@@ -12,11 +12,19 @@ This means that we found 206 compounds for your search. If you click on the link
 
 A new page will open with all the [activities related](https://www.ebi.ac.uk/chembl/beta/g/tiny/xB1NBZge73NTMiwKxpvQXQ==) to the 206 compounds that you obtained:
 
-![](../.gitbook/assets/screen-shot-2018-08-01-at-10.26.46%20%281%29.png)
+![](../.gitbook/assets/screen-shot-2018-08-01-at-10.26.46%20%285%29.png)
 
 Here you can see that there are 7807 activities related to the 206 compounds that you found. 
 
 ### After doing a search I obtain X compounds, how can I get information about the related targets?
+
+Similarly to the previous answer, lets assume that you searched for [Taxol](https://www.ebi.ac.uk/chembl/beta/g/#search_results/all/query=Taxol), you can click on the "Heatmap" button of the "Compound Results" header:
+
+![](../.gitbook/assets/screen-shot-2018-08-01-at-10.33.04%20%281%29.png)
+
+You will see a heatmap like the following:
+
+
 
 
 
