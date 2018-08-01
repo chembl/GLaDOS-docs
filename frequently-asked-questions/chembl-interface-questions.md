@@ -31,6 +31,20 @@ You will see a heatmap like the following:
 * **Red rectangle:** Hover to see a mini report card of each of the targets, click to go to the report card page. 
 * **Green rectangle:** Click on a square to open a tooltip with a link to see all the activities between the compound and target related by that square. For example, If you click on the square relating the compound CHEMBL3545252 and the target Tubulin, you will see all the [activities](https://www.ebi.ac.uk/chembl/beta/g/tiny/oW+U32lw6/IMI6N+ldRS5Q==) relating that compound with that target.
 
+### What does the 'Bioactivities' filter mean?
+
+When you are browsing a set of compounds, targets, assays, documents, cell lines or tissues, in the filters on the left you will see a filter like this one:
+
+
+
+You can see an example [here](https://www.ebi.ac.uk/chembl/beta/g#browse/compounds/filter/Taxol). This example shows 206 compounds:
+
+
+
+The filter means:
+
+* 76 
+
 
 
 
