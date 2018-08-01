@@ -16,3 +16,7 @@ A new page will open with all the [activities related](https://www.ebi.ac.uk/che
 
 Here you can see that there are 7807 activities related to the 206 compounds that you found. 
 
+### After doing a search I obtain X compounds, how can I get information about the related targets?
+
+
+
