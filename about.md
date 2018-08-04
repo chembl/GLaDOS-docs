@@ -27,7 +27,7 @@ Currently, the main developers of the interface are:
 
 #### Past contributors
 
-* [Laura Junco](https://github.com/laurajunco)
+* [Laura Junco](https://www.behance.net/gallery/68674667/ChEMBL-web-design-and-data-visualisation)
 
 ## Data Licensing
 

@@ -62,7 +62,7 @@ The published units are taken directly from the literature and we then attempt t
 As part of the manual curation process applied to the data we assign a confidence score to the assay-to-target relationships represented in the database. The confidence score value reflects both the type of target assigned to a particular assay and the confidence that the target assigned is the correct target for that assay. The confidence scores range from 0, for as yet uncurated data entries, to 9, where a single protein target has been assigned a high degree of confidence. Assays assigned a non-molecular target type, for example a cell-line or an organism, receive a confidence score of 1, while assays with assigned protein targets receive a confidence score of at least 4.
 
 | CONFIDENCE\_SCORE | DESCRIPTION |
-| --- | --- |
+| :--- | :--- |
 | 0 | Default value - Target assignment has yet to be curated |
 | 1 | Target assigned is non-molecular |
 | 3 | Target assigned is molecular non-protein target |
