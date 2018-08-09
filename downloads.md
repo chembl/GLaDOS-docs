@@ -4,7 +4,7 @@
 
 | Name | Current Release | Last Update | Description |
 | :--- | :--- | :--- | :--- |
-| [ChEMBLdb](ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/latest/) | 24.1 | June 2018 | ChEMBL Database downloads, which includes Oracle, MySQL and PostgreSQL versions of the ChEMBL database, as well as SDF, FASTA and release note files. Main website link [here](https://www.ebi.ac.uk/chembl). |
+| [ChEMBLdb](ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/latest/) | 24.1 | June 2018 | ChEMBL Database downloads, which includes Oracle, MySQL and PostgreSQL versions of the ChEMBL database, as well as SDF, FASTA and release note files. Main website link [here](https://www.ebi.ac.uk/chembl/beta/). |
 | [SureChEMBL](ftp://ftp.ebi.ac.uk/pub/databases/chembl/SureChEMBL/data//) | Q1 2017 | Q1 2017 | SureChEMBL quarterly compound exports and map files \(see also [here](http://chembl.blogspot.co.uk/2015/08/accessing-surechembl-data-in-bulk.html)\). Main website link [here](https://www.surechembl.org/). |
 | [UniChem](ftp://ftp.ebi.ac.uk/pub/databases/chembl/UniChem//) | UDRI186 | 17-JUN-2018 | Data dumps from UniChem. Includes source maps, Oracle exports and KNIME protocols. Main website link here. Number of structures: 156144557 |
 | [myChEMBL](ftp://ftp.ebi.ac.uk/pub/databases/chembl/VM/myChEMBL/current/) | 20.0 | July 2015 | myChEMBL is a version of ChEMBL built using Open Source software \(Ubuntu, PostgreSQL, RDKit\) and is distributed as a Virtual Machine, more details [here](http://chembl.blogspot.co.uk/2014/06/mychembl-launchpadlaunched.html). |
