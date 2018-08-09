@@ -1,5 +1,7 @@
 # ChEMBL Interface Questions
 
+## Browsing Related Entities
+
 ### After doing a search I obtain X compounds, how can I get counts for the total number of bioactivities?
 
 After doing a search by a term, for example [Taxol](https://www.ebi.ac.uk/chembl/beta/g/#search_results/all/query=Taxol), you will a header like the following in every result per entity:
@@ -47,6 +49,8 @@ The filter means:
 * 65 out of the 206 compounds have 2 related bioactivities.
 * etc...
 * 26 out of the 206 compounds have between 12 to 4989 related bioactivities. 
+
+
 
 
 
