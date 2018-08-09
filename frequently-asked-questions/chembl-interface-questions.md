@@ -54,11 +54,11 @@ The filter means:
 
 ### **I am browsing some activities, what does the 'Browse Compounds' link mean?**
 
-Similarly to the previous FAQs, this link allows to jump to the related entities for the activities that you are browsing. For example, if you are browsing some activities like here, you will see a header like this one:
+Similarly to the previous FAQs, this link allows to jump to the related entities for the activities that you are browsing. For example, if you are browsing some [activities](https://www.ebi.ac.uk/chembl/beta/g/tiny//xjDpbfQBoNotsaQY3p4Xg==), you will see a header like this one:
 
 ![](../.gitbook/assets/screen-shot-2018-08-09-at-16.13.46%20%281%29.png)
 
-The link will be disabled if you are seeing more than 1024 activities \(We are currently working on ways to increase this limit\). You need to select or filter the activities to activate the link. For example, you can filter only the activities of type 'EC50':
+The link will be disabled if you are seeing more than 1024 activities \(we are currently working on ways to increase this limit\). You need to select or filter the activities to activate the link. For example, you can filter only the activities of type 'EC50':
 
 ![](../.gitbook/assets/screen-shot-2018-08-09-at-16.09.45.png)
 
@@ -66,9 +66,9 @@ Now the link should be activated:
 
 ![](../.gitbook/assets/screen-shot-2018-08-09-at-16.16.46.png)
 
-If you click on the link, a new tab will open with the compounds that are related to the activities that you are seeing. So, in this case, you will see the compounds related to the 176 activities that you obtained. 
+If you click on the link, a new tab will open with the compounds that are related to the activities that you are seeing. So, in this case, you will see the [compounds related to the 176 activities that you obtained](https://www.ebi.ac.uk/chembl/beta/g/tiny/hFRLL0UVHVGmcHOtXlBgfA==). 
 
-You can also go to browse other entities, you just have to click on the ellipsis next to the link, this will display the other available entities. 
+You can also browse other entities, you just have to click on the ellipsis next to the link, this will display all the available entities. 
 
 ![](../.gitbook/assets/screen-shot-2018-08-09-at-16.21.40.png)
 
