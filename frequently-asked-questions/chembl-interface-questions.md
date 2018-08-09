@@ -37,6 +37,8 @@ You will see a heatmap like the following:
 
 When you are browsing a set of compounds, targets, assays, documents, cell lines or tissues, in the filters on the left you will see a filter like this one:
 
+ 
+
 ![](../.gitbook/assets/screen-shot-2018-08-01-at-11.16.56%20%282%29.png)
 
 You can see an example [here](https://www.ebi.ac.uk/chembl/beta/g#browse/compounds/filter/Taxol). This example shows 206 compounds:
@@ -56,7 +58,7 @@ Similarly to the previous FAQs, this link allows to jump to the related entities
 
 ![](../.gitbook/assets/screen-shot-2018-08-09-at-16.13.46%20%281%29.png)
 
-The link will be disabled if you are seeing more than 1024 activities. You need to select or filter the activities to activate the link. For example, you can filter only the activities of type 'EC50':
+The link will be disabled if you are seeing more than 1024 activities \(We are currently working on ways to increase this limit\). You need to select or filter the activities to activate the link. For example, you can filter only the activities of type 'EC50':
 
 ![](../.gitbook/assets/screen-shot-2018-08-09-at-16.09.45.png)
 
@@ -64,5 +66,9 @@ Now the link should be activated:
 
 ![](../.gitbook/assets/screen-shot-2018-08-09-at-16.16.46.png)
 
+If you click on the link, a new tab will open with the compounds that are related to the activities that you are seeing. So, in this case, you will see the compounds related to the 176 activities that you obtained. 
 
+You can also go to browse other entities, you just have to click on the ellipsis next to the link, this will display the other available entities. 
+
+![](../.gitbook/assets/screen-shot-2018-08-09-at-16.21.40.png)
 
