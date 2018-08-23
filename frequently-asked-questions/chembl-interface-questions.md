@@ -8,11 +8,11 @@ You can see this visualisation in the [main page](https://www.ebi.ac.uk/chembl/b
 
 ![](../.gitbook/assets/screen-shot-2018-08-23-at-10.16.32.png)
 
- This is the same classification that you will see in a target report card in the "Protein Target Classification" row. For example, for the target [CHEMBL2737](https://www.ebi.ac.uk/chembl/beta/target_report_card/CHEMBL2737/) you will see the following:
+ This is the same classification that you will see in a target report card in the 'Protein Target Classification' row. For example, for the target [CHEMBL2737](https://www.ebi.ac.uk/chembl/beta/target_report_card/CHEMBL2737/) you will see the following:
 
 ![](../.gitbook/assets/screen-shot-2018-08-23-at-10.11.52%20%281%29.png)
 
-This means that in the visualisation, you can click on the "Membrane receptor" arc, then on "Family A G protein-coupled receptor", then on "Small molecule receptor \(family A GPCR\)", then on "Monoamine receptor", and finally on "Dopamine receptor". The button below will change dynamically while you click and after the last click you should see the following:
+This means that in the visualisation, you can click on the 'Membrane receptor' arc, then on 'Family A G protein-coupled receptor', then on 'Small molecule receptor \(family A GPCR\)', then on 'Monoamine receptor', and finally on 'Dopamine receptor'. The button below will change dynamically while you click and after the last click you should see the following:
 
 ![](../.gitbook/assets/screen-shot-2018-08-23-at-10.20.44.png)
 
