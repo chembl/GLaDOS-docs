@@ -1,5 +1,104 @@
 # ChEMBL Interface Questions
 
+## Visualisation Questions
+
+### What is the source of the hierarchy in the Protein Target Classification visualisation?
+
+You can see this visualisation in the [main page](https://www.ebi.ac.uk/chembl/beta/) carousel or in the [visualisations page](https://www.ebi.ac.uk/chembl/beta/visualise/).
+
+![](../.gitbook/assets/screen-shot-2018-08-23-at-10.16.32.png)
+
+ This is the same classification that you will see in a target report card in the "Protein Target Classification" row. For example, for the target [CHEMBL2737](https://www.ebi.ac.uk/chembl/beta/target_report_card/CHEMBL2737/) you will see the following:
+
+![](../.gitbook/assets/screen-shot-2018-08-23-at-10.11.52%20%281%29.png)
+
+This means that in the visualisation, you can click on the "Membrane receptor" arc, then on "Family A G protein-coupled receptor", then on "Small molecule receptor \(family A GPCR\)", then on "Monoamine receptor", and finally on "Dopamine receptor". The button below will change dynamically while you click and after the last click you should see the following:
+
+![](../.gitbook/assets/screen-shot-2018-08-23-at-10.20.44.png)
+
+If you click on that button, you will see [all the targets with that classification](https://www.ebi.ac.uk/chembl/beta/g/tiny/8h-5axVXnWHniIBp7NzKjw==) and you will find [CHEMBL2737](https://www.ebi.ac.uk/chembl/beta/target_report_card/CHEMBL2737/). 
+
+Also, you can get the raw data used in the visualisation by running the following command in a terminal to query our elasticsearch cluster: 
+
+```bash
+curl -XGET "https://www.ebi.ac.uk/chembl/glados-es/chembl_24_1_target/_search" -H 'Content-Type: application/json' -d'
+{  
+   "size":0,
+   "query":{  
+      "query_string":{  
+         "query":"*",
+         "analyze_wildcard":true
+      }
+   },
+   "aggs":{  
+      "children":{  
+         "terms":{  
+            "field":"_metadata.protein_classification.l1",
+            "size":100,
+            "order":{  
+               "_count":"desc"
+            }
+         },
+         "aggs":{  
+            "children":{  
+               "terms":{  
+                  "field":"_metadata.protein_classification.l2",
+                  "size":100,
+                  "order":{  
+                     "_count":"desc"
+                  }
+               },
+               "aggs":{  
+                  "children":{  
+                     "terms":{  
+                        "field":"_metadata.protein_classification.l3",
+                        "size":100,
+                        "order":{  
+                           "_count":"desc"
+                        }
+                     },
+                     "aggs":{  
+                        "children":{  
+                           "terms":{  
+                              "field":"_metadata.protein_classification.l4",
+                              "size":100,
+                              "order":{  
+                                 "_count":"desc"
+                              }
+                           },
+                           "aggs":{  
+                              "children":{  
+                                 "terms":{  
+                                    "field":"_metadata.protein_classification.l5",
+                                    "size":100,
+                                    "order":{  
+                                       "_count":"desc"
+                                    }
+                                 },
+                                 "aggs":{  
+                                    "children":{  
+                                       "terms":{  
+                                          "field":"_metadata.protein_classification.l6",
+                                          "size":100,
+                                          "order":{  
+                                             "_count":"desc"
+                                          }
+                                       }
+                                    }
+                                 }
+                              }
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}'
+```
+
 ## Browsing Related Entities
 
 ### After doing a search I obtain X compounds, how can I get counts for the total number of bioactivities?
