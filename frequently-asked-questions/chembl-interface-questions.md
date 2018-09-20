@@ -246,5 +246,5 @@ And then click on 'Apply Changes':
   
 You will now see the activities related to the compound with ChEMBL id CHEMBL2393130. You can see an example of the result here:
 
-[http://wwwdev.ebi.ac.uk/chembl/beta/g/tiny/q57I6ShDJTBDqfOK01GYsA==](http://wwwdev.ebi.ac.uk/chembl/beta/g/tiny/q57I6ShDJTBDqfOK01GYsA==)
+[http://www.ebi.ac.uk/chembl/beta/g/tiny/q57I6ShDJTBDqfOK01GYsA==](http://www.ebi.ac.uk/chembl/beta/g/tiny/q57I6ShDJTBDqfOK01GYsA==)
 
