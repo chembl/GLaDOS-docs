@@ -175,7 +175,7 @@ You can also browse other entities, you just have to click on the ellipsis next 
 
 ### I am seeing a list of compounds \(or targets, assays, etc...\), how can I see the query used?
 
-The sections that allow you to browse entities are used through all the interface to show subsets of data in ChEMBL. For example, to see the activities related to the compound [SILIBININ](https://www.ebi.ac.uk/chembl/beta/compound_report_card/CHEMBL1401508/) you can go to this [page](https://www.ebi.ac.uk/chembl/beta/g/#browse/activities/filter/molecule_chembl_id%3ACHEMBL1401508). From all the activities in ChEMBL, the activities related to [SILIBININ](https://www.ebi.ac.uk/chembl/beta/compound_report_card/CHEMBL1401508/) can be obtained with the following query to our Elasticsearch system:
+The 'browse entity' sections are used through all the interface to show subsets of data in ChEMBL. For example, to see the activities related to the compound [SILIBININ](https://www.ebi.ac.uk/chembl/beta/compound_report_card/CHEMBL1401508/) you can go to this [page](https://www.ebi.ac.uk/chembl/beta/g/#browse/activities/filter/molecule_chembl_id%3ACHEMBL1401508) and see a 'browse activities' section. From all the activities in ChEMBL, the activities related to [SILIBININ](https://www.ebi.ac.uk/chembl/beta/compound_report_card/CHEMBL1401508/) can be obtained with the following query to our Elasticsearch system:
 
 ```javascript
 {
@@ -217,13 +217,22 @@ This section will show you the full query being sent to Elasticsearch, you can c
 
 ### Can I edit the query being used?
 
-In some cases, the query that the interface uses is based in a [Querystring](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html), this is an element of the Elasticsearch DSL, it is "A query that uses a query parser in order to parse its content.". You can see more information [here](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html). Soon, we will add an explanation of the elasticsearch "schema" of ChEMBL. Similarly to the previous question,  to get the activities related to [SILIBININ](https://www.ebi.ac.uk/chembl/beta/compound_report_card/CHEMBL1401508/) you can use the following querystring \(remember that a querystring is only part of the full query\):
+In some cases, the query that the interface uses is based in a [Querystring](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html), this is an element of the Elasticsearch DSL, it is "A query that uses a query parser in order to parse its content.". You can see more information [here](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html). Soon, we will add an explanation of the elasticsearch "schema" of ChEMBL. Similarly to the previous question,  to get the activities related to [SILIBININ](https://www.ebi.ac.uk/chembl/beta/compound_report_card/CHEMBL1401508/) you can use the following querystring:
 
 ```javascript
 molecule_chembl_id:CHEMBL1401508
 ```
 
-This part of the query can be edited. First you need to click on the 'Edit Querystring' Button:
+Remember that a querystring is only part of the full query, in the previous question, you can see this in the full query:
+
+```javascript
+"query_string": {
+  "analyze_wildcard": true,
+  "query": "molecule_chembl_id:CHEMBL1401508"
+}
+```
+
+When the query is based in a querystring, it can be edited. First you need to click on the 'Edit Querystring' Button:
 
 ![](../.gitbook/assets/screen-shot-2018-09-20-at-11.13.59.png)
 
@@ -233,7 +242,7 @@ This will open a text area that will let you edit the querystring:
 ![](../.gitbook/assets/screen-shot-2018-09-20-at-11.46.58.png)
 
   
-When you write a different querystring, the "Apply Changes' button will activate and will fetch the new items. For example, if you want to get the activities related to [APABETALONE](https://www.ebi.ac.uk/chembl/beta/compound_report_card/CHEMBL2393130/) instead you can write the following querystring:
+When you write a different querystring, the "Apply Changes' button will activate and will fetch the new items. For example, if you want to get the activities related to [APABETALONE](https://www.ebi.ac.uk/chembl/beta/compound_report_card/CHEMBL2393130/) instead, you can write the following querystring:
 
 ```javascript
 molecule_chembl_id:CHEMBL2393130
