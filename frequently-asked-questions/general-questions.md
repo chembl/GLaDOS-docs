@@ -37,7 +37,7 @@ DOI: [10.1093/bioinformatics/btt765](http://dx.doi.org/10.1093/bioinformatics/bt
 
 ## How do I report errors or make suggestions for the interface?
 
-1. You [create an issue](https://github.com/chembl/GLaDOS/issues/new) in our [GitHub Repository](https://github.com/chembl/GLaDOS).
+1. You can [create an issue](https://github.com/chembl/GLaDOS/issues/new) in our [GitHub Repository](https://github.com/chembl/GLaDOS).
 2. You can leave a comment on any page using our Hotjar feedback widget, which should is present in all the pages.  
 
    ![](../.gitbook/assets/screen-shot-2018-06-28-at-20.27.10%20%281%29.png)
