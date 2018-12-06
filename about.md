@@ -35,11 +35,10 @@ Access to the web interface of ChEMBL is made under the EBI's [Terms of Use](htt
 
 ## Cite Us
 
-If you would like to cite ChEMBL please refer to the following [FAQ](frequently-asked-questions/general-questions.md#the-publications-used-to-cite-chembl-are). You may also use a DOI to reference a specific release of the ChEMBL database, please refer to the [Downloads](downloads.md) page for a complete list of ChEMBL release DOIs.
+If you would like to cite ChEMBL please refer to the following [FAQ](frequently-asked-questions/general-questions.md#the-publications-used-to-cite-chembl-are). You may also use a DOI to reference a specific release of the ChEMBL database, please refer to the [Downloads](downloads.md) page for a complete list of ChEMBL release DOIs.  
 
-## Privacy Policy
 
-Data submitted through this website will never be shared with any other third parties, and we do not store or analyse user generated queries entered into the interface. We reserve the right to use information about visitors \(IP addresses\), date/time visited, page visited, referring website, etc. for site usage statistics and to improve our services.
+
 
 
 

@@ -11,4 +11,5 @@
 * [Downloads](downloads.md)
 * [Acknowledgments](acknowledgments.md)
 * [About](about.md)
+* [Privacy Notice](privacy-notice.md)
 
