@@ -10,7 +10,7 @@ We attempt to normalise the bioactivities into a uniform set of end-points and u
 
 To keep up to date with ChEMBL news and data releases subscribe to the [Chembl-announce mailing list.](http://listserver.ebi.ac.uk/mailman/listinfo/chembl-announce)
 
-To keep up to date with the group's interests, new drug approvals, data analysis and conferences, visit the [group blog](http://www.chemblog.org/).
+To keep up to date with the group's interests, new drug approvals, data analysis and conferences, visit the [group blog](https://chembl.blogspot.com/).
 
 ## People
 
