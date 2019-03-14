@@ -12,4 +12,10 @@
 * [Acknowledgments](acknowledgments.md)
 * [About](about.md)
 * [Privacy Notice](privacy-notice.md)
+* [Web Services](web-services/README.md)
+  * [ChEMBL Data Web Services](web-services/chembl-data-web-services.md)
+  * [Cheminformatic Utils Web Services](web-services/cheminformatic-utils-web-services.md)
+  * [Publications](web-services/publications.md)
+  * [Getting help](web-services/getting-help.md)
+  * [Bugs](web-services/bugs.md)
 
