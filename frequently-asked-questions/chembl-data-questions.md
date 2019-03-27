@@ -52,6 +52,8 @@ We keep a count of the usage of the service, it counts how many urls have been s
 
 The shortened urls have an expiration date which is shown after the url is shortened. The system will not expand any shortened url after its expiration date and once a week we delete forever all the shortened urls that have expired.  
 
+Some pages automatically shorten urls in order to create links to related data \(e.g to see the activities related to a set of targets\), these shortened urls also have an expiration date and are routinely deleted. 
+
 ### Why are there so many different types of Standard Units in the database?
 
 The published units are taken directly from the literature and we then attempt to standardise these to report as a standard type. This is an ongoing curation task, which was started with the most common units first.
