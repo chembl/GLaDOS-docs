@@ -10,11 +10,11 @@ We provide a list of all downgraded compounds with each release. However, it wou
 
 ### Are my queries stored and if so, are they routinely deleted?
 
-In general, we do not store any queries that our users run. We do not analyse the nature of any queries or note structures that are processed through the website. In fact, we use https:// wherever possible to maintain the security of the searches. Additionally, the EBI has terms of use and these can be found at: [http://www.ebi.ac.uk/Information/termsofuse.html](http://www.ebi.ac.uk/Information/termsofuse.html). This will tell you what information is retained by the EBI, if any.
+In general, we do not store any queries that our users run. We do not analyse the nature of any queries or structures that are processed through the website. In fact, we use https:// wherever possible to maintain the security of the searches. Additionally, the EBI has terms of use and these can be found at: [http://www.ebi.ac.uk/Information/termsofuse.html](http://www.ebi.ac.uk/Information/termsofuse.html). This will tell you what information is retained by the EBI, if any.
 
 #### Javascript Routing
 
-For the pages that allow to perform [free text search](https://www.ebi.ac.uk/chembl/beta/g/#search_results/all), [structure searches](https://www.ebi.ac.uk/chembl/beta/g/#substructure_search_results/C1%3DCC%3DC%28C%3DC1%29C1C%3DCC%28%3DCC%3D1%29C1C%3DCC%3DCC%3D1), or [entity browsing](https://www.ebi.ac.uk/chembl/beta/g/#browse/targets). The filter or search term is always processed by javascript first. For example, when you search for Aspirin, the url will be something like:
+For the pages that allow to perform [free text search](https://www.ebi.ac.uk/chembl/beta/g/#search_results/all), [structure and sequence searches](https://www.ebi.ac.uk/chembl/beta/g/#substructure_search_results/C1%3DCC%3DC%28C%3DC1%29C1C%3DCC%28%3DCC%3D1%29C1C%3DCC%3DCC%3D1), or [entity browsing](https://www.ebi.ac.uk/chembl/beta/g/#browse/targets). The filter or search term is always processed by javascript first. For example, when you search for Aspirin, the url will be something like:
 
 ```text
 https://www.ebi.ac.uk/chembl/beta/g/#search_results/all/query=Aspirin
@@ -26,11 +26,11 @@ Notice the part of the url that is after the \# symbol:
 #search_results/all/query=Aspirin
 ```
 
-This part is stored temporarily **only in the client \(your browser\)**. The query is then sent to the server for a parsing process. The server responds with the adequate parameters in elasticsearch to show the results, but the search term is never stored in the server.
+This part is stored temporarily **only in the browser**. The search term is then sent to the server for a parsing process. The server responds with the adequate parameters in elasticsearch to show the results, but the search term is never stored in the server.
 
 #### Link Shortening
 
-Given the nature of the filtering and searching of the data, and with the purpose of representing any set of data with a url, urls can become really long easily. The interface is capable of generating shorter, fixed length urls so they can be easily shared in emails, chats, etc.
+The urls contain information about the query and the state of the page that you are seeing, you can recreate a subset set of data from its query by just using a saved url. Our goal is that any subset of data in ChEMBL can be represented by a url. However urls can become really long easily. The length of the urls can easily become longer than the maximum length that many common url shortening services can handle, and they can cause trouble with browsers and devices when they are expanded. The interface is capable of generating shorter, fixed length urls so they can be easily shared in emails, chats, etc.
 
 For example, this url:
 
@@ -44,14 +44,13 @@ Can be shortened to:
 https://www.ebi.ac.uk/chembl/beta/g/tiny/AbCF5DA2XHxgYJqTpptUOQ==
 ```
 
-The url shortening system works by assigning the code AbCF5DA2XHxgYJqTpptUOQ==, to the parameters in the url. If you want to shorten a url for the search results of a term or structure that you entered, the search term or structure will invetitably be saved in our servers. We do not analyse this data or store anything else than the mapping of the code \(AbCF5DA2XHxgYJqTpptUOQ==\) with the parameters, we can't identify the users that introduced any query, and we don't have any intention of doing it.
+The url shortening system works by assigning the code AbCF5DA2XHxgYJqTpptUOQ==, to the parameters in the url. 
 
-Actually, when you search for a term or structure, the interface will always ask you before shortening automatically the url. See for example:
+If you want to shorten a url, **the url parameters will be saved in our servers temporarily**. We do not analyse this data or store anything else than the mapping of the code \(AbCF5DA2XHxgYJqTpptUOQ==\) with the parameters, we can't identify the users that introduced any query, and we don't have any intention of doing it. 
 
-* [https://www.ebi.ac.uk/chembl/beta/g/tiny/+C2MrLOcfO9c9ltaDWRcMg==](https://www.ebi.ac.uk/chembl/beta/g/tiny/+C2MrLOcfO9c9ltaDWRcMg==)
-* [https://www.ebi.ac.uk/chembl/beta/g/tiny/0ogmCoopbjgp+/OlTxVo6w==](https://www.ebi.ac.uk/chembl/beta/g/tiny/0ogmCoopbjgp+/OlTxVo6w==)
-* [https://www.ebi.ac.uk/chembl/beta/g/tiny/HWIZBnVC/i69AE2AVYpLNw==](https://www.ebi.ac.uk/chembl/beta/g/tiny/HWIZBnVC/i69AE2AVYpLNw==)
-* [https://www.ebi.ac.uk/chembl/beta/g/tiny/O/X4tGAntE5huqwzOIcrlg==](https://www.ebi.ac.uk/chembl/beta/g/tiny/O/X4tGAntE5huqwzOIcrlg==)
+We keep a count of the usage of the service, it counts how many urls have been shortened or expanded and when. This is to help us analyse the usage of our services and make decisions to improve them in the future. 
+
+The shortened urls have an expiration date which is shown after the url is shortened. The system will not expand any shortened url after its expiration date and once a week we delete forever all the shortened urls that have expired.  
 
 ### Why are there so many different types of Standard Units in the database?
 
