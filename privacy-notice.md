@@ -64,9 +64,7 @@ Personal data will only be disclosed to authorized staff at the ChEMBL team.
 
 ## 5. Will your personal data be transferred to third countries \(i.e. countries not part of EU/EAA\) and/or international organisations?
 
-Personal data is transferred to the following service provider based in the European Union: [Hotjar](https://www.hotjar.com/)
-
-There are no personal data transfers to international organisations.
+ChEMBL uses Google Analytics as a third-party analytics service to collect information about website performance and how users navigate through and use our sites to help us design better interfaces. We do not use Google Analytics to track you individually or collect personal data.
 
 ## 6. How long do we keep your personal data?
 
