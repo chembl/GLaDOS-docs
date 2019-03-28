@@ -11,7 +11,6 @@
 * [Downloads](downloads.md)
 * [Acknowledgments](acknowledgments.md)
 * [About](about.md)
-* [Privacy Notice](https-www.ebi.ac.uk-data-protection-privacy-notice-chembl-website.md)
 * [Web Services](web-services/README.md)
   * [ChEMBL Data Web Services](web-services/chembl-data-web-services.md)
   * [Cheminformatic Utils Web Services](web-services/cheminformatic-utils-web-services.md)
