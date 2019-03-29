@@ -49,10 +49,10 @@ To reference a specific release of the ChEMBL-RDF, please use DOI in table below
 
 | Release | Date | Release DOI |
 | :--- | :--- | :--- |
-| CHEMBL-RDF 25 | March 2019 | [10.6019/CHEMBL.RDF.25.0](http://doi.org/10.6019/CHEMBL.RDF.25.0) |
+| CHEMBL-RDF 25.0 | March 2019 | [10.6019/CHEMBL.RDF.25.0](http://doi.org/10.6019/CHEMBL.RDF.25.0) |
 | CHEMBL-RDF 24.1 | June 2018 | [10.6019/CHEMBL.RDF.24.1](http://doi.org/10.6019/CHEMBL.RDF.24.1) |
-| CHEMBL-RDF 24 | May 2018 | [10.6019/CHEMBL.RDF.24.0](http://doi.org/10.6019/CHEMBL.RDF.24.0) |
-| CHEMBL-RDF 23 | May 2017 | [10.6019/CHEMBL.RDF.23.0](http://doi.org/10.6019/CHEMBL.RDF.23.0) |
+| CHEMBL-RDF 24.0 | May 2018 | [10.6019/CHEMBL.RDF.24.0](http://doi.org/10.6019/CHEMBL.RDF.24.0) |
+| CHEMBL-RDF 23.0 | May 2017 | [10.6019/CHEMBL.RDF.23.0](http://doi.org/10.6019/CHEMBL.RDF.23.0) |
 | CHEMBL-RDF 22.1 | November 2016 | [10.6019/CHEMBL.RDF.22.1](http://doi.org/10.6019/CHEMBL.RDF.22.1) |
 | CHEMBL-RDF 22.0 | September 2016 | [10.6019/CHEMBL.RDF.22.0](http://doi.org/10.6019/CHEMBL.RDF.22.0) |
 | CHEMBL-RDF 21.0 | March 2016 | [10.6019/CHEMBL.RDF.21.0](http://doi.org/10.6019/CHEMBL.RDF.21.0) |
