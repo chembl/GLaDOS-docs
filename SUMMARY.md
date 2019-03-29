@@ -17,4 +17,5 @@
   * [Publications](web-services/publications.md)
   * [Getting help](web-services/getting-help.md)
   * [Bugs](web-services/bugs.md)
+* [ChEMBL Interface Privacy Notice](https://www.ebi.ac.uk/data-protection/privacy-notice/chembl-website)
 
