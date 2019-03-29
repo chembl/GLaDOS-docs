@@ -66,7 +66,6 @@ To reference a specific release of the ChEMBL-RDF, please use DOI in table below
 
 | Name | Current Release | Last Update | Description |
 | :--- | :--- | :--- | :--- |
-| [ChEMBLNTD](ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLNTD/) | NA | February 2016 | Datasets made available via the ChEMBL-NTD website. Current dataset contribuotors include GSK, Novartis, St. Jude Children's Research Hospital, DNDi, Harvard Medical School and TropIQ Health Sciences. Main website link [here](https://chembl.gitbook.io/chembl-ntd/). |
 | [MalariaData](ftp://ftp.ebi.ac.uk/pub/databases/chembl/MalariaData/) | 2.0 | January 2013 | Release notes for Malaria Data website, a searchable database which contains compounds, targets and assays related to malaria. Main website link [here](https://www.ebi.ac.uk/chembl/malaria/). |
 | [DrugEBIlity](ftp://ftp.ebi.ac.uk/pub/databases/chembl/DrugEBIlity/) | 3.0 | September 2012 | Flatfile downloads for DrugEBIlity system.  |
 | [GPCRSARfari](ftp://ftp.ebi.ac.uk/pub/databases/chembl/GPCRSARfari/) | 3.00 | June 2012 | Flatfile downloads for GPCR SARfari system.  |
