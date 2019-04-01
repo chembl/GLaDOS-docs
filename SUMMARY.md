@@ -1,6 +1,12 @@
 # Table of contents
 
 * [New Web Interface](README.md)
+* [Web Services](web-services/README.md)
+  * [ChEMBL Data Web Services](web-services/chembl-data-web-services.md)
+  * [Cheminformatic Utils Web Services](web-services/cheminformatic-utils-web-services.md)
+  * [Publications](web-services/publications.md)
+  * [Getting help](web-services/getting-help.md)
+  * [Bugs](web-services/bugs.md)
 * [Searching Guide](searching-guide.md)
 * [Frequently Asked Questions](frequently-asked-questions/README.md)
   * [ChEMBL Data Questions](frequently-asked-questions/chembl-data-questions.md)
@@ -11,11 +17,5 @@
 * [Downloads](downloads.md)
 * [Acknowledgments](acknowledgments.md)
 * [About](about.md)
-* [Web Services](web-services/README.md)
-  * [ChEMBL Data Web Services](web-services/chembl-data-web-services.md)
-  * [Cheminformatic Utils Web Services](web-services/cheminformatic-utils-web-services.md)
-  * [Publications](web-services/publications.md)
-  * [Getting help](web-services/getting-help.md)
-  * [Bugs](web-services/bugs.md)
 * [ChEMBL Interface Privacy Notice](https://www.ebi.ac.uk/data-protection/privacy-notice/chembl-website)
 
