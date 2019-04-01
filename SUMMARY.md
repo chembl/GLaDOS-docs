@@ -18,4 +18,5 @@
 * [Acknowledgments](acknowledgments.md)
 * [About](about.md)
 * [ChEMBL Interface Privacy Notice](https://www.ebi.ac.uk/data-protection/privacy-notice/chembl-website)
+* [Legacy Resources](legacy-resources.md)
 
