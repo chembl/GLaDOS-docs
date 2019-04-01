@@ -25,9 +25,13 @@ Currently, the main developers of the interface are:
 * [David Mendez](https://github.com/nclopezo) 
 * [Juan Felipe Mosquera](https://github.com/juanfmx2)
 
+![Artist&apos;s impression of the developers solving the issues.](.gitbook/assets/hercules_slaying_the_hydra.jpg)
+
 #### Past contributors
 
 * [Laura Junco](https://www.behance.net/gallery/68674667/ChEMBL-web-design-and-data-visualisation)
+
+
 
 ## Data Licensing
 
