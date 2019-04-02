@@ -30,7 +30,7 @@ Currently, the main developers of the interface are:
 * [Laura Junco](https://www.behance.net/gallery/68674667/ChEMBL-web-design-and-data-visualisation)
 * [Michal Nowotka](https://github.com/mnowotka)
 
-![Artist&apos;s impression of the developers solving the issues.](.gitbook/assets/hercules_slaying_the_hydra2.jpg)
+![Artist&apos;s impression of the developers solving the issues.](.gitbook/assets/hercules_slaying_the_hydra4.jpg)
 
 ## Data Licensing
 
