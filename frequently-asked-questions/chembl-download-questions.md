@@ -22,5 +22,5 @@ The SDfile contains the structures and the IDs of all the compounds currently fo
 
 ## I get an error message when trying to download some data from the interface.
 
-One of the main most likely reasons for this blank file is that the amount of data that you are trying to download from the interface is too big for the server to handle. Currently, you can download up to 10,000 items. We would suggest either refining your search further to reduce the results or, if this is a frequent search size, creating your own database in Oracle or MySQL of the ChEMBL data. Having your own database instance will allow large searches to be carried out.
+If you get an error message, please send an email to [chembl-help@ebi.ac.uk](mailto:chembl-help@ebi.ac.uk), or create an issue in our [GitHub repository](https://github.com/chembl/GLaDOS). 
 
