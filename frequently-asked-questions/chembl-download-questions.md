@@ -22,5 +22,11 @@ The SDfile contains the structures and the IDs of all the compounds currently fo
 
 ## I get an error message when trying to download some data from the interface.
 
-If you get an error message, please send an email to [chembl-help@ebi.ac.uk](mailto:chembl-help@ebi.ac.uk), or create an issue in our [GitHub repository](https://github.com/chembl/GLaDOS). 
+If you get an error message, please send an email to [chembl-help@ebi.ac.uk](mailto:chembl-help@ebi.ac.uk), or create an issue in our [GitHub repository](https://github.com/chembl/GLaDOS). We recommend that you include the full url of the page in your message, this helps us to identify the problem. 
+
+## What is the expiration date in the downloads from the interface?
+
+When a user generates a download from the interface, the file is kept in our servers for 7 days after the file was created. For example, if a file was generated on 17th May 2019 at 8:00 AM, it will be kept in our servers until 24th May 2019 at 8:00 AM. This means that if the same download is requested again during that period, the file will not be generated again and it will be ready to be downloaded immediately. 
+
+During the period in which we keep the downloaded file, we also keep the original query parameters required to generate the file. The parameters and the file itself are deleted after the expiration time has passed.  
 
