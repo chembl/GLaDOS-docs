@@ -28,5 +28,5 @@ If you get an error message, please send an email to [chembl-help@ebi.ac.uk](mai
 
 When a user generates a download from the interface, the file is kept in our servers for 7 days after the file was created. For example, if a file was generated on 17th May 2019 at 8:00 AM, it will be kept in our servers until 24th May 2019 at 8:00 AM. This means that if the same download is requested again during that period, the file will not be generated again and it will be ready to be downloaded immediately. 
 
-During the period in which we keep the downloaded file, we also keep the original query parameters required to generate the file. The parameters and the file itself are deleted after the expiration time has passed.  
+During the period in which we keep the downloaded file, we also keep the original query parameters required to generate the file. The parameters and the file itself are deleted after the expiration time has passed.  It is important to make clear that we don't save any data that can be used to identify the user generating the file. We save just the necessary data to be able to provide the service.  
 
