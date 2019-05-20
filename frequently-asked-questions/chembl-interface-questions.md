@@ -255,5 +255,13 @@ And then click on 'Apply Changes':
   
 You will now see the activities related to the compound with ChEMBL id CHEMBL2393130. You can see an example of the result here:
 
-[http://www.ebi.ac.uk/chembl/beta/g/tiny/q57I6ShDJTBDqfOK01GYsA==](http://www.ebi.ac.uk/chembl/beta/g/tiny/q57I6ShDJTBDqfOK01GYsA==)
+{% embed url="http://www.ebi.ac.uk/chembl/beta/g/tiny/q57I6ShDJTBDqfOK01GYsA==" %}
+
+## What is the expiration date in the structure based searches from the interface?
+
+When a user performs a structure based search \(similarity, substructure, connectivity\) from the interface, the results are kept in our servers for 7 days after the results are ready. For example, if a search was finished on 17th May 2019 at 8:00 AM, the results will be kept in our servers until 24th May 2019 at 8:00 AM. This means that if the same search is requested again during that period, the results will not be generated again and they will be ready immediately. The times shown are always based in the **UTC timezone**. 
+
+During the period in which we keep the results, we also keep the original query parameters. The parameters and the results are deleted after the expiration time has passed.  It is important to make clear that we don't save any data that can be used to identify the user performing the search. We save just the necessary data to be able to provide the service.  
+
+
 
