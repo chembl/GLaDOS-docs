@@ -7,7 +7,6 @@
   * [Publications](web-services/publications.md)
   * [Getting help](web-services/getting-help.md)
   * [Bugs](web-services/bugs.md)
-* [Searching Guide](searching-guide.md)
 * [Frequently Asked Questions](frequently-asked-questions/README.md)
   * [ChEMBL Data Questions](frequently-asked-questions/chembl-data-questions.md)
   * [ChEMBL Download Questions](frequently-asked-questions/chembl-download-questions.md)

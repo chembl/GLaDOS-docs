@@ -1,4 +1,0 @@
-# Searching Guide
-
-Coming soon...
-
