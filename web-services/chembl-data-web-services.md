@@ -64,6 +64,7 @@ These are formats currently supported by the API:
 | PNG | [https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL25.png](https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL25.png) [https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL25.png](https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL25.png) [https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL25?format=png](https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL25?format=png) [https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL25](https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL25) | Only compound images, default image format |
 | SVG | [https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL25.svg](https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL25.svg) [https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL25.svg](https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL25.svg) [https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL25?format=svg](https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL25?format=svg) | Only compound images |
 | FPS |  | as a result of sdf2fps method |
+| SDF | [https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL25.sdf](%20https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL25.sdf) | Only compounds |
 
 ## Meta Data and Pagination
 
