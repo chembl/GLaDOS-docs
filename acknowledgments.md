@@ -9,12 +9,12 @@ The ChEMBL resources are made available due to funding from the following:
 * **2015-2019:** Coordinated Research Infrastructures Building Enduring Life-science Services CORBEL \(654248\)  
 * **2018-2023:** Illuminating the Druggable Genome NIH grant 1U24CA224370-01  
 * **2014-2020:** Open Targets  
-* **2013-2018:** European Commission FP7 HeCaTos - Safety prediction \(602156\)  
 * **2017-2022:** European Commission/IMI2 eTRANSAFE - Enhacing TRANslational SAFEty Assessment through Integrative Knowledge Management \(777365\)  
 * **2017-2021:** European Commission/IMI2/TransQST - Translational quantitative systems toxicology to improve the understanding of the safety of medicines \(116030\)
 
 ## Past Awards
 
+* **2013-2018:** European Commission FP7 HeCaTos - Safety prediction \(602156\)  
 * **2009-2016:** European Commission/IMI IMI eTox \(115002\)  
 * **2014-2016:** Illuminating the Druggable Genome NIH grant 1U54CA189205-01  
 * **2008-2014:** Chemogenomics at the EBI, WT Strategic award 086151/Z/08/Z  
