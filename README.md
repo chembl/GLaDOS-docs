@@ -1,6 +1,6 @@
 # New Web Interface
 
-We have developed a new [web interface](https://www.ebi.ac.uk/chembl/beta/) that will eventually replace the [current one](https://www.ebi.ac.uk/chembl/) completely. **If you want to suggest a new feature or report a bug, please read** [**this**](frequently-asked-questions/general-questions.md#how-do-i-report-errors-or-make-suggestions-for-the-interface)**.**
+**If you want to suggest a new feature or report a bug, please read** [**this**](frequently-asked-questions/general-questions.md#how-do-i-report-errors-or-make-suggestions-for-the-interface)**.**
 
 ## New Features
 
