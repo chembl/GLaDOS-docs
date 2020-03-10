@@ -662,15 +662,3 @@ Since ChEMBL includes both mechanism of action information for approved drugs an
 
 As mentioned above, there is an IPython notebook with example API calls and the corresponsing Python client code [https://github.com/chembl/mychembl/blob/master/ipython\_notebooks/09\_myChEMBL\_web\_services.ipynb](https://github.com/chembl/mychembl/blob/master/ipython_notebooks/09_myChEMBL_web_services.ipynb). Additionally there is a comprehensive test suite, covering almost all the functionality offered by the API. It can be found in the Python client library: [https://github.com/chembl/chembl\_webresource\_client/blob/master/chembl\_webresource\_client/tests.py](https://github.com/chembl/chembl_webresource_client/blob/master/chembl_webresource_client/tests.py).
 
-
-
-#### 
-
-  
-
-
-#### 
-
-  
-klkl $$a = b$$ 
-
