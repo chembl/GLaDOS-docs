@@ -242,7 +242,9 @@ ChEMBL consists of data from a wide variety of data sources including scientific
 
 ### Can you provide some details on how ChEMBL compound properties \(e.g. LogP, MW, PSA,..\) are calculated?
 
-Yes, please refer to the following document: [Property\_Definitions](https://www.dropbox.com/s/mixm4cn5x7azmg4/property_definitions.docx?dl=0). Please note, we are now using RDKit to calculate many of these properties.
+Yes, please refer to the following document. Please note, we are now using RDKit to calculate many of these properties.
+
+{% file src="../.gitbook/assets/property\_definitions\_chembl\_26.docx" caption="Property Definitions" %}
 
 ### What is pChEMBL?
 
