@@ -68,7 +68,7 @@ Web Service documentation and example queries can be found at: [https://www.ebi.
 
 Links to webinar slides and PDFs:
 
-* [ChEMBL Interface and Searching Walkthrough](https://www.ebi.ac.uk/training/online/course/chembl-walkthrough-webinar)
+* [ChEMBL Interface and Searching Walkthrough](https://www.ebi.ac.uk/training/online/course/exploring-chembl-data-new-chembl-interface)
 * [SureChEMBL Walkthrough](https://www.ebi.ac.uk/training/online/course/surechembl-accessing-chemical-patent-data-webinar)
 * [UniChem Walkthrough](https://www.ebi.ac.uk/training/online/course/unichem-embl-ebi’s-mapping-tool-small-molecule-dat)
 * [Web Services Overview](https://www.ebi.ac.uk/training/online/course/embl-ebi-programmatically-take-rest-manual-searches/chembl-programmatically)

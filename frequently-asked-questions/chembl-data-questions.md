@@ -235,6 +235,10 @@ ChEMBL consists of data from a wide variety of data sources including scientific
 38. WHO Anatomical Therapeutic Chemical Classification 
 39. British National Formulary 
 40. Published Kinase Inhibitor Set 2
+41. Kuster lab chemical proteomics drug profiling
+42. HESi
+43. Winzeler\_Antonova\_Plasmodium
+44. SARS-CoV-2 Screening Data
 
 ### Can you provide some details on how ChEMBL compound properties \(e.g. LogP, MW, PSA,..\) are calculated?
 
