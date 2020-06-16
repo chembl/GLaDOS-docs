@@ -2,6 +2,8 @@
 
 **If you want to suggest a new feature or report a bug, please read** [**this**](frequently-asked-questions/general-questions.md#how-do-i-report-errors-or-make-suggestions-for-the-interface)**.**
 
+---
+
 ## New Features
 
 ### Free Text Search
