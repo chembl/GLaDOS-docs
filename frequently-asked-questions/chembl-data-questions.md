@@ -283,3 +283,56 @@ An additional table \(ACTIVITY\_STDS\_LOOKUP\) has been included in this release
 
 We detected and flagged duplicated activity entries and potential transcription errors in activity records that come from publications. The former are records with identical compound, target, activity, type and unit values that were most likely reported as citations of measurements from previous papers, even when these measurements were subsequently rounded. The latter cases consist of otherwise identical entries whose activity values differ by exactly 3 or 6 orders of magnitude indicating a likely error in the units \(e.g. uM instead of nM\).
 
+### **Can you provide more details on the activity comments?**
+
+Activity comments may provide the overall activity conclusions from the data depositor \(e.g. toxic, non-toxic, active, inactive\) after taking into account other factors such as counter screens. This can explain cases where compounds with apparently potent activities are flagged as inactive/inconclusive. For details on the criteria used to generate the activity conclusions, please refer to the original assay source.  
+  
+Numerical values in the activity comments field are typically Binding DB identifiers that can be used to link the two databases.
+
+### **How can I find the binding site of my compound?**
+
+We annotate binding site information in two different ways:
+
+1\) For drugs and clinical candidates, where the target is a protein complex and we know which subunit\(s\) the drug binds to, we indicate this by including a site\_id in the drug\_mechanism table. This information can be viewed on the ChEMBL interface through the Drug Mechanisms view where the data is found in the Binding\_site\_name and Binding\_site\_comment fields.
+
+2\) For assay/bioactivity data, we have an algorithm that attempts to predict the most likely binding-domain of the protein target \(based on the domain structure of the protein and a list of all curated known small molecule binding domains\). This algorithm is only applied to a subset of the &gt; 15 million bioactivity records - binding or functional assays with a single protein or protein complex targets and dose-response measurements - and is not able to make an unambiguous prediction in all cases. There are around 650 K activity measurements with a predicted domain in the predicted\_binding\_domains table. 
+
+### **How can I find the Pfam domains for my target?**
+
+Pfam-A domains can be found in the domains table and can be viewed in the Domain Cross References section of the target report card on the ChEMBL interface.
+
+### **How can I interconvert PubChem and ChEMBL\_IDs?**
+
+1\) [UniChem](https://www.ebi.ac.uk/unichem/) can be used to map between 2 sets of identifiers. 
+
+The [source mapping tables](ftp://ftp.ebi.ac.uk/pub/databases/chembl/UniChem/data/wholeSourceMapping/) are on the FTP website and include a ChEMBL\_ID to PubChem\_ID mapping table \(source mapping table for src1 to src22\). REST API access to the [UniChem webservices](https://www.ebi.ac.uk/unichem/info/webservices) is also available.
+
+2\) In the ChEMBL database, identifiers may be found in the compound\_records table \(as the compound\_key\).
+
+### **Can you provide more details on the chirality flag?**
+
+The chirality flag shows whether a drug is dosed as a racemic mixture \(0\), single stereoisomer \(1\) or as an achiral molecule \(2\), for unchecked compounds the chirality flag = -1. This information is curated for drugs and clinical candidates.
+
+### **What does the target relationship\_type flag mean?**
+
+The relationship\_type flag provides the relation between the reported target in the source document and the assigned target.  
+  
+D          Direct protein target assigned  
+H          Homologous protein target assigned  
+M         Molecular target other than protein assigned  
+N          Non-molecular target assigned  
+S          Subcellular target assigned  
+U          Default value - Target has yet to be curated
+
+### **What information is available on withdrawn drugs?**
+
+In the database, information on withdrawn drugs can be found in the molecule\_dictionary table \(withdrawn\_flag, withdrawn\_year, withdrawn\_country, withdrawn\_reason, withdrawn\_class\). On the interface, these fields are available as filters for compounds/drugs. Further details can also be found in this [Blog post](%20http://chembl.blogspot.com/2018/06/withdrawn-drugs.html).
+
+### **Why is a mechanism for my compound shown on the interface but not in the downloaded database?**
+
+CHEMBL compounds can be found as alternative forms \(e.g. salts, hydrates, isotopes\). On the ChEMBL interface, we typically map mechanisms to the parent compound. In the mechanisms table, mechanisms are mapped to the approved drug form \(may be a parent or salt\). Alternative forms can be linked through the molecule\_hierarchy table to retrieve a mechanism mapped to any member of a compound family.
+
+### **How can I find Entrez\_IDs for my ChEMBL targets?**
+
+UniProt accessions are the main identifier for protein targets. These can be mapped to Entrez IDs using the [UniProt mapping tool](https://www.uniprot.org/uploadlists/).  ChEMBL protein targets may be a single protein \(with a single accession\) or a protein complex, protein family \(with more than one associated accession\).
+

@@ -60,6 +60,14 @@ ChEMBLIDs are assigned to targets, assays, documents, tissues, cell types and co
 
 ChEMBL\_14 is an earlier release of the data, with ChEMBL\_15 being an updated version. Subsequent updates will have consecutive numbers, so the one with the highest number will be the most recent full version of the data.
 
+## **Where can I find more details on the target prediction?**
+
+More details can be found in this [Blog post](https://chembl.blogspot.com/2020/01/new-chembl-ligand-based-target.html).
+
+## **Where can I find more details on the assay classification?**
+
+More details can be found in this [Blog post](https://chembl.blogspot.com/2018/10/annotation-of-in-vivo-pharmacology.html).
+
 ## How do you use the Web Services?
 
 Web Service documentation and example queries can be found at: [https://www.ebi.ac.uk/chembl/ws](https://www.ebi.ac.uk/chembl/ws)
