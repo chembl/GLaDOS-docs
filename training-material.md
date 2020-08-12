@@ -2,7 +2,7 @@
 
 See below some useful links to the training material for the ChEMBL services.
 
-## ChEMBL Quick Tour:
+## ChEMBL Quick Tour
 
 {% embed url="https://www.ebi.ac.uk/training-beta/online/courses/chembl-quick-tour/" %}
 
