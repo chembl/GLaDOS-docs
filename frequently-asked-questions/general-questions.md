@@ -62,7 +62,7 @@ ChEMBL\_14 is an earlier release of the data, with ChEMBL\_15 being an updated v
 
 ## **Where can I find more details on the target prediction?**
 
-More details can be found in this [Blog post](https://chembl.blogspot.com/2020/01/new-chembl-ligand-based-target.html).
+More details can be found in this [Blog post](https://chembl.blogspot.com/2020/01/new-chembl-ligand-based-target.html). Target predictions can be found on the interface and predictions can be run using this [Docker image](https://hub.docker.com/repository/docker/chembl/mcp). 
 
 ## **Where can I find more details on the assay classification?**
 

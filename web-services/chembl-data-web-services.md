@@ -49,7 +49,6 @@ The following table provides a list of all ChEMBL web service resources currentl
 | Status | API status with chembl DB version number and API software version number | [https://www.ebi.ac.uk/chembl/api/data/status](https://www.ebi.ac.uk/chembl/api/data/status) |
 | Target | Targets \(protein and non-protein\) defined in Assay | [https://www.ebi.ac.uk/chembl/api/data/target](https://www.ebi.ac.uk/chembl/api/data/target) |
 | Target Component | Target sequence information \(A Target may have 1 or more sequences\) | [https://www.ebi.ac.uk/chembl/api/data/target\_component](https://www.ebi.ac.uk/chembl/api/data/target_component) |
-| Target Prediction | Predictied binding of a molecule to a given biological target | [https://www.ebi.ac.uk/chembl/api/data/target\_prediction](https://www.ebi.ac.uk/chembl/api/data/target_prediction) |
 | Target Relation | Describes relations between targets | [https://www.ebi.ac.uk/chembl/api/data/target\_relation](https://www.ebi.ac.uk/chembl/api/data/target_relation) |
 | Tissue | Tissue classification | [https://www.ebi.ac.uk/chembl/api/data/tissue](https://www.ebi.ac.uk/chembl/api/data/tissue) |
 
