@@ -4,7 +4,7 @@
 
 | Name | Current Release | Last Update | Description |
 | :--- | :--- | :--- | :--- |
-| [ChEMBLdb](https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/latest/) | 28 | Feb 2021 | ChEMBL Database downloads, which includes Oracle, MySQL and PostgreSQL versions of the ChEMBL database, as well as SDF, FASTA and release note files. Main website link [here](https://www.ebi.ac.uk/chembl/). |
+| [ChEMBLdb](https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/latest/) | 29 | July 2021 | ChEMBL Database downloads, which includes Oracle, MySQL and PostgreSQL versions of the ChEMBL database, as well as SDF, FASTA and release note files. Main website link [here](https://www.ebi.ac.uk/chembl/). |
 | [SureChEMBL](https://ftp.ebi.ac.uk/pub/databases/chembl/SureChEMBL/data/) | Q1 2019 | Q1 2019 | SureChEMBL quarterly compound exports and map files \(see also [here](http://chembl.blogspot.co.uk/2015/08/accessing-surechembl-data-in-bulk.html)\). Main website link [here](https://www.surechembl.org/). |
 | [UniChem](https://ftp.ebi.ac.uk/pub/databases/chembl/UniChem/) | UDRI186 | 17-JUN-2018 | Data dumps from UniChem. Includes source maps, Oracle exports and KNIME protocols. Main website link here. Number of structures: 156144557 |
 | [ChEMBL-RDF](https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/latest/) | 28.0 | Feb 2021 | RDF Version of ChEMBL database. The file download format is turtle and the minor version number corresponds to changes in RDF format and not the underlying ChEMBL data. |
@@ -15,6 +15,7 @@ To reference a specific release of the ChEMBL Database, please use DOI in table 
 
 | Release | Date | Release DOI |
 | :--- | :--- | :--- |
+| CHEMBL29 | July 2021 | [10.6019/CHEMBL.database.29](http://doi.org/10.6019/CHEMBL.database.29) |
 | CHEMBL28 | Feb 2021 | [10.6019/CHEMBL.database.28](http://doi.org/10.6019/CHEMBL.database.28) |
 | CHEMBL27 | May 2020 | [10.6019/CHEMBL.database.27](http://doi.org/10.6019/CHEMBL.database.27) |
 | CHEMBL26 | March 2020 | [10.6019/CHEMBL.database.26](http://doi.org/10.6019/CHEMBL.database.26) |
@@ -52,6 +53,7 @@ To reference a specific release of the ChEMBL-RDF, please use DOI in table below
 
 | Release | Date | Release DOI |
 | :--- | :--- | :--- |
+| CHEMBL-RDF 29.0 | July 2021 | [10.6019/CHEMBL.RDF.29.0](http://doi.org/10.6019/CHEMBL.RDF.29.0) |
 | CHEMBL-RDF 28.0 | Feb 2021 | [10.6019/CHEMBL.RDF.28.0](http://doi.org/10.6019/CHEMBL.RDF.28.0) |
 | CHEMBL-RDF 27.0 | May 2020 | [10.6019/CHEMBL.RDF.27.0](http://doi.org/10.6019/CHEMBL.RDF.27.0) |
 | CHEMBL-RDF 26.0 | March 2020 | [10.6019/CHEMBL.RDF.26.0](http://doi.org/10.6019/CHEMBL.RDF.26.0) |
