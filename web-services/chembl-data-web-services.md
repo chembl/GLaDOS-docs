@@ -138,12 +138,11 @@ Searching with InChI key is only possible for InChI keys found in the ChEMBL dat
 The Image resource returns a graphical representation of a ChEMBL molecule. Unlike the other resources it does not except filtering and paging arguments, but does except image specific arguments. These are defined in the table below.\
 
 
-| Image Argument | Description                                            | Allowed Values  | Default Value                      | Example URL                                                                                                                                |
-| -------------- | ------------------------------------------------------ | --------------- | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| format         | Image format                                           | svg and json    | svg                                | [https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL25?format=svg](https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL25?format=svg)         |
-| dimensions     | Size of image in pixels                                | 1-500           | 500                                | [https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL25?dimensions=200](https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL25?dimensions=200) |
-| ignoreCoords   | Choose to use or ignore coordinates in ChEMBL molfiles | 1 or 0          | 0 (Use ChEMBL molfile coordinates) | [https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL25?ignoreCoords=1](https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL25?ignoreCoords=1) |
-| engine         | Chemical toolkit used to generate image                | rdkit or indigo | rdkit                              | [https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL25?engine=indigo](https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL25?engine=indigo)   |
+| Image Argument | Description                                            | Allowed Values | Default Value                      | Example URL                                                                                                                                |
+| -------------- | ------------------------------------------------------ | -------------- | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| format         | Image format                                           | svg and json   | svg                                | [https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL25?format=svg](https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL25?format=svg)         |
+| dimensions     | Size of image in pixels                                | 1-500          | 500                                | [https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL25?dimensions=200](https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL25?dimensions=200) |
+| ignoreCoords   | Choose to use or ignore coordinates in ChEMBL molfiles | 1 or 0         | 0 (Use ChEMBL molfile coordinates) | [https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL25?ignoreCoords=1](https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL25?ignoreCoords=1) |
 
 ## GET, POST and special characters
 
