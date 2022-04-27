@@ -61,7 +61,7 @@ These are formats currently supported by the API:
 
 **NOTE:** if both the extension and the format parameter are specified, the format parameter will take precedence
 
-For example this request [https://www.ebi.ac.uk/chembl/api/data/molecule<mark style="color:red;">**.yaml**</mark>?<mark style="color:green;">**format=json**</mark>](https://www.ebi.ac.uk/chembl/api/data/molecule.yaml?format=json)** **will return a JSON document
+For example this request [https://www.ebi.ac.uk/chembl/api/data/molecule<mark style="color:red;">**.yaml**</mark>?<mark style="color:green;">**format=json**</mark>](https://www.ebi.ac.uk/chembl/api/data/molecule.yaml?format=json) **** will return a JSON document
 
 | Format Name | Example URL                                                                                                                                                                                                                                                                                                                                                                                                                      | Comments                                       |
 | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
@@ -195,7 +195,7 @@ pip install chembl_webresource_client
 
 The client code is open and hosted on GitHub: [https://github.com/chembl/chembl\_webresource\_client](https://github.com/chembl/chembl\_webresource\_client).
 
-Binder juyter notebook with examples [available](http://beta.mybinder.org/v2/gh/chembl/chembl\_webresource\_client/master?filepath=demo\_wrc.ipynb).
+Jupyter notebook with examples [available.](https://github.com/chembl/notebooks/blob/main/ChEMBL\_webresource\_client\_examples.ipynb)
 
 
 
