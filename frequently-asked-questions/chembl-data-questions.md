@@ -171,7 +171,7 @@ The canonical SMILES are calculated using RDKit. The standard InChI is calculate
 
 ### How is the LogP calculated?
 
-The LogP, and other compound properties are calculated according to the following document: [Property\_Definitions](https://www.dropbox.com/s/mixm4cn5x7azmg4/property\_definitions.docx?dl=0). Please note, we are now using RDKit to calculate many of these properties.
+The LogP, and other compound properties are calculated using RDKit.
 
 ### How can I be informed of updates in ChEMBL?
 
