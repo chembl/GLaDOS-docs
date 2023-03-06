@@ -189,7 +189,9 @@ In PubChem, depositors may assign multiple result types to an assay. However, if
 
 ## What data sources are stored in ChEMBLdb?
 
-ChEMBL consists of data from a wide variety of data sources including scientific literature and patents, deposited data sets, PubChem BioAssay and BindingDB databases, toxicology data sets and drug/clinical candidate resources. The current list of sources is:
+ChEMBL consists of data from a wide variety of data sources including scientific literature and patents, deposited data sets, PubChem BioAssay and BindingDB databases, toxicology data sets and drug/clinical candidate resources. \
+\
+As of ChEMBL32, The current list of sources is:
 
 1. Scientific Literature&#x20;
 2. GSK Malaria Screening&#x20;
@@ -235,6 +237,14 @@ ChEMBL consists of data from a wide variety of data sources including scientific
 42. HESi
 43. Winzeler\_Antonova\_Plasmodium
 44. SARS-CoV-2 Screening Data
+45. Prodrug active ingredients&#x20;
+46. Donated Chemical Probes - SGC Frankfurt&#x20;
+47. EUbOPEN Chemogenomic Library&#x20;
+48. Salvensis and LSHTM Schistosomiasis screening data&#x20;
+49. IMI-CARE SARS-CoV-2 Data&#x20;
+50. Fraunhofer HDAC6&#x20;
+51. MMV Malaria HGL&#x20;
+52. Dundee\_UTSA\_C\_Auris
 
 ### Can you provide some details on how ChEMBL compound properties (e.g. LogP, MW, PSA,..) are calculated?
 
