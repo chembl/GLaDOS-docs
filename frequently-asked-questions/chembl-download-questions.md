@@ -2,7 +2,7 @@
 
 ## Is there a file that I can download from the FTP site that contains ALL of the bioactivity data?
 
-MySQL, PostgreSQL and SQLite dumps provide all data in ChEMBL. Please not that PostgreSQL and MySQL dumps requires the user to install a database instance.
+MySQL, PostgreSQL and SQLite dumps provide all data in ChEMBL. Please note that PostgreSQL and MySQL dumps requires the user to install a database instance.
 
 ## Can I download an SDFile of compounds and associated bioactivity from the interface?
 
