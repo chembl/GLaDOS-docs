@@ -4,9 +4,7 @@
 
 A PNG of the schema relationships can be found on the FTP site in the latest release directory: [ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/latest](ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/latest)
 
-## Where can I get more information about the new classifications of target types in ChEMBL\_15?
-
-This can be found in the following slides \(Current for ChEMBL\_15\): [Target Types](https://www.dropbox.com/s/4v8wmffpum1b7jg/target_types.pptx?m)
+It is also possible to view an interactive schema diagram on the ChEMBL interface: [https://www.ebi.ac.uk/chembl/db\_schema](https://www.ebi.ac.uk/chembl/db\_schema)
 
 ## Retrieve all the bioactivity data for bacterial targets:
 
@@ -191,6 +189,8 @@ FROM compound_structures s
 
 ## Retrieve compound activity details for a target:
 
+UPDATE JOIN ON
+
 ```sql
  -- Target is Human PDE5 (CHEMBL1827) 
 SELECT m.chembl_id AS compound_chembl_id,   
@@ -237,4 +237,3 @@ FROM activities act
   JOIN source src ON src.src_id = cr.src_id
     AND src.src_id = '7';
 ```
-
