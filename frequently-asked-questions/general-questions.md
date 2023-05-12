@@ -4,9 +4,13 @@
 
 The data is updated regularly, with releases approximately 2-3 times a year.
 
-### What is the ChEMBLID?
+### What is the ChEMBLID and why do both Assays and Documents have ChEMBLIDs?
 
 The ChEMBLID is a unique ID that has been assigned to compounds, targets, assays, documents, tissues and cell types in ChEMBL. It can be used to retrieve a Report Card page for these entities, or to search for them using the keyword search.
+
+### What is the difference between Molregno and ChEMBLID?
+
+Molregno is our ChEMBL internal identification given to each compound. The ChEMBLID is the externally viewed identification for each compound.
 
 ### **How can I interconvert PubChem and ChEMBL\_IDs?**
 
@@ -65,10 +69,6 @@ DOI: [10.1093/bioinformatics/btt765](http://dx.doi.org/10.1093/bioinformatics/bt
 1. We have a dedicated email address for data queries, error reporting or help requests. This is: [chembl-help@ebi.ac.uk](mailto:chembl-help@ebi.ac.uk)
 2. You can [create an issue](https://github.com/chembl/GLaDOS/issues/new) in our [GitHub Repository](https://github.com/chembl/GLaDOS) to report issues with the interface only.
 
-### What is the difference between Molregno and ChEMBLID?
-
-Molregno is our ChEMBL internal identification given to each compound. The ChEMBLID is the externally viewed identification for each compound.
-
 ### What is the best way to access large amounts of data in ChEMBL?
 
 The best way to access large amounts of data is to install a database instance on your own computer using MySQL.
@@ -76,10 +76,6 @@ The best way to access large amounts of data is to install a database instance o
 ### Is there a ChEMBL RDF?
 
 Yes, there is a ChEMBL RDF. It is stored on the FTP site.
-
-### Why do Assays and Documents both have ChEMBLIDs?
-
-ChEMBLIDs are assigned to targets, assays, documents, tissues, cell types and compounds in ChEMBL and they are used as the unique identifiers for each.
 
 ### What is the difference between the different releases of ChEMBL, e.g. ChEMBL\_14 and ChEMBL\_15?
 
@@ -90,14 +86,6 @@ ChEMBL\_14 is an earlier release of the data, with ChEMBL\_15 being an updated v
 [ChEMBL](https://www.ebi.ac.uk/chembl/beta/) is a database of bioactive drug-like small molecules, it contains 2-D structures, calculated properties (e.g. logP, Molecular Weight, Lipinski Parameters, etc.) and abstracted bioactivities (e.g. binding constants, pharmacology and ADMET data). We attempt to normalise the bioactivities into a uniform set of end-points and units where possible, and also to tag the links between a molecular target and a published assay with a set of varying confidence levels. The data is abstracted and curated from the primary scientific literature, and cover a significant fraction of the SAR and discovery of modern drugs.
 
 [ChEMBL-NTD](https://chembl.gitbook.io/chembl-ntd/) is a repository for Open Access primary screening and medicinal chemistry data directed at neglected diseases - endemic tropical diseases of the developing regions of the Africa, Asia, and the Americas. The primary purpose of ChEMBL-NTD is to provide a freely accessible and permanent archive and distribution centre for deposited data. ChEMBL-NTD is a subset of the data in the free medicinal chemistry and drug discovery database ChEMBLdb.
-
-### Can you provide more details on how to detect potentially duplicated data?
-
-We detect and flag duplicated activity entries and potential transcription errors in activity records that come from publications. The former are records with identical compound, target, activity, type and unit values that were most likely reported as citations of measurements from previous papers, even when these measurements were subsequently rounded. The latter cases consist of otherwise identical entries whose activity values differ by exactly 3 or 6 orders of magnitude indicating a likely error in the units (e.g. uM instead of nM).
-
-### **Where can I find more details on the assay classification?**
-
-More details can be found in this [Blog post](https://chembl.blogspot.com/2018/10/annotation-of-in-vivo-pharmacology.html).
 
 ### How do you use the Web Services?
 

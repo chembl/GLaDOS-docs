@@ -29,7 +29,7 @@ As part of the manual curation process applied to the data we assign a confidenc
 | 8                 | Homologous single protein target assigned               |
 | 9                 | Direct single protein target assigned                   |
 
-### Is there a list of all the Activity Types or Target Types in ChEMBL?&#x20;
+### Is there a list of all the Activity Types in ChEMBL?&#x20;
 
 No, we do not keep a list of activity or target types but we are happy to create such a list as and when a user would require it.&#x20;
 
@@ -77,6 +77,8 @@ The Data Validity column has been added to the interface and to the database (in
 * Non standard unit for type
 * Author confirmed error
 
+More details on Data Checks can be found in this [Blog](http://chembl.blogspot.com/2020/10/data-checks.html) post.
+
 ### Can you provide more details on bioactivity data standardisation?
 
 In addition to the conversion of published activity types/values/units to standard activity types/values/units, described in previous releases, a number of further enhancements have been made to the data in the activities table:
@@ -93,3 +95,15 @@ An additional table (ACTIVITY\_STDS\_LOOKUP) has been included in this release, 
 Activity comments may provide the overall activity conclusions from the data depositor (e.g. toxic, non-toxic, active, inactive) after taking into account other factors such as counter screens. This can explain cases where compounds with apparently potent activities are flagged as inactive/inconclusive. For details on the criteria used to generate the activity conclusions, please refer to the original assay source.\
 \
 Numerical values in the activity comments field are typically Binding DB identifiers that can be used to link the two databases.
+
+More details can be found in this [Blog](http://chembl.blogspot.com/2020/08/using-chembl-activity-comments.html) post.
+
+### **Where can I find more details on the assay classification?**
+
+More details can be found in this [Blog post](https://chembl.blogspot.com/2018/10/annotation-of-in-vivo-pharmacology.html).
+
+### Can you provide more details on how to detect potentially duplicated data?
+
+We detect and flag duplicated activity entries and potential transcription errors in activity records that come from publications. The former are records with identical compound, target, activity, type and unit values that were most likely reported as citations of measurements from previous papers, even when these measurements were subsequently rounded. The latter cases consist of otherwise identical entries whose activity values differ by exactly 3 or 6 orders of magnitude indicating a likely error in the units (e.g. uM instead of nM).
+
+You can find some details on Data Checks in this [Blog](http://chembl.blogspot.com/2020/10/data-checks.html) post.

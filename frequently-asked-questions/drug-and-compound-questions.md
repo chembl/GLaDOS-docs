@@ -18,7 +18,7 @@ By contrast, the 'max\_phase\_for\_ind' field in the 'drug\_indication' table in
 
 ### **What information is available on withdrawn drugs?**
 
-In the database, information on withdrawn drugs can be found in the molecule\_dictionary table (withdrawn\_flag, withdrawn\_year, withdrawn\_country, withdrawn\_reason, withdrawn\_class). On the interface, these fields are available as filters for compounds/drugs. Further details can also be found in this [Blog post](http://chembl.blogspot.com/2018/06/withdrawn-drugs.html).
+In the database, information on withdrawn drugs can be found in the drug\_warning table. On the interface, these fields are available as filters for compounds/drugs. Further details can also be found in this [Blog post](http://chembl.blogspot.com/2018/06/withdrawn-drugs.html).
 
 ### **Can you provide more details on the chirality flag?**
 
@@ -42,10 +42,8 @@ Property Definitions
 
 The canonical SMILES are calculated using RDKit. The standard InChI is calculated using the command line InChI generator and was developed by the InChI Trust ([http://www.inchi-trust.org/inchi/](http://www.inchi-trust.org/inchi/)) and is executed via the command line. The version of InChI used in ChEMBL is 1.06
 
-### How is the LogP calculated?
-
-The LogP, and other compound properties are calculated using RDKit.
-
 ### **Why is a mechanism for my compound shown on the interface but not in the downloaded database?**
 
 ChEMBL compounds can be found as alternative forms (e.g. salts, hydrates, isotopes). On the ChEMBL interface, we typically map mechanisms to the parent compound. In the mechanisms table, mechanisms are mapped to the approved drug form (may be a parent or salt). Alternative forms can be linked through the molecule\_hierarchy table to retrieve a mechanism mapped to any member of a compound family.
+
+More details can be found in this [Blog](http://chembl.blogspot.com/2020/09/molecule-hierarchy.html) post.

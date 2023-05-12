@@ -189,8 +189,6 @@ FROM compound_structures s
 
 ## Retrieve compound activity details for a target:
 
-UPDATE JOIN ON
-
 ```sql
  -- Target is Human PDE5 (CHEMBL1827) 
 SELECT m.chembl_id AS compound_chembl_id,   
@@ -202,20 +200,14 @@ act.standard_relation,
 act.standard_value,   
 act.standard_units,   
 act.activity_comment 
-FROM compound_structures s,   
-molecule_dictionary m,   
-compound_records r,   
-docs d,   
-activities act,   
-assays a,   
-target_dictionary t 
-WHERE s.molregno (+) = m.molregno 
-AND m.molregno       = r.molregno 
-AND r.record_id      = act.record_id 
-AND r.doc_id         = d.doc_id 
-AND act.assay_id     = a.assay_id 
-AND a.tid            = t.tid 
-AND t.chembl_id      = 'CHEMBL1827';
+FROM chembl.compound_structures s
+ RIGHT JOIN chembl.molecule_dictionary m on s.molregno = m.molregno 
+ JOIN chembl.compound_records r on m.molregno = r.molregno  
+ JOIN chembl.docs d on r.doc_id = d.doc_id 
+ JOIN chembl.activities act on r.record_id = act.record_id
+ JOIN chembl.assays a on act.assay_id = a.assay_id 
+ JOIN chembl.target_dictionary t on a.tid = t.tid 
+AND t.chembl_id = 'CHEMBL1827';
 ```
 
 ## Can you show me how to use SQL to only extract the PubChem data from ChEMBL?
