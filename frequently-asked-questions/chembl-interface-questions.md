@@ -99,6 +99,10 @@ curl -XGET "https://www.ebi.ac.uk/chembl/glados-es/chembl_24_1_target/_search" -
 }'
 ```
 
+##
+
+##
+
 ## Browsing Related Entities
 
 ### After doing a search I obtain X compounds, how can I get counts for the total number of bioactivities?
@@ -171,7 +175,15 @@ You can also browse other entities, you just have to click on the ellipsis next 
 
 ![](../.gitbook/assets/screen-shot-2018-08-09-at-16.21.40.png)
 
+##
+
+
+
 ## Query Questions
+
+### **How can I extract patent data from ChEMBL?**
+
+Selected patent data is available in ChEMBL under SRC\_ID 38, details on the selection of patents can be found in this [publication](https://pubmed.ncbi.nlm.nih.gov/37151295/). Patent data from Binding DB is included under SRC\_ID 37.
 
 ### I am seeing a list of compounds (or targets, assays, etc...), how can I see the query used?
 
@@ -321,3 +333,11 @@ Yes, using the Advanced Search function.  Below there are some files with molecu
 5 molecule ChEMBL IDs in CSV format (separated by new lines)
 
 {% file src="../.gitbook/assets/5_molecule_chembl_ids.csv" %}
+
+### How do I perform a document similarity search?
+
+More details can be found in this [Blog post](https://chembl.blogspot.com/2013/09/document-similarity-in-chembl.html).&#x20;
+
+We also have an API endpoint:
+
+[https://www.ebi.ac.uk/chembl/api/data/document\_similarity](https://www.ebi.ac.uk/chembl/api/data/document\_similarity)

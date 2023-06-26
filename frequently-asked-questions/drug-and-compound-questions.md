@@ -66,7 +66,7 @@ UniChem ([https://www.ebi.ac.uk/unichem/](https://www.ebi.ac.uk/unichem/)) can b
 
 Since ChEMBL version 26, the similarity search is run with FPSim2, using 2048 bit, radius 2 RDKit calculated Morgan fingerprints.
 
-The FPSim2 file in the main release downloads folder here: [https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/latest/chembl\_32.h5](https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/latest/chembl\_32.h5)
+The FPSim2 file in the main release downloads folder here: [https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/latest/](https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/latest/) by clicking on the link for chembl\_XX.h5.
 
 We also have some background information in this [Blog post](http://chembl.blogspot.com/2019/01/fpsim2-simple-python3-molecular.html) - and some documentation on the similarity search can be found on [GitHub](https://github.com/chembl/FPSim2).
 
