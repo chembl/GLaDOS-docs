@@ -61,3 +61,35 @@ This difference is due to the fact that some compounds are 'virtual parents' and
 ### How can I cross-reference ChEMBL compounds across databases?
 
 UniChem ([https://www.ebi.ac.uk/unichem/](https://www.ebi.ac.uk/unichem/)) can be used to map between 2 sets of identifiers. UniChem sources are listed [here](https://www.ebi.ac.uk/unichem/sources) and the WholeSourceMapping Table is [here](dir:https://ftp.ebi.ac.uk/pub/databases/chembl/UniChem/data/wholeSourceMapping/). There is also REST API access to the UniChem webservices and an accompanying [webinar](https://www.youtube.com/watch?v=6GOU\_7Doajw).&#x20;
+
+### **What are the parameters for the similarity search?**
+
+Since ChEMBL version 26, the similarity search is run with FPSim2, using 2048 bit, radius 2 RDKit calculated Morgan fingerprints.
+
+The FPSim2 file in the main release downloads folder here: [https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/latest/chembl\_32.h5](https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/latest/chembl\_32.h5)
+
+We also have some background information in this [Blog post](http://chembl.blogspot.com/2019/01/fpsim2-simple-python3-molecular.html) - and some documentation on the similarity search can be found on [GitHub](https://github.com/chembl/FPSim2).
+
+The similarity searches are run against the parent structures and running a similarity search using, for example, aspirin smiles ([https://www.ebi.ac.uk/chembl/g/#similarity\_search\_results/CC(%3DO)Oc1ccccc1C(%3DO)O/95)](https://www.ebi.ac.uk/chembl/g/#similarity\_search\_results/CC\(=O\)Oc1ccccc1C\(=O\)O/95\)) will return 3 compounds with a 100% of similarity. The two additional compounds are salt forms of aspirin.&#x20;
+
+It’s possible to perform structure similarity searches using the ChEMBL interface or the API endpoint.
+
+### **Does ChEMBL contain agrochemical data?**
+
+Agrochemicals are classified within ChEMBL using the IRAC, FRAC and HRAC classifications.&#x20;
+
+It’s also possible to use keywords on the interface to search assay descriptions for herbicidal, fungicidal and/or insecticidal assays. Alternatively, bespoke SQL queries using regular expressions (e.g. regexp\_like (description, '(h|H)erbicid(e|al) activity|Phytotoxic(|ity)|Antialgal activity')) can be constructed to search assay descriptions using a local version of the database. The target dictionary contains details of plant, insect and fungal targets within ChEMBL and can be used as a starting point to identify compounds with activity against these targets.
+
+### **Why is the substructure search failing with my molecule?**
+
+The substructure search is challenging for low complexity molecules (and sometimes can’t be executed in a reasonable time). The substructure search works well with more complex molecules such as rifampin. We’re working on improving this feature but unfortunately don’t have a workaround for this at the moment.
+
+In searches for compounds containing simple functional groups e.g. nitrile, another possibility is to mine the SMILES information.
+
+### **I'm searching ChEMBL by InChi key but no compounds are returned, why is this?**
+
+Unfortunately, if the InChi key search does not return results it means that we do not have that molecule registered in ChEMBL. However, if you have a smiles or a mol-file then it is possible to run a structure flexmatch search on our web interface.&#x20;
+
+The 'Draw a structure' search functionality will open an editor where you can paste a smiles or a molfile, and create/edit a molecule for your search. There are 3 types of search. Connectivity (similar to exact match but it does not consider stereochemistry, isotopes etc.), similarity, and substructure.&#x20;
+
+For InChi keys that are not present in ChEMBL, [UniChem](https://www.ebi.ac.uk/unichem/) can be used to search other chemistry databases where they might be present.

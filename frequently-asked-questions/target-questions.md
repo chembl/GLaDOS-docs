@@ -67,3 +67,21 @@ Mutant targets may be associated with with drug resistance or disease but may al
 
 The variant\_sequences table is not linked to the component sequences table. It’s possible that two assays, one describing a variant and one describing a wild-type protein, may refer to the same protein target (and share a ChEMBL target ID), but provide different accessions. We keep both accessions in case a slightly different sequence was used as the reference to generate the variant numbering in the corresponding assay.
 
+
+
+### **How are isoforms treated by ChEMBL?**
+
+In ChEMBL, we map isoforms to the primary UniProt accession. Sometimes researchers test different isoforms in separate experiments and in these cases one assay is recorded per isoform. The isoform details are recorded in the assay descriptions.&#x20;
+
+For example:
+
+Assay CHEMBL672502 Binding affinity against Dopamine receptor D2L&#x20;
+
+Assay CHEMBL670556 Binding Affinity of Compound of Dopamine receptor D2S
+
+### **Is 'fuzzy' target matching available via the API?**
+
+Although ‘fuzzy’ matching is available though the UI, unfortunately, we don’t have any fuzzy API support at the moment. However, there is the option to use regular expressions - &#x20;
+
+e.g. [https://www.ebi.ac.uk/chembl/api/data/target?pref\_name\_\_iregex=cdk1|cdk2](https://www.ebi.ac.uk/chembl/api/data/target?pref\_name\_\_iregex=cdk1|cdk2)
+

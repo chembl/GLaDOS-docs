@@ -153,6 +153,24 @@ ChEMBL consists of data from a wide variety of data sources including scientific
 | MMV Malaria HGL                                                  |     60    |
 | International Nonproprietary Names                               |     63    |
 
+### Can I purchase compounds from ChEMBL?
+
+ChEMBL is a database of bioactivity data and we do not supply compounds.
+
+However, you can use the cross-references on the compound report cards to view commercial chemical providers.
+
+### Can you provide more details on licensing?
+
+The ChEMBL database is licensed under a Creative Commons Attribution-Share Alike 3.0 Unported License ([https://creativecommons.org/licenses/by-sa/3.0/](https://creativecommons.org/licenses/by-sa/3.0/)). This allows use, redistribution and adaption of ChEMBL as long as appropriate attribution is given (e.g., cite the current [ChEMBL paper:](https://europepmc.org/article/MED/30398643)) and ensure that any adaptations are redistributed under the same license.
+
+### Can you provide more details on ChEMBL releases?
+
+Each new ChEMBL release includes literature data from the previous 12-18 months. The precise cutoff point for extraction of literature data varies slightly between ChEMBL releases and for different journals. Occasionally, selected articles are added to ChEMBL at a later date, therefore the ChEMBL version and publication dates are not always associated. A new release may also contain new data for existing compounds.
+
+ChEMBL provide periodic updates to the database that include new data, corrections, additional curation and new features. Subsequent updates will have consecutive numbers, so the version with the highest number will be the most recent full version of the data. Version information is found in the VERSION table.
+
+The API and interface will always reflect the data in the current release and can not currently be used to extract data from previous versions. However, old data dumps remain available for download and can be queried using a database tool and the SQL language to obtain version-specific data.
+
 ## Useful Links
 
 Links to webinar slides and PDFs:
