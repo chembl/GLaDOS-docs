@@ -34,3 +34,36 @@ U          Default value - Target has yet to be curated
 ### **How can I find Entrez\_IDs for my ChEMBL targets?**
 
 UniProt accessions are the main identifier for protein targets. These can be mapped to Entrez IDs using the [UniProt mapping tool](https://www.uniprot.org/uploadlists/).  ChEMBL protein targets may be a single protein (with a single accession) or a protein complex, protein family (with more than one associated accession).
+
+### **My protein isn't in ChEMBL, how can I find similar proteins?**
+
+It’s possible to search ChEMBL for similar proteins using the EBI-wide BLAST search tool through the ChEMBL interface.
+
+On the ChEMBL homepage, click on 'Advanced Search’ and select ‘Biological Sequence’ and then input your target protein. Similar proteins will be returned alongside the E-value.
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-14 at 09.38.43.png" alt=""><figcaption></figcaption></figure>
+
+We don’t currently have an API endpoint for the protein similarity searches but all target protein sequences are provided in the component\_sequences table and can be extracted for further analyses.
+
+### Can you provide more details on the target relationship mapping?
+
+This is based on both the target\_type and the component\_type (to deal with RNA targets) and is shown below.
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-14 at 10.15.24.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-14 at 10.18.33.png" alt=""><figcaption></figcaption></figure>
+
+### How does ChEMBL treat protein variants?
+
+We map proteins to UniProt accessions and parent and variant proteins will have the same target ChEMBL\_ID. Variants are also mapped to a variant\_ID that distinguishes these from the wild-type protein (where the variant\_ID is null).
+
+Variants may contain single or multiple mutations which include defined (e.g. single amino acid changes) or undefined (e.g. ‘deletion mutants’, mapped to variant\_ID -1) changes. The variant sequences table contains details of mutated residues and the sequence.
+
+Variant information is also available through the ChEMBL interface and can be viewed when browsing assays by adding additional columns (variant\_sequence\_accession and variant\_sequence\_mutation) and though web services (https://www.ebi.ac.uk/chembl/api/data/assay.json?variant\_sequence\_\_isnull=false). The variant\_ID can be used to exclude or include protein variants when extracting bioactivity data.
+
+Mutant targets may be associated with with drug resistance or disease but may also include some engineered mutations (users need to review the assay description or references to interpret the data).
+
+### ...and why is there no referential integrity between the variant\_sequences table and component\_sequences table?
+
+The variant\_sequences table is not linked to the component sequences table. It’s possible that two assays, one describing a variant and one describing a wild-type protein, may refer to the same protein target (and share a ChEMBL target ID), but provide different accessions. We keep both accessions in case a slightly different sequence was used as the reference to generate the variant numbering in the corresponding assay.
+

@@ -11,6 +11,7 @@
   * [Assay and Activity Questions](frequently-asked-questions/chembl-data-questions.md)
   * [Drug and Compound Questions](frequently-asked-questions/drug-and-compound-questions.md)
   * [Target Questions](frequently-asked-questions/target-questions.md)
+  * [Document and data source questions](frequently-asked-questions/document-and-data-source-questions.md)
   * [Interface Questions](frequently-asked-questions/chembl-interface-questions.md)
   * [Download Questions](frequently-asked-questions/chembl-download-questions.md)
   * [Schema Questions and SQL Examples](frequently-asked-questions/schema-questions-and-sql-examples.md)

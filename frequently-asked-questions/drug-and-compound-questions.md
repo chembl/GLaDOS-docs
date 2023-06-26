@@ -47,3 +47,17 @@ The canonical SMILES are calculated using RDKit. The standard InChI is calculate
 ChEMBL compounds can be found as alternative forms (e.g. salts, hydrates, isotopes). On the ChEMBL interface, we typically map mechanisms to the parent compound. In the mechanisms table, mechanisms are mapped to the approved drug form (may be a parent or salt). Alternative forms can be linked through the molecule\_hierarchy table to retrieve a mechanism mapped to any member of a compound family.
 
 More details can be found in this [Blog](http://chembl.blogspot.com/2020/09/molecule-hierarchy.html) post.
+
+### How does the molecule hierarchy work?
+
+ChEMBL uses the concept of compound 'families' so that each molecule (typically a salt) has a parent compound, and all the compounds in the family can be considered to have the same bioactivity.&#x20;
+
+Alternative forms of a compound (e.g. different salts, isotopes) can be viewed on the interface and activity data from alternative forms can be included or excluded using the ‘Exclude/include alternative forms’ button (see screenshot). The molecule form API endpoint or molecule\_hierarchy table can be used to gather more information about all the salts of a given parent or salt.
+
+### ...and why is the molecule hierarchy null for some compounds?
+
+This difference is due to the fact that some compounds are 'virtual parents' and we do not have records of documents nor activities related with this compound itself but only for a salt of it (e.g. CHEMBL1207557).&#x20;
+
+### How can I cross-reference ChEMBL compounds across databases?
+
+UniChem ([https://www.ebi.ac.uk/unichem/](https://www.ebi.ac.uk/unichem/)) can be used to map between 2 sets of identifiers. UniChem sources are listed [here](https://www.ebi.ac.uk/unichem/sources) and the WholeSourceMapping Table is [here](dir:https://ftp.ebi.ac.uk/pub/databases/chembl/UniChem/data/wholeSourceMapping/). There is also REST API access to the UniChem webservices and an accompanying [webinar](https://www.youtube.com/watch?v=6GOU\_7Doajw).&#x20;
