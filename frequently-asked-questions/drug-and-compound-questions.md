@@ -70,7 +70,7 @@ The FPSim2 file in the main release downloads folder here: [https://ftp.ebi.ac.u
 
 We also have some background information in this [Blog post](http://chembl.blogspot.com/2019/01/fpsim2-simple-python3-molecular.html) - and some documentation on the similarity search can be found on [GitHub](https://github.com/chembl/FPSim2).
 
-The similarity searches are run against the parent structures and running a similarity search using, for example, aspirin smiles ([https://www.ebi.ac.uk/chembl/g/#similarity\_search\_results/CC(%3DO)Oc1ccccc1C(%3DO)O/95)](https://www.ebi.ac.uk/chembl/g/#similarity\_search\_results/CC\(=O\)Oc1ccccc1C\(=O\)O/95\)) will return 3 compounds with a 100% of similarity. The two additional compounds are salt forms of aspirin.&#x20;
+The similarity searches are run against the parent structures and running a similarity search using, for example, aspirin smiles ([https://www.ebi.ac.uk/chembl/g/#similarity\_search\_results/CC(%3DO)Oc1ccccc1C(%3DO)O/95](https://www.ebi.ac.uk/chembl/g/#similarity\_search\_results/CC\(=O\)Oc1ccccc1C\(=O\)O/95)) will return 3 compounds with a 100% of similarity. The two additional compounds are salt forms of aspirin.&#x20;
 
 It’s possible to perform structure similarity searches using the ChEMBL interface or the API endpoint.
 

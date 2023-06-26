@@ -17,7 +17,17 @@ The published units are taken directly from the literature and we then attempt t
 
 As part of the manual curation process applied to the data we assign a confidence score to the assay-to-target relationships represented in the database. The confidence score value reflects both the type of target assigned to a particular assay and the confidence that the target assigned is the correct target for that assay. The confidence scores range from 0, for as yet uncurated data entries, to 9, where a single protein target has been assigned a high degree of confidence. Assays assigned a non-molecular target type, for example a cell-line or an organism, receive a confidence score of 1, while assays with assigned protein targets receive a confidence score of at least 4.
 
-<table data-header-hidden><thead><tr><th width="238">CONFIDENCE_SCORE</th><th>DESCRIPTION</th></tr></thead><tbody><tr><td>CONFIDENCE_SCORE</td><td>DESCRIPTION</td></tr><tr><td>0</td><td>Default value - Target assignment has yet to be curated</td></tr><tr><td>1</td><td>Target assigned is non-molecular</td></tr><tr><td>3</td><td>Target assigned is molecular non-protein target</td></tr><tr><td>4</td><td>Multiple homologous protein targets may be assigned</td></tr><tr><td>5</td><td>Multiple direct protein targets may be assigned</td></tr><tr><td>6</td><td>Homologous protein complex subunits assigned</td></tr><tr><td>7</td><td>Direct protein complex subunits assigned</td></tr><tr><td>8</td><td>Homologous single protein target assigned</td></tr><tr><td>9</td><td>Direct single protein target assigned</td></tr></tbody></table>
+| CONFIDENCE\_SCORE | DESCRIPTION                                             |
+| ----------------- | ------------------------------------------------------- |
+| 0                 | Default value - Target assignment has yet to be curated |
+| 1                 | Target assigned is non-molecular                        |
+| 3                 | Target assigned is molecular non-protein target         |
+| 4                 | Multiple homologous protein targets may be assigned     |
+| 5                 | Multiple direct protein targets may be assigned         |
+| 6                 | Homologous protein complex subunits assigned            |
+| 7                 | Direct protein complex subunits assigned                |
+| 8                 | Homologous single protein target assigned               |
+| 9                 | Direct single protein target assigned                   |
 
 ### Is there a list of all the Activity Types in ChEMBL?&#x20;
 
