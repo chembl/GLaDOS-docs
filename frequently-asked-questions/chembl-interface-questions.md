@@ -181,10 +181,6 @@ You can also browse other entities, you just have to click on the ellipsis next 
 
 ## Query Questions
 
-### **How can I extract patent data from ChEMBL?**
-
-Selected patent data is available in ChEMBL under SRC\_ID 38, details on the selection of patents can be found in this [publication](https://pubmed.ncbi.nlm.nih.gov/37151295/). Patent data from Binding DB is included under SRC\_ID 37.
-
 ### I am seeing a list of compounds (or targets, assays, etc...), how can I see the query used?
 
 The 'browse entity' sections are used through all the interface to show subsets of data in ChEMBL. For example, to see the activities related to the compound [SILIBININ](https://www.ebi.ac.uk/chembl/compound\_report\_card/CHEMBL9509/) you can go to [this page](https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/molecule\_chembl\_id%3A\(%22CHEMBL9509%22\)) and see a 'browse activities' section. From all the activities in ChEMBL, the activities related to SILIBININ can be obtained with the following query to our Elasticsearch system:
