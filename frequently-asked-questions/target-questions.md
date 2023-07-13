@@ -59,15 +59,13 @@ We map proteins to UniProt accessions and parent and variant proteins will have 
 
 Variants may contain single or multiple mutations which include defined (e.g. single amino acid changes) or undefined (e.g. ‘deletion mutants’, mapped to variant\_ID -1) changes. The variant sequences table contains details of mutated residues and the sequence.
 
-Variant information is also available through the ChEMBL interface and can be viewed when browsing assays by adding additional columns (variant\_sequence\_accession and variant\_sequence\_mutation) and though web services (https://www.ebi.ac.uk/chembl/api/data/assay.json?variant\_sequence\_\_isnull=false). The variant\_ID can be used to exclude or include protein variants when extracting bioactivity data.
+Variant information is also available through the ChEMBL interface and can be viewed when browsing assays by adding additional columns (variant\_sequence\_accession and variant\_sequence\_mutation) and though web services ([https://www.ebi.ac.uk/chembl/api/data/assay.json?variant\_sequence\_\_isnull=false](https://www.ebi.ac.uk/chembl/api/data/assay.json?variant\_sequence\_\_isnull=false)). The variant\_ID can be used to exclude or include protein variants when extracting bioactivity data.
 
 Mutant targets may be associated with with drug resistance or disease but may also include some engineered mutations (users need to review the assay description or references to interpret the data).
 
 ### ...and why is there no referential integrity between the variant\_sequences table and component\_sequences table?
 
 The variant\_sequences table is not linked to the component sequences table. It’s possible that two assays, one describing a variant and one describing a wild-type protein, may refer to the same protein target (and share a ChEMBL target ID), but provide different accessions. We keep both accessions in case a slightly different sequence was used as the reference to generate the variant numbering in the corresponding assay.
-
-
 
 ### **How are isoforms treated by ChEMBL?**
 
