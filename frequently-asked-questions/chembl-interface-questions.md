@@ -330,10 +330,3 @@ Yes, using the Advanced Search function.  Below there are some files with molecu
 
 {% file src="../.gitbook/assets/5_molecule_chembl_ids.csv" %}
 
-### How do I perform a document similarity search?
-
-More details can be found in this [Blog post](https://chembl.blogspot.com/2013/09/document-similarity-in-chembl.html).&#x20;
-
-We also have an API endpoint:
-
-[https://www.ebi.ac.uk/chembl/api/data/document\_similarity](https://www.ebi.ac.uk/chembl/api/data/document\_similarity)
