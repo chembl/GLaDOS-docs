@@ -83,3 +83,8 @@ Although ‘fuzzy’ matching is available though the UI, unfortunately, we don�
 
 e.g. [https://www.ebi.ac.uk/chembl/api/data/target?pref\_name\_\_iregex=cdk1|cdk2](https://www.ebi.ac.uk/chembl/api/data/target?pref\_name\_\_iregex=cdk1|cdk2)
 
+### **My assay is 'Unchecked', what does this mean?**
+
+We extract bioactivity data from a selected set of journals, patents and deposited data sets and include a range of assays such as cytotoxicity assays, antibacterial assays and protein inhibition assays. The extracted data is curated and mapped to ChEMBL targets where possible. However, the curation is an ongoing process and some assays may not be mapped to a target and appear as ‘Unchecked’.\
+\
+There are a number of reasons why the target of an assay may be ‘Unchecked’. For example, the assay may be a physiochemical assay (such as solubility determination) where there is no target, a selectivity ratio where there isn’t a single target and/or the target may be ambiguous, has not yet been created or has not yet been reviewed.

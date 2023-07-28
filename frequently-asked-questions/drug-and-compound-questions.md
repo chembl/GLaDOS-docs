@@ -95,3 +95,11 @@ Unfortunately, if the InChi key search does not return results it means that we 
 The 'Draw a structure' search functionality will open an editor where you can paste a smiles or a molfile, and create/edit a molecule for your search. There are 3 types of search. Connectivity (similar to exact match but it does not consider stereochemistry, isotopes etc.), similarity, and substructure.&#x20;
 
 For InChi keys that are not present in ChEMBL, [UniChem](https://www.ebi.ac.uk/unichem/) can be used to search other chemistry databases where they might be present.
+
+### **H**ow are structures standardised?
+
+You can find more information on compound curation in this [Blog post](https://chembl.blogspot.com/2020/02/chembl-compound-curation-pipeline.html) and on the structure standardiser [here](https://github.com/chembl/ChEMBL\_Structure\_Pipeline).
+
+### **H**ow can I download the structures for all ChEMBL compounds?
+
+We would suggest downloading the full SDF from the [FTP site](https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/latest/) rather than using the interface. The interface download may not be possible for extremely large files.

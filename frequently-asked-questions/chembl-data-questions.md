@@ -9,6 +9,8 @@
 * Physicochemical (P) - Assays measuring physicochemical properties of the compounds in the absence of biological material e.g., chemical stability, solubility.
 * Unclassified (U) - A small proportion of assays cannot be classified into one of the above categories e.g., ratio of binding vs efficacy.
 
+Assays are classified into the types above. However, some assays may fit into multiple categories although only a single assay type is assigned.
+
 ### Why are there so many different types of Standard Units in the database?
 
 The published units are taken directly from the literature and we then attempt to standardise these to report as a standard type. This is an ongoing curation task, which was started with the most common units first.

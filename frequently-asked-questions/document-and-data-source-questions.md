@@ -1,8 +1,22 @@
-# Document and data source questions
+# Document and Data Source Questions
 
 ### **How can I extract patent data from ChEMBL?**
 
-Selected patent data is available in ChEMBL under SRC\_ID 38, details on the selection of patents can be found in this [publication](https://pubmed.ncbi.nlm.nih.gov/37151295/). Patent data from Binding DB is included under SRC\_ID 37.
+_On the interface:_
+
+Select the documents view from the main ChEMBL homepage -
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-07-13 at 11.17.39.png" alt=""><figcaption></figcaption></figure>
+
+Use the lefthand filter panel to select patents -
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-07-13 at 11.18.18.png" alt=""><figcaption></figcaption></figure>
+
+_Local version of the database:_
+
+Selected patent data is available in ChEMBL under SRC\_ID 38. Patent data from Binding DB is included under SRC\_ID 37.
+
+Details on the selection of patents can be found in this [publication](https://pubmed.ncbi.nlm.nih.gov/37151295/).&#x20;
 
 ### How do I perform a document similarity search?
 

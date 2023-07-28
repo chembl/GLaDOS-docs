@@ -109,5 +109,19 @@ ChEMBL provide periodic updates to the database that include new data, correctio
 
 The API and interface will always reflect the data in the current release and can not currently be used to extract data from previous versions. However, old data dumps remain available for download and can be queried using a database tool and the SQL language to obtain version-specific data.
 
+### What type of data does ChEMBL accept in depositions and how can I deposit data?
 
+ChEMBL is a database of bioactivity data for drug-like compounds and includes data from seven core medicinal chemistry journals, patents and deposited data that fits within the scope of ChEMBL. Deposited data is primarily dose-response and ADMET type data. Please get in touch if you believe your data could be included in ChEMBL.
 
+For regular depositors, you can sign up to the chembl\_depositor mailing list ([https://listserver.ebi.ac.uk/mailman/listinfo/chembl-depositors](https://listserver.ebi.ac.uk/mailman/listinfo/chembl-depositors)) to receive updates on ChEMBL deposition timelines.
+
+Documentation for depositors can be found here - [https://chembl.gitbook.io/chembl-loader/](https://chembl.gitbook.io/chembl-loader/) where you can see the information required to submit to ChEMBL.
+
+### How can I access ChEMBL through KNIME?
+
+The ChEMBL KNIME nodes are no longer maintained but our recommendation is to use the generic KNIME REST nodes to access the ChEMBL web services, as this will be simpler to maintain and adapt to cope with schema changes etc. There are some example workflows available, using this approach, that have been provided by Daria Goldmann e.g.,\
+\
+[https://www.knime.com/blog/a-restful-way-to-find-and-retrieve-data](https://www.knime.com/blog/a-restful-way-to-find-and-retrieve-data)\
+[https://hub.knime.com/knime/workflows/Examples/50\_Applications/30\_RESTful\_ChEMBL/01\_ChEMBL\_REST\_Services\*qBCbzaFZ85qUMoWZ](https://hub.knime.com/knime/workflows/Examples/50\_Applications/30\_RESTful\_ChEMBL/01\_ChEMBL\_REST\_Services\*qBCbzaFZ85qUMoWZ)\
+[https://hub.knime.com/knime/workflows/Examples/50\_Applications/30\_RESTful\_ChEMBL/02\_ChEMBL\_Structure\_Search\*wCygb7lTvPqnYXuB](https://hub.knime.com/knime/workflows/Examples/50\_Applications/30\_RESTful\_ChEMBL/02\_ChEMBL\_Structure\_Search\*wCygb7lTvPqnYXuB)\
+[https://hub.knime.com/knime/workflows/Examples/50\_Applications/30\_RESTful\_ChEMBL/03\_ChEMBL\_Bioactivity\_Search\*tGSG1nPdGg4cW7Qp](https://hub.knime.com/knime/workflows/Examples/50\_Applications/30\_RESTful\_ChEMBL/03\_ChEMBL\_Bioactivity\_Search\*tGSG1nPdGg4cW7Qp)
