@@ -4,18 +4,19 @@ The ChEMBL resources are made available due to funding from the following:
 
 ## Current Awards
 
-* **Ongoing:** The Member States of EMBL
-* **2020-2023:** Wellcome Trust (Strategic Award 218244/Z/19/Z). &#x20;
-* **2014-2019:** Wellcome Trust (Strategic Award WT086151/Z/08/Z). &#x20;
-* **2016-2022:** European Commission Horizon 2020. Toxicity Testing and Risk Assessment in the 21st Century EU-ToxRisk (681002) &#x20;
-* **2015-2019:** Coordinated Research Infrastructures Building Enduring Life-science Services CORBEL (654248) &#x20;
+* **Ongoing:** The Member States of the European Molecular Biology Laboratory (EMBL)
+* **2020-2024:** Wellcome Trust (Strategic Award 218244/Z/19/Z)
 * **2018-2023:** Illuminating the Druggable Genome NIH grant 1U24CA224370-01 &#x20;
-* **2014-2020:** Open Targets &#x20;
-* **2017-2022:** European Commission/IMI2 eTRANSAFE - Enhacing TRANslational SAFEty Assessment through Integrative Knowledge Management (777365) &#x20;
-* **2017-2021:** European Commission/IMI2/TransQST - Translational quantitative systems toxicology to improve the understanding of the safety of medicines (116030)
+* **2014-2024:** Open Targets&#x20;
+* **2020-2025:** European Commission/IMI2 EUbOPEN: Enabling and unlocking biology in the OPEN (875510) &#x20;
 
 ## Past Awards
 
+* **2014-2019:** Wellcome Trust (Strategic Award WT086151/Z/08/Z). &#x20;
+* **2016-2022:** European Commission Horizon 2020. Toxicity Testing and Risk Assessment in the 21st Century EU-ToxRisk (681002) &#x20;
+* **2015-2019:** Coordinated Research Infrastructures Building Enduring Life-science Services CORBEL (654248) &#x20;
+* **2017-2022:** European Commission/IMI2 eTRANSAFE - Enhacing TRANslational SAFEty Assessment through Integrative Knowledge Management (777365) &#x20;
+* **2017-2021:** European Commission/IMI2/TransQST - Translational quantitative systems toxicology to improve the understanding of the safety of medicines (116030)
 * **2013-2018:** European Commission FP7 HeCaTos - Safety prediction (602156) &#x20;
 * **2009-2016:** European Commission/IMI IMI eTox (115002) &#x20;
 * **2014-2016:** Illuminating the Druggable Genome NIH grant 1U54CA189205-01 &#x20;
