@@ -16,7 +16,7 @@
   * [Download Questions](frequently-asked-questions/chembl-download-questions.md)
   * [Schema Questions and SQL Examples](frequently-asked-questions/schema-questions-and-sql-examples.md)
 * [Downloads](downloads.md)
-* [Acknowledgments](acknowledgments.md)
+* [Acknowledgements](acknowledgments.md)
 * [About](about.md)
 * [ChEMBL Interface Privacy Notice](https://www.ebi.ac.uk/data-protection/privacy-notice/chembl-website)
 * [Legacy Resources](legacy-resources.md)
