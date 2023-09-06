@@ -1,6 +1,6 @@
 # Table of contents
 
-* [New Web Interface](README.md)
+* [Web Interface](README.md)
 * [Web Services](web-services/README.md)
   * [ChEMBL Data Web Services](web-services/chembl-data-web-services.md)
   * [Cheminformatic Utils Web Services](web-services/cheminformatic-utils-web-services.md)
