@@ -67,7 +67,11 @@ DOI: [10.1093/bioinformatics/btt765](http://dx.doi.org/10.1093/bioinformatics/bt
 ### How do I report errors or make suggestions for the interface?
 
 1. We have a dedicated email address for data queries, error reporting or help requests. This is: [chembl-help@ebi.ac.uk](mailto:chembl-help@ebi.ac.uk)
-2. You can [create an issue](https://github.com/chembl/GLaDOS/issues/new) in our [GitHub Repository](https://github.com/chembl/GLaDOS) to report issues with the interface only.
+2. You can [create an issue](https://github.com/chembl/GLaDOS/issues/new) in our [GitHub Interface Repository](https://github.com/chembl/GLaDOS) to report issues with the **interface only**.
+3. You can [create an issue](https://github.com/chembl/chembl\_data\_issues/issues/new) in our [GitHub Data Repository](https://github.com/chembl/chembl\_data\_issues) to report issues with the **data only**.
+4. You can [create an issue](https://github.com/chembl/chembl\_data\_issues/issues/new) in our [GitHub Data Repository](https://github.com/chembl/chembl\_data\_issues/issues) to report issues with the **ChEMBL API.**
+
+
 
 ### What is the best way to access large amounts of data in ChEMBL?
 
