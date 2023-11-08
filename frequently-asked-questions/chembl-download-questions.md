@@ -1,5 +1,9 @@
 # Download Questions
 
+## I want to download the ChEMBL database and run a query. How can I get started?
+
+You can download the database [here](https://chembl.gitbook.io/chembl-interface-documentation/downloads). You could try our [SQLite version](https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/latest/chembl\_33\_sqlite.tar.gz). You might already have a browser for this installed on your system, but if not, you can download one [here](http://sqlitebrowser.org). It's simple to install, and just use 'Open Database' to load the unzipped chembl file. Then you can execute SQL queries or browse the ChEMBL tables.
+
 ## Is there a file that I can download from the FTP site that contains ALL of the bioactivity data?
 
 MySQL, PostgreSQL and SQLite dumps provide all data in ChEMBL. Please note that PostgreSQL and MySQL dumps requires the user to install a database instance.

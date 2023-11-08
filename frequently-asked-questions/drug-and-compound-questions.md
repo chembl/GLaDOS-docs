@@ -115,3 +115,27 @@ You can find more information on compound curation in this [Blog post](https://c
 ### **H**ow can I download the structures for all ChEMBL compounds?
 
 We would suggest downloading the full SDF from the [FTP site](https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/latest/) rather than using the interface. The interface download may not be possible for extremely large files.
+
+### What is the Rule of Five?
+
+The ‘Rule of Five’ refers to the drug-like properties defined by [Lipinski](https://pubmed.ncbi.nlm.nih.gov/11259830/) (oral drugs should have a molecular weight < 500, no more than 5 H-bond donors, no more than 10 H-bond acceptors and a CLogP not greater than 5). A compound that complies with the Rule of Five has 0 or 1 violations of these rules.
+
+The number of violations of the Rule of Five is recorded in the ChEMBL database (within the MOLECULE\_DICTIONARY) and is also available as a filter when browsing compounds on the interface (see below).
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-11-08 at 10.26.26.png" alt="" width="375"><figcaption><p>Molecule filters include the number of Ro5 violations.</p></figcaption></figure>
+
+Whether compounds are compliant with the Rule of Five is also displayed as an icon in the molecule features section of the compound report card. The Ro5 flag shows as **True** for compounds with 0 or 1 violations. The exception is metal-containing compounds where the Ro5 is not calculated and is recorded as null in the database and the Ro5 icon shows **False** on the ChEMBL interface.
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-11-08 at 10.29.30.png" alt=""><figcaption><p>The Rule of Five shows as True for aspirin (CHEMB25)</p></figcaption></figure>
+
+
+
+### How does ChEMBL define 'virtual parents'?
+
+Virtual parents may arise when bioactivity data has been deposited for salts or hydrates of a drug-like compound but no data is recorded for the parent compound itself. The parent compound is registered in ChEMBL but is not directly linked to bioactivity data.
+
+A virtual parent compound has an entry (i.e. its own row) in the MOLECULE\_DICTIONARY but does NOT have an entry in its own right in the MOLECULE\_HIERARCHY i.e. the virtual parent is present in the MOLECULE\_HIERARCHY.parent\_molregno field but does not have an entry in the MOLECULE\_HIERARCHY.molregno field. Also, there is no entry for the virtual parent in the COMPOUND\_RECORDS table.
+
+### Why were some structural alerts removed after ChEMBL 26?
+
+We removed some structural alerts during the RDKit conversion for version 26. In summary, we kept datasets with a clear literature reference and removed poorly documented sets.

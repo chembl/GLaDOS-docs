@@ -17,7 +17,7 @@ The published units are taken directly from the literature and we then attempt t
 
 ### What is the 'Confidence Score'?
 
-As part of the manual curation process applied to the data we assign a confidence score to the assay-to-target relationships represented in the database. The confidence score value reflects both the type of target assigned to a particular assay and the confidence that the target assigned is the correct target for that assay. The confidence scores range from 0, for as yet uncurated data entries, to 9, where a single protein target has been assigned a high degree of confidence. Assays assigned a non-molecular target type, for example a cell-line or an organism, receive a confidence score of 1, while assays with assigned protein targets receive a confidence score of at least 4.
+As part of the manual curation process applied to the data we assign a confidence score to the assay-to-target relationships represented in the database. The confidence score value reflects both the type of target assigned to a particular assay and the confidence that the target assigned is the correct target for that assay. The confidence scores range from 0, for as yet uncurated data entries, to 9, where a single protein target has been assigned a high degree of confidence. Assays assigned a non-molecular target type, for example a cell-line or an organism, receive a confidence score of 1, while assays with assigned protein targets receive a confidence score of at least 4. If the correct target was unavailable during initial mapping then sometimes assays have been mapped to a homologue from a difference species (with lower confidence i.e. 8). A confidence score of 8 is also assigned when mapping an assay where the source of the target protein is undefined/unknown.&#x20;
 
 <table data-header-hidden><thead><tr><th width="238">CONFIDENCE_SCORE</th><th>DESCRIPTION</th></tr></thead><tbody><tr><td>CONFIDENCE_SCORE</td><td>DESCRIPTION</td></tr><tr><td>0</td><td>Default value - Target assignment has yet to be curated</td></tr><tr><td>1</td><td>Target assigned is non-molecular</td></tr><tr><td>3</td><td>Target assigned is molecular non-protein target</td></tr><tr><td>4</td><td>Multiple homologous protein targets may be assigned</td></tr><tr><td>5</td><td>Multiple direct protein targets may be assigned</td></tr><tr><td>6</td><td>Homologous protein complex subunits assigned</td></tr><tr><td>7</td><td>Direct protein complex subunits assigned</td></tr><tr><td>8</td><td>Homologous single protein target assigned</td></tr><tr><td>9</td><td>Direct single protein target assigned</td></tr></tbody></table>
 
@@ -56,6 +56,14 @@ Users who prefer to exclude the integrated PubChem data (or any other integrated
 ### What is pChEMBL?
 
 In addition to the conversion of published activity types/values/units to standard activity types/values/units, we have now added an additional field called pChEMBL to the Activities table. This value allows a number of roughly comparable measures of half-maximal response concentration/potency/affinity to be compared on a negative logarithmic scale. For example, an IC50 measurement of 1nM would have a pChEMBL value of 9. pChEMBL is defined as: -Log(molar IC50, XC50, EC50, AC50, Ki, Kd or Potency).
+
+**A pChEMBL value is calculated for the following activity data:**&#x20;
+
+"standard\_type" must be one of the following: "IC50", "XC50", "EC50", "AC50", "Ki", "Kd", "Potency", "ED50";&#x20;
+
+"standard\_relation" == "=" & "standard\_units" == "nM";&#x20;
+
+"standard\_value" > 0 & "data\_validity\_comment"].isnull()) | "data\_validity\_comment" == "Manually validated“
 
 ### What is the Data Validity column?
 
