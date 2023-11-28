@@ -8,7 +8,7 @@ See below some useful links to the training material for the ChEMBL services.
 
 ## ChEMBL Interface Webinar
 
-{% embed url="https://www.ebi.ac.uk/training/online/course/exploring-chembl-data-new-chembl-interface" %}
+{% embed url="https://www.ebi.ac.uk/training/events/exploring-chembl-data-new-chembl-interface-0/" %}
 
 ## Worked Examples Using the ChEMBL Interface
 
@@ -22,6 +22,8 @@ See below some useful links to the training material for the ChEMBL services.
 
 {% embed url="https://www.ebi.ac.uk/training/online/courses/unichem-quick-tour/" %}
 
-## ChEMBL Workshop
+## ChEMBL Workshops - upon request
+
+Tailored ChEMBL workshops can be run upon request. Contact us to discuss your requirements.
 
 {% embed url="https://www.ebi.ac.uk/training/events/chembl-and-surechembl-bioactive-molecules-targets-and-patent-resources/" %}
