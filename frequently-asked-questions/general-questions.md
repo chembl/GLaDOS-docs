@@ -106,6 +106,8 @@ However, you can use the cross-references on the compound report cards to view c
 
 The ChEMBL database is licensed under a Creative Commons Attribution-Share Alike 3.0 Unported License ([https://creativecommons.org/licenses/by-sa/3.0/](https://creativecommons.org/licenses/by-sa/3.0/)). This allows use, redistribution and adaption of ChEMBL as long as appropriate attribution is given (e.g., cite the current [ChEMBL paper:](https://europepmc.org/article/MED/30398643)) and ensure that any adaptations are redistributed under the same license.
 
+ChEMBL also includes compound property calculations, derived from commercial software. When using these commercial calculations, users should ensure that they refer to and abide by commercial licensing agreements. For example, calculations should not be extracted isolation with the aim to train models intended to replicate the commercial process.
+
 ### Can you provide more details on ChEMBL releases?
 
 Each new ChEMBL release includes literature data from the previous 12-18 months. The precise cutoff point for extraction of literature data varies slightly between ChEMBL releases and for different journals. Occasionally, selected articles are added to ChEMBL at a later date, therefore the ChEMBL version and publication dates are not always associated. A new release may also contain new data for existing compounds.
