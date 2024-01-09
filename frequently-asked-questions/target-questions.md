@@ -88,3 +88,18 @@ e.g. [https://www.ebi.ac.uk/chembl/api/data/target?pref\_name\_\_iregex=cdk1|cdk
 We extract bioactivity data from a selected set of journals, patents and deposited data sets and include a range of assays such as cytotoxicity assays, antibacterial assays and protein inhibition assays. The extracted data is curated and mapped to ChEMBL targets where possible. However, the curation is an ongoing process and some assays may not be mapped to a target and appear as ‘Unchecked’.\
 \
 There are a number of reasons why the target of an assay may be ‘Unchecked’. For example, the assay may be a physiochemical assay (such as solubility determination) where there is no target, a selectivity ratio where there isn’t a single target and/or the target may be ambiguous, has not yet been created or has not yet been reviewed.
+
+### How can I extract gene symbols for my target?&#x20;
+
+ChEMBL targets are all associated with a unique target ChEMBL\_ID. We use UniProt accessions as our primary identifier for protein targets. However, gene symbols can be obtained from the component\_synonyms table:
+
+```
+select td.chembl_ID as target_chembl_ID, td.organism, td.tax_ID, td.pref_name, cs.component_synonym
+from chembl.target_dictionary td
+left join chembl.target_components tc on td.tid=tc.tid
+left join chembl.component_synonyms cs on tc.component_ID=cs.component_ID
+where syn_type = 'GENE_SYMBOL' -- you can include other synonym types if needed
+and chembl_ID = 'CHEMBL204' -- Melanocortin receptor 1 as an example
+```
+
+This webservices example may also be useful - [https://chembl.gitbook.io/chembl-interface-documentation/web-services/chembl-data-web-services#having-a-list-of-molecules-chembl-ids-in-a-csv-file-produce-another-csv-file-that-maps-every-compound-id-into-a-list-of-human-gene-names](https://chembl.gitbook.io/chembl-interface-documentation/web-services/chembl-data-web-services#having-a-list-of-molecules-chembl-ids-in-a-csv-file-produce-another-csv-file-that-maps-every-compound-id-into-a-list-of-human-gene-names).
