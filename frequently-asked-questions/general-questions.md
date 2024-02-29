@@ -48,9 +48,9 @@ If you need help, please [contact us](general-questions.md#how-do-i-report-error
 
 **ChEMBL Database:**
 
-Mendez D, Gaulton A, Bento AP, Chambers J, De Veij M, Félix E, Magariños MP, Mosquera JF, Mutowo P, Nowotka M, Gordillo-Marañón M, Hunter F, Junco L, Mugumbate G, Rodriguez-Lopez M, Atkinson F, Bosc N, Radoux CJ, Segura-Cabrera A, Hersey A, Leach AR. (2019) 'ChEMBL: towards direct deposition of bioassay data.' Nucleic Acids Res., 47(D1) D930-D940.
+Zdrazil B, Felix E, Hunter F, Manners EJ, Blackshaw J, Corbett S, de Veij M, Ioannidis H, Lopez DM, Mosquera JF, Magarinos MP, Bosc N, Arcila R, Kizilören T, Gaulton A, Bento AP, Adasme MF, Monecke P, Landrum GA, Leach AR. The ChEMBL Database in 2023: a drug discovery platform spanning multiple bioactivity data types and time periods. Nucleic Acids Res. 2024 Jan 5;52(D1):D1180-D1192.&#x20;
 
-DOI: [10.1093/nar/gky1075](https://doi.org/10.1093/nar/gky1075) PMC: [PMC6323927](https://europepmc.org/article/MED/30398643)
+doi: [10.1093/nar/gkad1004](https://academic.oup.com/nar/article/52/D1/D1180/7337608?searchresult=1). PMID: [37933841](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10767899/); PMCID: [PMC10767899](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10767899/).
 
 **ChEMBL Web Services:**
 
