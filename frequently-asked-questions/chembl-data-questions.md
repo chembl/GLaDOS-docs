@@ -4,7 +4,7 @@
 
 * Binding (B) - Data measuring binding of compound to a molecular target, e.g. Ki, IC50, Kd.
 * Functional (F) - Data measuring the biological effect of a compound, e.g. %cell death in a cell line, rat weight.
-* ADMET (A) - ADME data e.g. t1/2, oral bioavailability.
+* ADME (A) - ADME data e.g. t1/2, oral bioavailability.
 * Toxicity (T) - Data measuring toxicity of a compound, e.g., cytotoxicity.
 * Physicochemical (P) - Assays measuring physicochemical properties of the compounds in the absence of biological material e.g., chemical stability, solubility.
 * Unclassified (U) - A small proportion of assays cannot be classified into one of the above categories e.g., ratio of binding vs efficacy.
