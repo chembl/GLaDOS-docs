@@ -27,3 +27,7 @@ See below some useful links to the training material for the ChEMBL services.
 Tailored ChEMBL workshops can be run upon request. Contact us to discuss your requirements.
 
 {% embed url="https://www.ebi.ac.uk/training/events/chembl-and-surechembl-bioactive-molecules-targets-and-patent-resources/" %}
+
+## ChEMBL Deposition Guide
+
+{% embed url="https://embl-ebi.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=4b4d09da-ce29-4b72-b649-b0750115cad7" %}
