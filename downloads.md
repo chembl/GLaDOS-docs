@@ -1,7 +1,3 @@
----
-description: a
----
-
 # Downloads
 
 ## ChEMBL Downloads
