@@ -7,7 +7,7 @@
 | [ChEMBLdb](https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/latest/)     | 34              | March 2024    | ChEMBL Database downloads, which includes SQLite, MySQL and PostgreSQL versions of the ChEMBL database, as well as SDF, FASTA and release note files. Main website link [here](https://www.ebi.ac.uk/chembl/). |
 | [SureChEMBL](https://ftp.ebi.ac.uk/pub/databases/chembl/SureChEMBL/data/)   | Q4 2022         | Q4 2022     | SureChEMBL quarterly compound exports and map files (see also [here](http://chembl.blogspot.co.uk/2015/08/accessing-surechembl-data-in-bulk.html)). Main website link [here](https://www.surechembl.org/).     |
 | [UniChem](https://ftp.ebi.ac.uk/pub/databases/chembl/UniChem/)              |                 | Weekly      | Data dumps from UniChem. Includes source maps and whole table dumps.                                                                                                                                           |
-| [ChEMBL-RDF](https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/latest/) | 33.0            | May 2023    | RDF Version of ChEMBL database. The file download format is turtle and the minor version number corresponds to changes in RDF format and not the underlying ChEMBL data.                                       |
+| [ChEMBL-RDF](https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/latest/) | 34.0            | March 2024    | RDF Version of ChEMBL database. The file download format is turtle and the minor version number corresponds to changes in RDF format and not the underlying ChEMBL data.                                       |
 
 ## ChEMBL Database Release DOIs
 
@@ -56,7 +56,7 @@ To reference a specific release of the ChEMBL Database, please use DOI in table 
 
 To reference a specific release of the ChEMBL-RDF, please use DOI in table below.
 
-| CHEMBL-RDF 34.0 | May 2023       | [10.6019/CHEMBL.RDF.34.0](http://doi.org/10.6019/CHEMBL.RDF.34.0) |
+| CHEMBL-RDF 34.0 | March 2024       | [10.6019/CHEMBL.RDF.34.0](http://doi.org/10.6019/CHEMBL.RDF.34.0) |
 | --------------- | -------------- | ----------------------------------------------------------------- |
 | CHEMBL-RDF 33.0 | May 2023       | [10.6019/CHEMBL.RDF.33.0](http://doi.org/10.6019/CHEMBL.RDF.33.0) |
 | CHEMBL-RDF 32.0 | Jan 2023       | [10.6019/CHEMBL.RDF.32.0](http://doi.org/10.6019/CHEMBL.RDF.32.0) |
