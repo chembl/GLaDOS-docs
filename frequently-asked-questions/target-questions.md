@@ -6,7 +6,7 @@ More details can be found in this [Blog post](https://chembl.blogspot.com/2020/0
 
 ### What are the main target types in ChEMBL?
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### **How can I find the binding site of my compound?**
 

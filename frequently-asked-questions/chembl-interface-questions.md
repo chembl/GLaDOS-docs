@@ -6,15 +6,15 @@
 
 You can see this visualisation in the [main page](https://www.ebi.ac.uk/chembl/beta/) carousel or in the [visualisations page](https://www.ebi.ac.uk/chembl/beta/visualise/).
 
-![](../.gitbook/assets/screen-shot-2018-08-23-at-10.16.32.png)
+![](<../.gitbook/assets/Screen Shot 2018-08-23 at 10.16.32.png>)
 
 &#x20;This is the same classification that you will see in a target report card in the 'Protein Target Classification' row. For example, for the target [CHEMBL2737](https://www.ebi.ac.uk/chembl/target\_report\_card/CHEMBL2737/) you will see the following:
 
-![](<../.gitbook/assets/screen-shot-2018-08-23-at-10.11.52 (1).png>)
+![](<../.gitbook/assets/Screen Shot 2018-08-23 at 10.11.52.png>)
 
 This means that in the visualisation, you can click on the 'Membrane receptor' arc, then on 'Family A G protein-coupled receptor', then on 'Small molecule receptor (family A GPCR)', then on 'Monoamine receptor', and finally on 'Dopamine receptor'. The button below will change dynamically while you click and after the last click you should see the following:
 
-![](../.gitbook/assets/screen-shot-2018-08-23-at-10.20.44.png)
+![](<../.gitbook/assets/Screen Shot 2018-08-23 at 10.20.44.png>)
 
 If you click on that button, you will see all the targets with that classification and you will find [CHEMBL2737](https://www.ebi.ac.uk/chembl/target\_report\_card/CHEMBL2737/).&#x20;
 
@@ -109,15 +109,15 @@ curl -XGET "https://www.ebi.ac.uk/chembl/glados-es/chembl_24_1_target/_search" -
 
 After doing a search by a term, for example [Taxol](https://www.ebi.ac.uk/chembl/beta/g/#search\_results/all/query=Taxol), you will a header like the following in every result per entity:
 
-![](<../.gitbook/assets/screen-shot-2018-08-01-at-09.54.16 (1).png>)
+![](<../.gitbook/assets/Screen Shot 2018-08-01 at 09.54.16.png>)
 
 This means that we found 206 compounds for your search. If you click on the link "Browse Activities":
 
-![](<../.gitbook/assets/screen-shot-2018-08-01-at-10.22.22 (1).png>)
+![](<../.gitbook/assets/Screen Shot 2018-08-01 at 10.22.22.png>)
 
 A new page will open with all the activities related to the 206 compounds that you obtained:
 
-![](<../.gitbook/assets/screen-shot-2018-08-01-at-10.26.46 (5).png>)
+![](<../.gitbook/assets/Screen Shot 2018-08-01 at 10.26.46 (2).png>)
 
 Here you can see that there are 7807 activities related to the 206 compounds that you found.&#x20;
 
@@ -125,11 +125,11 @@ Here you can see that there are 7807 activities related to the 206 compounds tha
 
 Similarly to the previous answer, lets assume that you searched for [Taxol](https://www.ebi.ac.uk/chembl/beta/g/#search\_results/all/query=Taxol), you can click on the "Heatmap" button of the "Compound Results" header:
 
-![](<../.gitbook/assets/screen-shot-2018-08-01-at-10.33.04 (1).png>)
+![](<../.gitbook/assets/Screen Shot 2018-08-01 at 10.33.04.png>)
 
 You will see a heatmap like the following:
 
-![](../.gitbook/assets/screen-shot-2018-08-01-at-10.40.51.png)
+![](<../.gitbook/assets/Screen Shot 2018-08-01 at 10.40.51.png>)
 
 * **Orange rectangle:** You can see that there are 1043 targets related to the 206 compounds that you obtained. If you click on the text a new page will open with the targets that are related to these compounds.
 * **Blue rectangle:** Hover to see a mini report card of each of the compounds, click to go to the report card page.&#x20;
@@ -142,11 +142,11 @@ When you are browsing a set of compounds, targets, assays, documents, cell lines
 
 &#x20;
 
-![](<../.gitbook/assets/screen-shot-2018-08-01-at-11.16.56 (2).png>)
+![](<../.gitbook/assets/Screen Shot 2018-08-01 at 11.16.56.png>)
 
 You can see an example [here](https://www.ebi.ac.uk/chembl/beta/g#browse/compounds/filter/Taxol). This example shows 206 compounds:
 
-![](<../.gitbook/assets/screen-shot-2018-08-01-at-11.15.21 (1).png>)
+![](<../.gitbook/assets/Screen Shot 2018-08-01 at 11.15.21 (2).png>)
 
 The filter means:
 
@@ -159,21 +159,21 @@ The filter means:
 
 Similarly to the previous FAQs, this link allows to jump to the related entities for the activities that you are browsing. For example, if you are browsing some activities, you will see a header like this one:
 
-![](<../.gitbook/assets/screen-shot-2018-08-09-at-16.13.46 (1).png>)
+![](<../.gitbook/assets/Screen Shot 2018-08-09 at 16.13.46 (2).png>)
 
 The link will be disabled if you are seeing more than 1024 activities (we are currently working on ways to increase this limit). You need to select or filter the activities to activate the link. For example, you can filter only the activities of type 'EC50':
 
-![](../.gitbook/assets/screen-shot-2018-08-09-at-16.09.45.png)
+![](<../.gitbook/assets/Screen Shot 2018-08-09 at 16.09.45.png>)
 
 Now the link should be activated:
 
-![](../.gitbook/assets/screen-shot-2018-08-09-at-16.16.46.png)
+![](<../.gitbook/assets/Screen Shot 2018-08-09 at 16.16.46.png>)
 
 If you click on the link, a new tab will open with the compounds that are related to the activities that you are seeing. So, in this case, you will see the compounds related to the 176 activities that you obtained.&#x20;
 
 You can also browse other entities, you just have to click on the ellipsis next to the link, this will display all the available entities.&#x20;
 
-![](../.gitbook/assets/screen-shot-2018-08-09-at-16.21.40.png)
+![](<../.gitbook/assets/Screen Shot 2018-08-09 at 16.21.40.png>)
 
 ##
 
@@ -218,7 +218,7 @@ The 'browse entity' sections are used through all the interface to show subsets 
 
 These queries are generated by the interface automatically. But if you want to see the query, you can click on the 'See Full Query' button:
 
-![](<../.gitbook/assets/screen-shot-2018-09-20-at-11.14.05 (1).png>)
+![](<../.gitbook/assets/Screen Shot 2018-09-20 at 11.14.05.png>)
 
 \
 This section will show you the full query being sent to Elasticsearch, you can copy it so you can use it in your own scripts.&#x20;
@@ -242,7 +242,7 @@ Remember that a querystring is only part of the full query, in the previous ques
 
 When the query is based in a querystring, it can be edited. First you need to click on the 'Edit Querystring' Button:
 
-![](../.gitbook/assets/screen-shot-2018-09-20-at-11.13.59.png)
+![](<../.gitbook/assets/Screen Shot 2018-09-20 at 11.13.59.png>)
 
 \
 This will open a text area that will let you edit the querystring:

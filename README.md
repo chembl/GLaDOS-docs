@@ -1,4 +1,4 @@
-# New Web Interface
+# Web Interface
 
 ## New Features
 
@@ -13,7 +13,7 @@
 
 * You can search by using the [Marvin JS sketcher](https://chemaxon.com/products/marvin-js). You can open it just by clicking on the "structure" icon on the search bar:
 
-![](.gitbook/assets/screen-shot-2018-06-20-at-17.06.11.png)
+![](<.gitbook/assets/Screen Shot 2018-06-20 at 17.06.11.png>)
 
 * For the substructure and similarity results we have now included structure highlighting on the results. the highlight can be turned on or off. See for example: [https://www.ebi.ac.uk/chembl/g/#substructure\_search\_results/CC(%3DO)Oc1ccccc1C(%3DO)O](https://www.ebi.ac.uk/chembl/g/#substructure\_search\_results/CC\(%3DO\)Oc1ccccc1C\(%3DO\)O)
 
@@ -31,7 +31,7 @@ By clicking on the "settings" button
 
 You can open a menu to configure the filters panel
 
-![](.gitbook/assets/screen-shot-2018-06-21-at-13.36.42.png)
+![](<.gitbook/assets/Screen Shot 2018-06-21 at 13.36.42.png>)
 
 ### Browsing activities
 
@@ -43,7 +43,7 @@ If you click on the section that represents "Potency" you will be directed to th
 
 In the results pages, you can also select several items and then click on "Browse Activities", you will be directed to a list of the activities for the items that you selected:
 
-![](.gitbook/assets/screen-shot-2018-06-21-at-14.13.02.png)
+![](<.gitbook/assets/Screen Shot 2018-06-21 at 14.13.02.png>)
 
 ### Data Visualisations
 
@@ -59,4 +59,4 @@ https://www.ebi.ac.uk/chembl/beta/g/#search_results/targets/query=Liver
 
 You should be able to copy any url in the page and send it to another person, so the receiver can see the same data. You can also get a shortened version of the url by clicking on the "share" icon of the breadcrumbs:
 
-![](.gitbook/assets/screen-shot-2018-06-26-at-16.35.15.png)
+![](<.gitbook/assets/Screen Shot 2018-06-26 at 16.35.15.png>)
