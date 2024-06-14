@@ -16,6 +16,8 @@ See below some useful links to the training material for the ChEMBL services.
 
 ## Programmatic Access
 
+{% embed url="https://www.ebi.ac.uk/training/events/guide-accessing-chembl-and-unichem-through-api/" %}
+
 {% embed url="https://www.ebi.ac.uk/training/online/courses/embl-ebi-programmatically/chembl-programmatically/" %}
 
 ## UniChem Webinar
