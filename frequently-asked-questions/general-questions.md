@@ -82,6 +82,8 @@ The best way to access large amounts of data is to install a database instance o
 
 Yes, there is a ChEMBL RDF. It is stored on the FTP site.
 
+At present we do not maintain the RDF, and therefore any recently changed data fields in the ChEMBL database will not be included in the existing RDF version.
+
 ### What is the difference between the different releases of ChEMBL, e.g. ChEMBL\_14 and ChEMBL\_15?
 
 ChEMBL\_14 is an earlier release of the data, with ChEMBL\_15 being an updated version. Subsequent updates will have consecutive numbers, so the one with the highest number will be the most recent full version of the data.
