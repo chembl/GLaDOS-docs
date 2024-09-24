@@ -1,4 +1,4 @@
-# Acknowledgments
+# Acknowledgements
 
 The ChEMBL resources are made available due to funding from the following:
 
@@ -6,12 +6,13 @@ The ChEMBL resources are made available due to funding from the following:
 
 * **Ongoing:** The Member States of the European Molecular Biology Laboratory (EMBL)
 * **2020-2024:** Wellcome Trust (Strategic Award 218244/Z/19/Z)
-* **2018-2023:** Illuminating the Druggable Genome NIH grant 1U24CA224370-01 &#x20;
-* **2014-2024:** Open Targets&#x20;
+* **2024-2025:** Wellcome Trust (Preparatory and ChEMBL/EVA Bridge 228142/Z/23/Z)
+* **2014-2026:** Open Targets&#x20;
 * **2020-2025:** European Commission/IMI2 EUbOPEN: Enabling and unlocking biology in the OPEN (875510) &#x20;
 
 ## Past Awards
 
+* **2018-2023:** Illuminating the Druggable Genome NIH grant 1U24CA224370-01 &#x20;
 * **2014-2019:** Wellcome Trust (Strategic Award WT086151/Z/08/Z). &#x20;
 * **2016-2022:** European Commission Horizon 2020. Toxicity Testing and Risk Assessment in the 21st Century EU-ToxRisk (681002) &#x20;
 * **2015-2019:** Coordinated Research Infrastructures Building Enduring Life-science Services CORBEL (654248) &#x20;
