@@ -352,12 +352,12 @@ During the ongoing improvements to the ChEMBL interface, some of the URLs have b
 | **Cell Line**    | [https://www.ebi.ac.uk/chembl/cell\_line\_report\_card/CHEMBL3307556/](https://www.ebi.ac.uk/chembl/cell\_line\_report\_card/CHEMBL3307556/) | [https://www.ebi.ac.uk/chembl/web\_components/explore/cell\_line/CHEMBL3307556](https://www.ebi.ac.uk/chembl/web\_components/explore/cell\_line/CHEMBL3307556) |
 | **Tissue**       | [https://www.ebi.ac.uk/chembl/tissue\_report\_card/CHEMBL3559723/](https://www.ebi.ac.uk/chembl/tissue\_report\_card/CHEMBL3559723/)         | [https://www.ebi.ac.uk/chembl/web\_components/explore/tissue/CHEMBL3559723](https://www.ebi.ac.uk/chembl/web\_components/explore/tissue/CHEMBL3559723)         |
 
-**Search Result URL Changes**
+**Search Results URL Changes**
 
-| Search Type       | Old URL Example                                                                                                                                  | New URL Example                                                                                                                                        |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **All Results**   | [https://www.ebi.ac.uk/chembl/chembl/g/#search\_results/all/query=erbB2](https://www.ebi.ac.uk/chembl/chembl/g/#search\_results/all/query=erbB2) | [https://www.ebi.ac.uk/chembl/chembl/web\_components/search\_results/erbB2](https://www.ebi.ac.uk/chembl/chembl/web\_components/search\_results/erbB2) |
-| **Target Search** | [https://www.ebi.ac.uk/chembl/g/#search\_results/targets/query=erbB2](https://www.ebi.ac.uk/chembl/g/#search\_results/targets/query=erbB2)       | [https://www.ebi.ac.uk/chembl/web\_components/search\_results/erbB2](https://www.ebi.ac.uk/chembl/web\_components/search\_results/erbB2)               |
+| Search Type       | Old URL Example                                                                                                                            | New URL Example                                                                                                                          |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| **All Results**   | [https://www.ebi.ac.uk/chembl/g/#search\_results/all/query=erbB2](https://www.ebi.ac.uk/chembl/g/#search\_results/all/query=erbB2)         | [https://www.ebi.ac.uk/chembl/web\_components/search\_results/erbB2](https://www.ebi.ac.uk/chembl/web\_components/search\_results/erbB2) |
+| **Target Search** | [https://www.ebi.ac.uk/chembl/g/#search\_results/targets/query=erbB2](https://www.ebi.ac.uk/chembl/g/#search\_results/targets/query=erbB2) | [https://www.ebi.ac.uk/chembl/web\_components/search\_results/erbB2](https://www.ebi.ac.uk/chembl/web\_components/search\_results/erbB2) |
 
 **Explore Entity Pages URL Changes**
 
