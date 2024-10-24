@@ -330,3 +330,39 @@ Yes, using the Advanced Search function.  Below there are some files with molecu
 
 {% file src="../.gitbook/assets/5_molecule_chembl_ids.csv" %}
 
+
+
+## URLs and redirections
+
+
+
+### Why Have Some URLs changed?
+
+During the ongoing improvements to the ChEMBL interface, some of the URLs have been updated (October 2024). While the URLs may have changed, we always aim to provide redirections for most of the old URLs, so they should still work even if they lead to the new versions. Below is a table to help you map the old URLs to the new ones:\
+
+
+**Report Card URL Changes**
+
+| Report Card Type | Old URL Example                                                                                                                              | New URL Example                                                                                                                                                |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Compound**     | [https://www.ebi.ac.uk/chembl/compound\_report\_card/CHEMBL4803817/](https://www.ebi.ac.uk/chembl/compound\_report\_card/CHEMBL4803817/)     | [https://www.ebi.ac.uk/chembl/web\_components/explore/compound/CHEMBL4803817](https://www.ebi.ac.uk/chembl/web\_components/explore/compound/CHEMBL4803817)     |
+| **Target**       | [https://www.ebi.ac.uk/chembl/target\_report\_card/CHEMBL2364037/](https://www.ebi.ac.uk/chembl/target\_report\_card/CHEMBL2364037/)         | [https://www.ebi.ac.uk/chembl/web\_components/explore/target/CHEMBL2364037](https://www.ebi.ac.uk/chembl/web\_components/explore/target/CHEMBL2364037)         |
+| **Assay**        | [https://www.ebi.ac.uk/chembl/assay\_report\_card/CHEMBL656758/](https://www.ebi.ac.uk/chembl/assay\_report\_card/CHEMBL656758/)             | [https://www.ebi.ac.uk/chembl/web\_components/explore/assay/CHEMBL656758](https://www.ebi.ac.uk/chembl/web\_components/explore/assay/CHEMBL656758)             |
+| **Document**     | [https://www.ebi.ac.uk/chembl/document\_report\_card/CHEMBL4295261/](https://www.ebi.ac.uk/chembl/document\_report\_card/CHEMBL4295261/)     | [https://www.ebi.ac.uk/chembl/web\_components/explore/document/CHEMBL4295261](https://www.ebi.ac.uk/chembl/web\_components/explore/document/CHEMBL4295261)     |
+| **Cell Line**    | [https://www.ebi.ac.uk/chembl/cell\_line\_report\_card/CHEMBL3307556/](https://www.ebi.ac.uk/chembl/cell\_line\_report\_card/CHEMBL3307556/) | [https://www.ebi.ac.uk/chembl/web\_components/explore/cell\_line/CHEMBL3307556](https://www.ebi.ac.uk/chembl/web\_components/explore/cell\_line/CHEMBL3307556) |
+| **Tissue**       | [https://www.ebi.ac.uk/chembl/tissue\_report\_card/CHEMBL3559723/](https://www.ebi.ac.uk/chembl/tissue\_report\_card/CHEMBL3559723/)         | [https://www.ebi.ac.uk/chembl/web\_components/explore/tissue/CHEMBL3559723](https://www.ebi.ac.uk/chembl/web\_components/explore/tissue/CHEMBL3559723)         |
+
+**Search Result URL Changes**
+
+| Search Type       | Old URL Example                                                                                                                                  | New URL Example                                                                                                                                        |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **All Results**   | [https://www.ebi.ac.uk/chembl/chembl/g/#search\_results/all/query=erbB2](https://www.ebi.ac.uk/chembl/chembl/g/#search\_results/all/query=erbB2) | [https://www.ebi.ac.uk/chembl/chembl/web\_components/search\_results/erbB2](https://www.ebi.ac.uk/chembl/chembl/web\_components/search\_results/erbB2) |
+| **Target Search** | [https://www.ebi.ac.uk/chembl/g/#search\_results/targets/query=erbB2](https://www.ebi.ac.uk/chembl/g/#search\_results/targets/query=erbB2)       | [https://www.ebi.ac.uk/chembl/web\_components/search\_results/erbB2](https://www.ebi.ac.uk/chembl/web\_components/search\_results/erbB2)               |
+
+**Explore Entity Pages URL Changes**
+
+|                        | Old URL Example                                                                                                                                                                                                                                                              | New URL Example                                                                                                                                                                                                                                                                          |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Explore Activities** | [https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/molecule\_chembl\_id%3ACHEMBL254951%20AND%20target\_chembl\_id%3ACHEMBL5206](https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/molecule\_chembl\_id%3ACHEMBL254951%20AND%20target\_chembl\_id%3ACHEMBL5206) | <p><a href="https://www.ebi.ac.uk/chembl/web_components/explore/activities/QUERYSTRING%3ACHEMBL254951%20AND%20target_chembl_id%3ACHEMBL5206">https://www.ebi.ac.uk/chembl/web_components/explore/activities/QUERYSTRING<br>%3ACHEMBL254951%20AND%20target_chembl_id%3ACHEMBL5206</a></p> |
+
+If you encounter any issues with these new URLs or need further clarification, please feel free to [contact us](https://chembl.gitbook.io/chembl-interface-documentation/frequently-asked-questions/general-questions#how-do-i-report-errors-or-make-suggestions-for-the-interface).
