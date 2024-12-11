@@ -7,7 +7,7 @@
 | [ChEMBLdb](https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/latest/)     | 35              | December 2024 | ChEMBL Database downloads, which includes SQLite, MySQL and PostgreSQL versions of the ChEMBL database, as well as SDF, FASTA and release note files. Main website link [here](https://www.ebi.ac.uk/chembl/). |
 | [SureChEMBL](https://ftp.ebi.ac.uk/pub/databases/chembl/SureChEMBL/data/)   | Q1 2024         | Q1 2024       | SureChEMBL quarterly compound exports and map files (see also [here](http://chembl.blogspot.co.uk/2015/08/accessing-surechembl-data-in-bulk.html)). Main website link [here](https://www.surechembl.org/).     |
 | [UniChem](https://ftp.ebi.ac.uk/pub/databases/chembl/UniChem/)              |                 | Weekly        | Data dumps from UniChem. Includes source maps and whole table dumps.                                                                                                                                           |
-| [ChEMBL-RDF](https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/latest/) | 34.0            | March 2024    | RDF Version of ChEMBL database. The file download format is turtle.                                                                                                                                            |
+| [ChEMBL-RDF](https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBL-RDF/latest/) | 35.0            | December 2024 | RDF Version of ChEMBL database. The file download format is turtle.                                                                                                                                            |
 
 ## ChEMBL Database Release DOIs
 
