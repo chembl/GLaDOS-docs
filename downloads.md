@@ -15,7 +15,7 @@ To reference a specific release of the ChEMBL Database, please use DOI in table 
 
 | Release    | Date           | Release DOI                                                                 |
 | ---------- | -------------- | --------------------------------------------------------------------------- |
-| CHEMBL35   | December 2025  | [10.6019/CHEMBL.database.35](https://doi.org/10.6019/CHEMBL.database.35)    |
+| CHEMBL35   | December 2024  | [10.6019/CHEMBL.database.35](https://doi.org/10.6019/CHEMBL.database.35)    |
 | CHEMBL34   | March 2024     | [10.6019/CHEMBL.database.34](https://doi.org/10.6019/CHEMBL.database.34)    |
 | CHEMBL33   | May 2023       | [10.6019/CHEMBL.database.33](https://doi.org/10.6019/CHEMBL.database.33)    |
 | CHEMBL32   | Jan 2023       | [10.6019/CHEMBL.database.32](http://doi.org/10.6019/CHEMBL.database.32)     |
