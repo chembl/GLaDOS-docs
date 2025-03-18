@@ -59,7 +59,7 @@ We map proteins to UniProt accessions and parent and variant proteins will have 
 
 Variants may contain single or multiple mutations which include defined (e.g. single amino acid changes) or undefined (e.g. ‘deletion mutants’, mapped to variant\_ID -1) changes. The variant sequences table contains details of mutated residues and the sequence.
 
-Variant information is also available through the ChEMBL interface and can be viewed when browsing assays by adding additional columns (variant\_sequence\_accession and variant\_sequence\_mutation) and though web services ([https://www.ebi.ac.uk/chembl/api/data/assay.json?variant\_sequence\_\_isnull=false](https://www.ebi.ac.uk/chembl/api/data/assay.json?variant\_sequence\_\_isnull=false)). The variant\_ID can be used to exclude or include protein variants when extracting bioactivity data.
+Variant information is also available through the ChEMBL interface and can be viewed when browsing assays by adding additional columns (variant\_sequence\_accession and variant\_sequence\_mutation) and though web services ([https://www.ebi.ac.uk/chembl/api/data/assay.json?variant\_sequence\_\_isnull=false](https://www.ebi.ac.uk/chembl/api/data/assay.json?variant_sequence__isnull=false)). The variant\_ID can be used to exclude or include protein variants when extracting bioactivity data.
 
 Mutant targets may be associated with with drug resistance or disease but may also include some engineered mutations (users need to review the assay description or references to interpret the data).
 
@@ -81,9 +81,9 @@ Assay CHEMBL670556 Binding Affinity of Compound of Dopamine receptor D2S
 
 Although ‘fuzzy’ matching is available though the UI, unfortunately, we don’t have any fuzzy API support at the moment. However, there is the option to use regular expressions - &#x20;
 
-e.g. [https://www.ebi.ac.uk/chembl/api/data/target?pref\_name\_\_iregex=cdk1|cdk2](https://www.ebi.ac.uk/chembl/api/data/target?pref\_name\_\_iregex=cdk1|cdk2)
+e.g. [https://www.ebi.ac.uk/chembl/api/data/target?pref\_name\_\_iregex=cdk1|cdk2](https://www.ebi.ac.uk/chembl/api/data/target?pref_name__iregex=cdk1|cdk2)
 
-### **My assay is 'Unchecked', what does this mean?**
+### **My assay target is 'Unchecked', what does this mean?**
 
 We extract bioactivity data from a selected set of journals, patents and deposited data sets and include a range of assays such as cytotoxicity assays, antibacterial assays and protein inhibition assays. The extracted data is curated and mapped to ChEMBL targets where possible. However, the curation is an ongoing process and some assays may not be mapped to a target and appear as ‘Unchecked’.\
 \
@@ -103,3 +103,25 @@ and chembl_ID = 'CHEMBL204' -- Melanocortin receptor 1 as an example
 ```
 
 This webservices example may also be useful - [https://chembl.gitbook.io/chembl-interface-documentation/web-services/chembl-data-web-services#having-a-list-of-molecules-chembl-ids-in-a-csv-file-produce-another-csv-file-that-maps-every-compound-id-into-a-list-of-human-gene-names](https://chembl.gitbook.io/chembl-interface-documentation/web-services/chembl-data-web-services#having-a-list-of-molecules-chembl-ids-in-a-csv-file-produce-another-csv-file-that-maps-every-compound-id-into-a-list-of-human-gene-names).
+
+### What are the information sources for the protein classification?
+
+The ChEMBL protein family classification is a bespoke classification, reflecting some of the preferred or widely used community classifications for different protein families. It does not aim to be comprehensive, but is focused around the main families that have been historically important for drug discovery. The classification is maintained manually, with new classes being added as/when needed (usually when a significant number of targets in a particular family appear in ChEMBL, or where they are of particular significance e.g., targets of approved drugs/candidates).
+
+Curation of protein targets remains ongoing and we are in the process of reviewing/updating our protein classification. Any feedback on useful categories is welcome.
+
+Here are some sources useful to our classification:
+
+• Kinases - Manning et al kinome paper (PMID: 12471243)
+
+• GPCRs - Guide to Pharmacology/IUPHAR, GPCRdb
+
+• Transporters - mostly from TCDB
+
+• Epigenetic - domain-based classification from SGC Chromohub (many epigenetic proteins have multiple domains, so multiple classifications)
+
+• Proteases - MEROPS
+
+• Enzymes – EC number
+
+• UniProt keywords may have been used to classify other groups e.g. secreted proteins. UniProt is a comprehensive protein specific resource, and is a useful starting point that also links out to other specialised protein databases (e.g. GPCR, TCDB).
