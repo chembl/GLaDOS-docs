@@ -18,7 +18,6 @@
 * [Downloads](downloads.md)
 * [Acknowledgements](acknowledgments.md)
 * [About](about.md)
-* [ChEMBL Interface Privacy Notice](https://www.ebi.ac.uk/data-protection/privacy-notice/chembl-website)
+* [Data protection: Privacy notice for ChEMBL's public website](data-protection-privacy-notice-for-chembls-public-website.md)
 * [Legacy Resources](legacy-resources.md)
 * [Training Material](training-material.md)
-* [Data protection: Privacy notice for EMBL-EBI's public website](data-protection-privacy-notice-for-embl-ebis-public-website.md)
