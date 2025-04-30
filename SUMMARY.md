@@ -21,3 +21,4 @@
 * [ChEMBL Interface Privacy Notice](https://www.ebi.ac.uk/data-protection/privacy-notice/chembl-website)
 * [Legacy Resources](legacy-resources.md)
 * [Training Material](training-material.md)
+* [Data protection: Privacy notice](data-protection-privacy-notice.md)
