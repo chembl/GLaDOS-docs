@@ -275,3 +275,20 @@ The current version of ChEMBL includes five sets of structural alerts, from the 
 * NIH MLSMR Excluded Functionality Filters.
 
 We removed some structural alerts during the RDKit conversion for version 26. In summary, we kept datasets with a clear literature reference and removed poorly documented sets.
+
+### How can I find out whether my compound is a covalent or non-covalent inhibitor?
+
+Unfortunately, we don’t curate covalent/non-covalent inhibitors so this information is not readily extracted from ChEMBL.&#x20;
+
+However, there is the option of mining document titles/abstracts for terms such as ‘covalent inhibitor’, either through the interface or web services. On the interface, you would need to type your search terms into the search bar and select 'Documents' from the dropdown menu.\
+\
+This type of search can also be performed using the web services ‘documents’, ‘similar documents’ and ‘document term’ tools (see [https://chembl.gitbook.io/chembl-interface-documentation/web-services/chembl-data-web-services](https://chembl.gitbook.io/chembl-interface-documentation/web-services/chembl-data-web-services)).\
+\
+You will need to review the identified documents to check that these are describing covalent inhibitors. However, this approach is unlikely to identify all covalent inhibitors in ChEMBL.
+
+### How can I find out if my compound binds well to a target and is specific?
+
+There isn’t a general ‘specificity’ metric in ChEMBL but ChEMBL includes a range of affinity and selectivity data that can be explored.
+
+Selectivity data is included in ChEMBL if this is reported in a publication (selectivity ratios may have been calculated from comparable assays in a single paper). Compound activity against two targets may provide some information on selectivity towards therapeutic targets versus related targets or toxicity targets but this will be limited to those targets tested for a given compound. Selectivity towards targets can also be investigated by comparison of the results of different assays. However, it should be noted that assays can vary widely.
+

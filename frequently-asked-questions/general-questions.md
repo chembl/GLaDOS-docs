@@ -68,9 +68,9 @@ DOI: [10.1093/bioinformatics/btt765](http://dx.doi.org/10.1093/bioinformatics/bt
 
 1. We have a dedicated email address for data queries, error reporting or help requests. This is: [chembl-help@ebi.ac.uk](mailto:chembl-help@ebi.ac.uk)
 2. You can [create an issue](https://github.com/chembl/GLaDOS/issues/new) in our [GitHub Interface Repository](https://github.com/chembl/GLaDOS) to report issues with the **interface only**.
-3. You can [create an issue](https://github.com/chembl/chembl\_data\_issues/issues/new) in our [GitHub Data Repository](https://github.com/chembl/chembl\_data\_issues) to report issues with the **data only**.
-4. You can [create an issue](https://github.com/chembl/chembl\_webservices\_2/issues/new) in our [GitHub API Repository](https://github.com/chembl/chembl\_webservices\_2) to report issues with the **ChEMBL API.**
-5. You can [create an issue](https://github.com/chembl/chembl\_webresource\_client/issues/new) in our [GitHub Python Client Repository](https://github.com/chembl/chembl\_webservices\_2) to report issues with the **Python client library.**
+3. You can [create an issue](https://github.com/chembl/chembl_data_issues/issues/new) in our [GitHub Data Repository](https://github.com/chembl/chembl_data_issues) to report issues with the **data only**.
+4. You can [create an issue](https://github.com/chembl/chembl_webservices_2/issues/new) in our [GitHub API Repository](https://github.com/chembl/chembl_webservices_2) to report issues with the **ChEMBL API.**
+5. You can [create an issue](https://github.com/chembl/chembl_webresource_client/issues/new) in our [GitHub Python Client Repository](https://github.com/chembl/chembl_webservices_2) to report issues with the **Python client library.**
 
 
 
@@ -131,6 +131,10 @@ Documentation for depositors can be found here - [https://chembl.gitbook.io/chem
 The ChEMBL KNIME nodes are no longer maintained but our recommendation is to use the generic KNIME REST nodes to access the ChEMBL web services, as this will be simpler to maintain and adapt to cope with schema changes etc. There are some example workflows available, using this approach, that have been provided by Daria Goldmann e.g.,\
 \
 [https://www.knime.com/blog/a-restful-way-to-find-and-retrieve-data](https://www.knime.com/blog/a-restful-way-to-find-and-retrieve-data)\
-[https://hub.knime.com/knime/workflows/Examples/50\_Applications/30\_RESTful\_ChEMBL/01\_ChEMBL\_REST\_Services\*qBCbzaFZ85qUMoWZ](https://hub.knime.com/knime/workflows/Examples/50\_Applications/30\_RESTful\_ChEMBL/01\_ChEMBL\_REST\_Services\*qBCbzaFZ85qUMoWZ)\
-[https://hub.knime.com/knime/workflows/Examples/50\_Applications/30\_RESTful\_ChEMBL/02\_ChEMBL\_Structure\_Search\*wCygb7lTvPqnYXuB](https://hub.knime.com/knime/workflows/Examples/50\_Applications/30\_RESTful\_ChEMBL/02\_ChEMBL\_Structure\_Search\*wCygb7lTvPqnYXuB)\
-[https://hub.knime.com/knime/workflows/Examples/50\_Applications/30\_RESTful\_ChEMBL/03\_ChEMBL\_Bioactivity\_Search\*tGSG1nPdGg4cW7Qp](https://hub.knime.com/knime/workflows/Examples/50\_Applications/30\_RESTful\_ChEMBL/03\_ChEMBL\_Bioactivity\_Search\*tGSG1nPdGg4cW7Qp)
+[https://hub.knime.com/knime/workflows/Examples/50\_Applications/30\_RESTful\_ChEMBL/01\_ChEMBL\_REST\_Services\*qBCbzaFZ85qUMoWZ](https://hub.knime.com/knime/workflows/Examples/50_Applications/30_RESTful_ChEMBL/01_ChEMBL_REST_Services*qBCbzaFZ85qUMoWZ)\
+[https://hub.knime.com/knime/workflows/Examples/50\_Applications/30\_RESTful\_ChEMBL/02\_ChEMBL\_Structure\_Search\*wCygb7lTvPqnYXuB](https://hub.knime.com/knime/workflows/Examples/50_Applications/30_RESTful_ChEMBL/02_ChEMBL_Structure_Search*wCygb7lTvPqnYXuB)\
+[https://hub.knime.com/knime/workflows/Examples/50\_Applications/30\_RESTful\_ChEMBL/03\_ChEMBL\_Bioactivity\_Search\*tGSG1nPdGg4cW7Qp](https://hub.knime.com/knime/workflows/Examples/50_Applications/30_RESTful_ChEMBL/03_ChEMBL_Bioactivity_Search*tGSG1nPdGg4cW7Qp)
+
+### How can I work towards more sustainable computing?
+
+Please see the [webinar](https://www.ebi.ac.uk/training/events/environmental-impact-computational-biology/) available through the EMBL-EBI training portal for tips and guidance on more sustainable computing.
