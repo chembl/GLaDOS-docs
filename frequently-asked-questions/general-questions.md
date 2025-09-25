@@ -124,7 +124,7 @@ ChEMBL is a database of bioactivity data for drug-like compounds and includes da
 
 For regular depositors, you can sign up to the chembl\_depositor mailing list ([https://listserver.ebi.ac.uk/mailman/listinfo/chembl-depositors](https://listserver.ebi.ac.uk/mailman/listinfo/chembl-depositors)) to receive updates on ChEMBL deposition timelines.
 
-Documentation for depositors can be found here - [https://chembl.gitbook.io/chembl-loader/](https://chembl.gitbook.io/chembl-loader/) where you can see the information required to submit to ChEMBL.
+Documentation for depositors can be found [here](https://chembl.gitbook.io/chembl-data-deposition-guide), where you can see the information required to submit to ChEMBL.
 
 ### How can I access ChEMBL through KNIME?
 
