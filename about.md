@@ -16,17 +16,18 @@ To keep up to date with the group's interests, new drug approvals, data analysis
 
 ### ChEMBL Team Members
 
-You can know more about the team members [here](https://www.ebi.ac.uk/about/people/andrew-leach).&#x20;
+You can know more about the team members [here](https://www.ebi.ac.uk/about/teams/chemical-biology-services/members/).&#x20;
 
 ### Interface developers
 
 Currently, the main developers of the interface are:
 
-* [David Mendez](https://github.com/nclopezo)&#x20;
-* [Juan Felipe Mosquera](https://github.com/juanfmx2)
+* [Marcelo Rios Almanza](https://github.com/mriios)
 
 #### Past contributors
 
+* [David Mendez](https://github.com/nclopezo)&#x20;
+* [Juan Felipe Mosquera](https://github.com/juanfmx2)
 * [Laura Junco](https://www.behance.net/gallery/68674667/ChEMBL-web-design-and-data-visualisation)
 * [Michal Nowotka](https://github.com/mnowotka)
 
