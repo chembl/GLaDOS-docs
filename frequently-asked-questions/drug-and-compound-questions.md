@@ -2,15 +2,7 @@
 
 ### What is a ‘drug’ or a ‘clinical candidate drug’ in ChEMBL? And how does this differ from a compound?
 
-ChEMBL contains a large number of preclinical compounds with bioactivity data from experimental sources. However, ChEMBL also curates information for marketed drugs, and drugs that are progressing through the clinical development pipeline (‘clinical candidate drugs’).
-
 In essence, although a preclinical compound must have associated bioactivity data, a drug or clinical candidate drug does not require experimental data for inclusion in ChEMBL. However, an approved drug could also be a clinical candidate drug and/or a preclinical compound and therefore it may also have additional attributes as shown in the table below.
-
-| ChEMBL 34                                        | Defining feature for inclusion in ChEMBL                                                   | Typical features in ChEMBL                                                                                                                                    | Occasional or absent features in ChEMBL                                                                                                               |
-| ------------------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p>Preclinical Compound</p><p>(~2.4 million)</p> | Must have bioactivity data                                                                 | <p>Usually measured in an assay against a target.</p><p>Usually comes from scientific literature or a deposited dataset</p>                                   | <p>Normally does not have a pref_name (unless also a drug).<br>Sometimes has indication, safety warning or mechanism information (if also a drug)</p> |
-| <p>Clinical Candidate Drug</p><p>(~14 k)</p>     | Must come from a source of clinical candidate information (e.g. USAN, INN, ClinicalTrials) | <p>Has a pref_name, can be recognisable drug name, or a research code.</p><p>May have indication and mechanism information.</p>                               | <p>Usually does not have bioactivity data.</p><p>Does not have safety warning data.</p>                                                               |
-| <p>Approved Drug</p><p>(~4 k)</p>                | Must come from a source of approved drug information (e.g. FDA, EMA, WHO ATC)              | <p>Has a pref_name, usually a recognisable drug name.</p><p>Normally has indication and mechanism information.</p><p>May have safety warning information.</p> | <p>Often has bioactivity data (i.e. it is also a preclinical compound).</p><p>May also be a clinical candidate drug.</p>                              |
 
 ### What is max phase?
 
@@ -27,6 +19,10 @@ The maximum phase of development for the compound across all indications is assi
 * Preclinical (NULL): preclinical compounds with bioactivity data e.g. [CHEMBL6300](https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL6300/) is a preclinical compound with bioactivity data that has been extracted from scientific literature. However, the sources of drug and clinical candidate drug information in ChEMBL do not show that this compound has reached clinical trials and therefore the max\_phase is set to null.
 
 By contrast, the 'max\_phase\_for\_ind' field in the 'drug\_indication' table in the downloadable ChEMBL database contains the maximum phase of development for the drug or clinical candidate drug for a specified indication. The numbering system remains identical to that described above for max\_phase.
+
+### **Why is the molecule\_type for some drugs "Unknown"?**
+
+The molecule\_type category that is assigned can be one of: small molecule, inorganic small molecule or polymeric small molecule, antibody, antibody drug conjugate, cell-based, enzyme, gene, oligosaccharide, oligonucleotide, protein, vaccine component, or unknown. In ChEMBL, a small molecule is loosely defined as any bioactive compound (usually an organic molecule that is chemically synthesised) where the chemical structure can be precisely drawn, and it is not a biotherapeutic with a complex structure that is not easily identified or characterised. Based on the inherent difficulties of an imprecise definition of a small molecule, ChEMBL instead applies a practical approach to determine the molecule\_type category for drugs and clinical candidate drugs (in the molecule\_dictionary table). Any remaining compounds where the molecule\_type cannot be clearly identified are assigned as 'unknown'.
 
 ### **What information is available on withdrawn drugs?**
 
