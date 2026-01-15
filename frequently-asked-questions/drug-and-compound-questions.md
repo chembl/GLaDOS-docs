@@ -2,7 +2,15 @@
 
 ### What is a ‘drug’ or a ‘clinical candidate drug’ in ChEMBL? And how does this differ from a compound?
 
+ChEMBL contains a large number of preclinical compounds with bioactivity data from experimental sources. However, ChEMBL also curates information for marketed drugs, and drugs that are progressing through the clinical development pipeline (‘clinical candidate drugs’).
+
 In essence, although a preclinical compound must have associated bioactivity data, a drug or clinical candidate drug does not require experimental data for inclusion in ChEMBL. However, an approved drug could also be a clinical candidate drug and/or a preclinical compound and therefore it may also have additional attributes as shown in the table below.
+
+| ChEMBL 34                                     | Defining feature for inclusion in ChEMBL                                                   | Typical features in ChEMBL                                                                                                                              | Occasional or absent features in ChEMBL                                                                                                               |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>Preclinical Compound<br>(~2.4 million)</p> | Must have bioactivity data                                                                 | <p>Usually measured in an assay against a target.<br>Usually comes from scientific literature or a deposited dataset</p>                                | <p>Normally does not have a pref_name (unless also a drug).<br>Sometimes has indication, safety warning or mechanism information (if also a drug)</p> |
+| <p>Clinical Candidate Drug<br>(~14 k)</p>     | Must come from a source of clinical candidate information (e.g. USAN, INN, ClinicalTrials) | <p>Has a pref_name, can be recognisable drug name, or a research code.<br>May have indication and mechanism information.</p>                            | <p>Usually does not have bioactivity data.<br>Does not have safety warning data.</p>                                                                  |
+| <p>Approved Drug<br>(~4 k)</p>                | Must come from a source of approved drug information (e.g. FDA, EMA, WHO ATC)              | <p>Has a pref_name, usually a recognisable drug name.<br>Normally has indication and mechanism information.<br>May have safety warning information.</p> | <p>Often has bioactivity data (i.e. it is also a preclinical compound).<br>May also be a clinical candidate drug.</p>                                 |
 
 ### What is max phase?
 
