@@ -172,7 +172,7 @@ The values range from 0 -1 where 1 is the most drug-like and 0 the least drug-li
 
 **Section 2**
 
-These properties are calculated using ChemAxon tools (ChEMBL\_26 onwards).
+These properties are calculated using ChemAxon tools (ChEMBL 26 until ChEMBL 35).
 
 1. CX\_LogP
 
@@ -231,6 +231,12 @@ Alternative forms of a compound (e.g. different salts, isotopes) can be viewed o
 ### ...and why is the molecule hierarchy null for some compounds?
 
 This difference is due to the fact that some compounds are 'virtual parents' and we do not have records of documents nor activities related with this compound itself but only for a salt of it (e.g. CHEMBL1207557).
+
+### How does ChEMBL define 'virtual parents'?
+
+Virtual parents may arise when bioactivity data has been deposited for salts or hydrates of a drug-like compound but no data is recorded for the parent compound itself. The parent compound is registered in ChEMBL but is not directly linked to bioactivity data.
+
+A virtual parent compound has an entry (i.e. its own row) in the MOLECULE\_DICTIONARY but does NOT have an entry in its own right in the MOLECULE\_HIERARCHY i.e. the virtual parent is present in the MOLECULE\_HIERARCHY.parent\_molregno field but does not have an entry in the MOLECULE\_HIERARCHY.molregno field. Also, there is no entry for the virtual parent in the COMPOUND\_RECORDS table.
 
 ### How can I cross-reference ChEMBL compounds across databases?
 
