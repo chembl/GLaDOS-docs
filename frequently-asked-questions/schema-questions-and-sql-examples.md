@@ -2,9 +2,9 @@
 
 ## Can you show the relationship between all the tables in the ChEMBL database?
 
-A PNG of the schema relationships can be found on the FTP site in the latest release directory: [ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/latest](ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/latest)
+A PDF of the schema relationships can be found on the FTP site in the latest release directory: [ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/latest](ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/latest)
 
-It is also possible to view an interactive schema diagram on the ChEMBL interface: [https://www.ebi.ac.uk/chembl/db\_schema](https://www.ebi.ac.uk/chembl/db\_schema)
+It is also possible to view an interactive schema diagram on the ChEMBL interface: [https://www.ebi.ac.uk/chembl/db\_schema](https://www.ebi.ac.uk/chembl/db_schema)
 
 ## Retrieve all the bioactivity data for bacterial targets:
 
