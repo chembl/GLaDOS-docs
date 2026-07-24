@@ -14,9 +14,9 @@ Molregno is our ChEMBL internal identification given to each compound. The ChEMB
 
 ### **How can I interconvert PubChem and ChEMBL\_IDs?**
 
-1\) [UniChem](https://www.ebi.ac.uk/unichem/) can be used to map between 2 sets of identifiers.&#x20;
+1\) [UniChem](https://www.ebi.ac.uk/unichem/) can be used to map between 2 sets of identifiers.
 
-The [source mapping tables](ftp://ftp.ebi.ac.uk/pub/databases/chembl/UniChem/data/wholeSourceMapping/) are on the FTP website and include a ChEMBL\_ID to PubChem\_ID mapping table (source mapping table for src1 to src22).&#x20;
+The [source mapping tables](ftp://ftp.ebi.ac.uk/pub/databases/chembl/UniChem/data/wholeSourceMapping/) are on the FTP website and include a ChEMBL\_ID to PubChem\_ID mapping table (source mapping table for src1 to src22).
 
 2\) In the ChEMBL database, identifiers may be found in the compound\_records table (as the compound\_key).
 
@@ -40,7 +40,7 @@ You can sign up to our ChEMBL Announce mailing list ([http://listserver.ebi.ac.u
 
 ### Do you show which compounds and/or bioactivity data has been changed or deleted with each release of ChEMBL?
 
-As the data and the compounds are continually being curated, it is not possible to keep a track of these alterations or additions. The CHEMBL\_ID\_LOOKUP table stores a list of all active and inactive (obsolete) entities under the status field: ACTIVE OBS.  It is also possible to download previous releases and identify changes through a comparison of the data.&#x20;
+As the data and the compounds are continually being curated, it is not possible to keep a track of these alterations or additions. The CHEMBL\_ID\_LOOKUP table stores a list of all active and inactive (obsolete) entities under the status field: ACTIVE OBS. It is also possible to download previous releases and identify changes through a comparison of the data.
 
 If you need help, please [contact us](general-questions.md#how-do-i-report-errors-or-make-suggestions-for-the-interface) and we will be able to let you know what, if anything, has happened to the data you are interested in.
 
@@ -48,7 +48,7 @@ If you need help, please [contact us](general-questions.md#how-do-i-report-error
 
 **ChEMBL Database:**
 
-Zdrazil B, Felix E, Hunter F, Manners EJ, Blackshaw J, Corbett S, de Veij M, Ioannidis H, Lopez DM, Mosquera JF, Magarinos MP, Bosc N, Arcila R, Kizilören T, Gaulton A, Bento AP, Adasme MF, Monecke P, Landrum GA, Leach AR. The ChEMBL Database in 2023: a drug discovery platform spanning multiple bioactivity data types and time periods. Nucleic Acids Res. 2024 Jan 5;52(D1):D1180-D1192.&#x20;
+Zdrazil B, Felix E, Hunter F, Manners EJ, Blackshaw J, Corbett S, de Veij M, Ioannidis H, Lopez DM, Mosquera JF, Magarinos MP, Bosc N, Arcila R, Kizilören T, Gaulton A, Bento AP, Adasme MF, Monecke P, Landrum GA, Leach AR. The ChEMBL Database in 2023: a drug discovery platform spanning multiple bioactivity data types and time periods. Nucleic Acids Res. 2024 Jan 5;52(D1):D1180-D1192.
 
 doi: [10.1093/nar/gkad1004](https://academic.oup.com/nar/article/52/D1/D1180/7337608?searchresult=1). PMID: [37933841](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10767899/); PMCID: [PMC10767899](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10767899/).
 
@@ -66,13 +66,7 @@ DOI: [10.1093/bioinformatics/btt765](http://dx.doi.org/10.1093/bioinformatics/bt
 
 ### How do I report errors or make suggestions for the interface?
 
-1. We have a dedicated email address for data queries, error reporting or help requests. This is: [chembl-help@ebi.ac.uk](mailto:chembl-help@ebi.ac.uk)
-2. You can [create an issue](https://github.com/chembl/GLaDOS/issues/new) in our [GitHub Interface Repository](https://github.com/chembl/GLaDOS) to report issues with the **interface only**.
-3. You can [create an issue](https://github.com/chembl/chembl_data_issues/issues/new) in our [GitHub Data Repository](https://github.com/chembl/chembl_data_issues) to report issues with the **data only**.
-4. You can [create an issue](https://github.com/chembl/chembl_webservices_2/issues/new) in our [GitHub API Repository](https://github.com/chembl/chembl_webservices_2) to report issues with the **ChEMBL API.**
-5. You can [create an issue](https://github.com/chembl/chembl_webresource_client/issues/new) in our [GitHub Python Client Repository](https://github.com/chembl/chembl_webservices_2) to report issues with the **Python client library.**
-
-
+We have a dedicated email address for data queries, error reporting or help requests. This is: [chembl-help@ebi.ac.uk](mailto:chembl-help@ebi.ac.uk)
 
 ### What is the best way to access large amounts of data in ChEMBL?
 
